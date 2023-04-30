@@ -1,0 +1,84 @@
+#BEGIN: [Tue Apr 25 20:15:20 2023]
+#HOST: mini07.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-bddcadical
+#CSP: benchmark/automata-network/star/star18.an
+#K: 19
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 19 -k1solver /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release -libname cadical -libpath /Users/soh/app/saf230420-16h03m/cadical/build/ benchmark/automata-network/star/star18.an
+Using IPASIR SAT Solver and AllSAT Solver
+Libpath: /Users/soh/app/saf230420-16h03m/cadical/build/
+Libname: cadical
+K1solver: /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release
+
+A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12,A13,A14,A15,A16,A17,A18
+UNSAT
+k: 2, #Var: 324, #Clause: 3982
+UNSAT
+k: 3, #Var: 594, #Clause: 10068
+UNSAT
+k: 4, #Var: 954, #Clause: 18926
+UNSAT
+k: 5, #Var: 1404, #Clause: 30556
+UNSAT
+k: 6, #Var: 1944, #Clause: 44958
+UNSAT
+k: 7, #Var: 2574, #Clause: 62132
+UNSAT
+k: 8, #Var: 3294, #Clause: 82078
+UNSAT
+k: 9, #Var: 4104, #Clause: 104796
+UNSAT
+k: 10, #Var: 5004, #Clause: 130286
+UNSAT
+k: 11, #Var: 5994, #Clause: 158548
+UNSAT
+k: 12, #Var: 7074, #Clause: 189582
+UNSAT
+k: 13, #Var: 8244, #Clause: 223388
+UNSAT
+k: 14, #Var: 9504, #Clause: 259966
+UNSAT
+k: 15, #Var: 10854, #Clause: 299316
+UNSAT
+k: 16, #Var: 12294, #Clause: 341438
+UNSAT
+k: 17, #Var: 13824, #Clause: 386332
+UNSAT
+k: 18, #Var: 15444, #Clause: 433998
+UNSAT
+k: 19, #Var: 17154, #Clause: 484436
+#1
+000000000000000000 000000000000000001 000000000000000010 000000000000000100 000000000000001000 000000000000010000 000000000000100000 000000000001000000 000000000010000000 000000000100000000 000000001000000000 000000010000000000 000000100000000000 000001000000000000 000010000000000000 000100000000000000 001000000000000000 010000000000000000 100000000000000000
+c found falsified original clause
+	Command being timed: "/Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 19 -k1solver /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release -libname cadical -libpath /Users/soh/app/saf230420-16h03m/cadical/build/ benchmark/automata-network/star/star18.an"
+	User time (seconds): 21.18
+	System time (seconds): 1.53
+	Percent of CPU this job got: 114%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15535013888
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1084627
+	Voluntary context switches: 22
+	Involuntary context switches: 5274
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 28
+	Socket messages received: 0
+	Signals delivered: 5
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 22.71 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNSAT
+#FIN: FIN
+#CPU: 22.71
+#MAXMEM: 0
+c 
+#END: [Tue Apr 25 20:15:40 2023]

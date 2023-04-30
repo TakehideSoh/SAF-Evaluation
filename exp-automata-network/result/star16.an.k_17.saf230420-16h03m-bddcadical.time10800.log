@@ -1,0 +1,80 @@
+#BEGIN: [Tue Apr 25 20:14:58 2023]
+#HOST: mini07.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-bddcadical
+#CSP: benchmark/automata-network/star/star16.an
+#K: 17
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 17 -k1solver /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release -libname cadical -libpath /Users/soh/app/saf230420-16h03m/cadical/build/ benchmark/automata-network/star/star16.an
+Using IPASIR SAT Solver and AllSAT Solver
+Libpath: /Users/soh/app/saf230420-16h03m/cadical/build/
+Libname: cadical
+K1solver: /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release
+
+A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12,A13,A14,A15,A16
+UNSAT
+k: 2, #Var: 288, #Clause: 3220
+UNSAT
+k: 3, #Var: 528, #Clause: 8086
+UNSAT
+k: 4, #Var: 848, #Clause: 15160
+UNSAT
+k: 5, #Var: 1248, #Clause: 24442
+UNSAT
+k: 6, #Var: 1728, #Clause: 35932
+UNSAT
+k: 7, #Var: 2288, #Clause: 49630
+UNSAT
+k: 8, #Var: 2928, #Clause: 65536
+UNSAT
+k: 9, #Var: 3648, #Clause: 83650
+UNSAT
+k: 10, #Var: 4448, #Clause: 103972
+UNSAT
+k: 11, #Var: 5328, #Clause: 126502
+UNSAT
+k: 12, #Var: 6288, #Clause: 151240
+UNSAT
+k: 13, #Var: 7328, #Clause: 178186
+UNSAT
+k: 14, #Var: 8448, #Clause: 207340
+UNSAT
+k: 15, #Var: 9648, #Clause: 238702
+UNSAT
+k: 16, #Var: 10928, #Clause: 272272
+UNSAT
+k: 17, #Var: 12288, #Clause: 308050
+#1
+0000000000000000 0000000000000001 0000000000000010 0000000000000100 0000000000001000 0000000000010000 0000000000100000 0000000001000000 0000000010000000 0000000100000000 0000001000000000 0000010000000000 0000100000000000 0001000000000000 0010000000000000 0100000000000000 1000000000000000
+c found falsified original clause
+	Command being timed: "/Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 17 -k1solver /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release -libname cadical -libpath /Users/soh/app/saf230420-16h03m/cadical/build/ benchmark/automata-network/star/star16.an"
+	User time (seconds): 11.05
+	System time (seconds): 0.83
+	Percent of CPU this job got: 133%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9352871936
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 592300
+	Voluntary context switches: 23
+	Involuntary context switches: 4147
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 28
+	Socket messages received: 0
+	Signals delivered: 6
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 11.88 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNSAT
+#FIN: FIN
+#CPU: 11.88
+#MAXMEM: 0
+c 
+#END: [Tue Apr 25 20:15:07 2023]

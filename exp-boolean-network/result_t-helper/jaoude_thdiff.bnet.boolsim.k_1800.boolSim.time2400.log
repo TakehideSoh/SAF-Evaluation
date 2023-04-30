@@ -1,0 +1,17 @@
+#BEGIN: [Mon Apr  3 00:59:59 2023]
+#HOST: mini07.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: boolSim
+#CSP: benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.bnet.boolsim
+#K: 1800
+#COMMAND: /Users/soh/app/boolSim-1.2.0-Darwin/bin/boolSim -f benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.bnet.boolsim -p 3
+geneDbOrg=103 geneDbReduced=103
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+c 17336 killed(2). 17337 killed(2). 17336 killed(9). 17337 killed(9). 
+#END: [Mon Apr  3 01:40:00 2023]

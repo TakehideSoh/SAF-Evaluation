@@ -1,0 +1,622 @@
+#BEGIN: [Mon Apr  3 00:55:51 2023]
+#HOST: mini10.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pyboolnet230402-22h42m
+#CSP: benchmark/boolean-network/pystablemotif-real/2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pyboolnet230402-22h42m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet.bnet
+INFO attractors.completeness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_4ha_tc3z
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_dyut_g73
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_633xc355
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_igah0hp6
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_j4lran7b
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_1ds2547t
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_2gb97ppn
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_bp_w2ts0
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_o9_k6ocq
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_y07_mgev
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_givai037
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_lgn4fjzb
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_a95zm6zp
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_ki3vly5h
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_sgvr7ef2
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_lj884hnw
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_uxncgdxv
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_0idfss8s
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_qe359qhl
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_6oz3vq2b
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_htmv1qcl
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_z7pem6kx
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_v20udawe
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_tai_upcz
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_indewwdk
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_x3kjvblp
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_tbvpnxyg
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_72te0nco
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_nif_0i9a
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_b11o5a6v
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_q51c0fvs
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_oouik99u
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_srh6rqio
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_wpa4zwwy
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet__d3wl13_
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_xyesl3o7
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_1ppt2bw0
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_kei1rpl4
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_4zbx_at8
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_yfwhje_3
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_4by2qrah
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_332h_8at
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_xvejj9fq
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_txs6iqnv
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_p08cqx1j
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_poy3itjw
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_b_gjd6y3
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_ta4ht9rw
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_i66id7xr
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_ybog7q5p
+INFO yes
+INFO  working on minimal trapspace 1/28: 10100100000001100000111010100100000110011001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 10100100000001100000111010100100000110011001
+INFO end: 10100100000001100000111010100100000110011001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_g80b0l77
+INFO is attractor state
+INFO  working on minimal trapspace 2/28: 10100100000001101000111010100100000110011001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 10100100000001101000111010100100000110011001
+INFO end: 10100100000001101000111010100100000110011001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_gln2ztya
+INFO is attractor state
+INFO  working on minimal trapspace 3/28: 11100100000001100000111010100100000110011001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 11100100000001100000111010100100000110011001
+INFO end: 11100100000001100000111010100100000110011001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_c3w5obz7
+INFO is attractor state
+INFO  working on minimal trapspace 4/28: 11100100000001101000111010100100000110011001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 11100100000001101000111010100100000110011001
+INFO end: 11100100000001101000111010100100000110011001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_85xqwodw
+INFO is attractor state
+INFO  working on minimal trapspace 5/28: 11100100000001000000111010100100000100011001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 11100100000001000000111010100100000100011001
+INFO end: 11100100000001000000111010100100000100011001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_yepk46n6
+INFO is attractor state
+INFO  working on minimal trapspace 6/28: 10100100000001000000111010100100000100011001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 10100100000001000000111010100100000100011001
+INFO end: 10100100000001000000111010100100000100011001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_1k0hobxe
+INFO is attractor state
+INFO  working on minimal trapspace 7/28: 11100100000001001000111010100100000100011001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 11100100000001001000111010100100000100011001
+INFO end: 11100100000001001000111010100100000100011001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_i8w57osn
+INFO is attractor state
+INFO  working on minimal trapspace 8/28: 10100100000001001000111010100100000100011001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 10100100000001001000111010100100000100011001
+INFO end: 10100100000001001000111010100100000100011001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_ego43uw9
+INFO is attractor state
+INFO  working on minimal trapspace 9/28: 0100100000000-10011000-0-1000011011011000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=3, update=asynchronous, length=30, attempts=10
+INFO trial 0
+INFO start: 000
+INFO end: 110
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_w53ha4vd
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet__gwf_sfo
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_50vldqh2
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 01001000000000100110000001000011011011000000
+INFO end: 01001000000001100110001001000011011011000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_kvqobzc9
+INFO is attractor state
+INFO  working on minimal trapspace 10/28: 00001--00-----0001-000----00-011011001000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=13, update=asynchronous, length=130, attempts=10
+INFO trial 0
+INFO start: 1000000101010
+INFO end: 0000100110100
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_chiiv_t_
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_tnvyng8t
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_sm_f2r63
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 00001100011100000110001100001011011001000000
+INFO end: 00001110010011000100001110000011011001000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_iq23aes5
+INFO is attractor state
+INFO  working on minimal trapspace 11/28: 00001--00-----1001-000----00-011011011000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=13, update=asynchronous, length=130, attempts=10
+INFO trial 0
+INFO start: 1101010001101
+INFO end: 1001101011010
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_jqaxp__g
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_zzfi4p03
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_061qw0ov
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 00001010010011100100000011001011011011000000
+INFO end: 00001000000100100110000001000011011011000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_21hgezzu
+INFO is attractor state
+INFO  working on minimal trapspace 12/28: 01001--00-----0001-000----00-011011001000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=13, update=asynchronous, length=130, attempts=10
+INFO trial 0
+INFO start: 1001100011000
+INFO end: 0101101110010
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_mc351gd8
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_9za4_pw8
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_06ovwn_s
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 01001110011101000110000000000011011001000000
+INFO end: 01001010000001000110001010000011011001000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_dlpnn1jj
+INFO is attractor state
+INFO  working on minimal trapspace 13/28: 0100000000000-10101000-0-1000001001010000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=3, update=asynchronous, length=30, attempts=10
+INFO trial 0
+INFO start: 111
+INFO end: 001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_bj2p1tbs
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_lixw1ma3
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_u__06x_c
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 01000000000001101010000011000001001010000000
+INFO end: 01000000000001101010000011000001001010000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_vzd2qtm0
+INFO is attractor state
+INFO  working on minimal trapspace 14/28: 01000--00-----0010-000----00-001001000000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=13, update=asynchronous, length=130, attempts=10
+INFO trial 0
+INFO start: 0111101010110
+INFO end: 0110101111111
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_su8u3_ay
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_6h2t5lrw
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_xg9j91y8
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 01000100010001001000000111001001001000000000
+INFO end: 01000000000101001010000000000001001000000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_i28_dqf0
+INFO is attractor state
+INFO  working on minimal trapspace 15/28: 00000--00-----0010-000----00-001001000000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=13, update=asynchronous, length=130, attempts=10
+INFO trial 0
+INFO start: 0101111011001
+INFO end: 0001100000110
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_z41lpw6z
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_gw2l3tq0
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_dr2wcgwj
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 00000100001011001010000000001001001000000000
+INFO end: 00000100001001001000000111000001001000000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_or6ngvbn
+INFO is attractor state
+INFO  working on minimal trapspace 16/28: 00000--00-----1010-000----00-001001010000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=13, update=asynchronous, length=130, attempts=10
+INFO trial 0
+INFO start: 1111010110110
+INFO end: 0010001110010
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_rju6pxgl
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_2cgocbxq
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_806hua4s
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 00000010001110101000000111000001001010000000
+INFO end: 00000000000100101010000001000001001010000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_uuqmq_6l
+INFO is attractor state
+INFO  working on minimal trapspace 17/28: 0100000000000-10001000-0-1000001001010000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=3, update=asynchronous, length=30, attempts=10
+INFO trial 0
+INFO start: 111
+INFO end: 001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_a47u0w1d
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_eg14ry_9
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_97z_zcib
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 01000000000001100010001011000001001010000000
+INFO end: 01000000000000100010000011000001001010000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_ooix48tx
+INFO is attractor state
+INFO  working on minimal trapspace 18/28: 00000--00-----1000-000----00-001001010000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=13, update=asynchronous, length=130, attempts=10
+INFO trial 0
+INFO start: 1111011111000
+INFO end: 0001101101011
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_0r5_sn5h
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_aax7o01l
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_g701e7w6
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 00000110001110100000001111000001001010000000
+INFO end: 00000100010101100010000111001001001010000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_h4ltrlga
+INFO is attractor state
+INFO  working on minimal trapspace 19/28: 01000--00-----0000-000----00-001001000000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=13, update=asynchronous, length=130, attempts=10
+INFO trial 0
+INFO start: 1100000001001
+INFO end: 1101011100101
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_utsjpubm
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_r07qx4ac
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_h9x2crfy
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 01000010011101000000000110000001001000000000
+INFO end: 01000010010001000010001010001001001000000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_7kdyl93i
+INFO is attractor state
+INFO  working on minimal trapspace 20/28: 00000--00-----0000-000----00-001001000000000
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=13, update=asynchronous, length=130, attempts=10
+INFO trial 0
+INFO start: 1101010010100
+INFO end: 1001100100101
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_7yof589a
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_r4hoy7vq
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_7r765qql
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 00000000010101000000001010001001001000000000
+INFO end: 00000000000000000010000001000001001000000000
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_7nwd9pkt
+INFO is attractor state
+INFO  working on minimal trapspace 21/28: 11001111000011001100111010100110010101111001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 11001111000011001100111010100110010101111001
+INFO end: 11001111000011001100111010100110010101111001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_nj0n61f4
+INFO is attractor state
+INFO  working on minimal trapspace 22/28: 10001111000011001100111010100110010101111001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 10001111000011001100111010100110010101111001
+INFO end: 10001111000011001100111010100110010101111001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_wg8y4bhl
+INFO is attractor state
+INFO  working on minimal trapspace 23/28: 11001111000011101100111010100110010111111001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 11001111000011101100111010100110010111111001
+INFO end: 11001111000011101100111010100110010111111001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_lo2nsx7s
+INFO is attractor state
+INFO  working on minimal trapspace 24/28: 10001111000011101100111010100110010111111001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 10001111000011101100111010100110010111111001
+INFO end: 10001111000011101100111010100110010111111001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_ssxbrdtx
+INFO is attractor state
+INFO  working on minimal trapspace 25/28: 11001111000011100100111010100110010111111001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 11001111000011100100111010100110010111111001
+INFO end: 11001111000011100100111010100110010111111001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_ouo4v23u
+INFO is attractor state
+INFO  working on minimal trapspace 26/28: 11001111000011000100111010100110010101111001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 11001111000011000100111010100110010101111001
+INFO end: 11001111000011000100111010100110010101111001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_rtlci_er
+INFO is attractor state
+INFO  working on minimal trapspace 27/28: 10001111000011000100111010100110010101111001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 10001111000011000100111010100110010101111001
+INFO end: 10001111000011000100111010100110010101111001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_j11y5mm4
+INFO is attractor state
+INFO  working on minimal trapspace 28/28: 10001111000011100100111010100110010111111001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=44, update=asynchronous, length=440, attempts=10
+INFO trial 0
+INFO start: 10001111000011100100111010100110010111111001
+INFO end: 10001111000011100100111010100110010111111001
+INFO created /Users/soh/condor/local/execute/dir_50290/pyboolnet_lgk1ui7p
+INFO is attractor state
+INFO created attrs.json
+yes
+False
+00000000000000000010000001000001001000000000
+False
+00000000000100101010000001000001001010000000
+False
+00000100001001001000000111000001001000000000
+False
+00000100010101100010000111001001001010000000
+False
+00001000000100100110000001000011011011000000
+False
+00001110010011000100001110000011011001000000
+False
+01000000000000100010000011000001001010000000
+False
+01000000000001101010000011000001001010000000
+False
+01000000000101001010000000000001001000000000
+False
+01000010010001000010001010001001001000000000
+False
+01001000000001100110001001000011011011000000
+False
+01001010000001000110001010000011011001000000
+True
+10001111000011000100111010100110010101111001
+True
+10001111000011001100111010100110010101111001
+True
+10001111000011100100111010100110010111111001
+True
+10001111000011101100111010100110010111111001
+True
+10100100000001000000111010100100000100011001
+True
+10100100000001001000111010100100000100011001
+True
+10100100000001100000111010100100000110011001
+True
+10100100000001101000111010100100000110011001
+True
+11001111000011000100111010100110010101111001
+True
+11001111000011001100111010100110010101111001
+True
+11001111000011100100111010100110010111111001
+True
+11001111000011101100111010100110010111111001
+True
+11100100000001000000111010100100000100011001
+True
+11100100000001001000111010100100000100011001
+True
+11100100000001100000111010100100000110011001
+True
+11100100000001101000111010100100000110011001
+{'primes': {'ABA': [[{'ABA': 0}], [{'ABA': 1}]], 'ABH1': [[{'ABH1': 0}], [{'ABH1': 1}]], 'ABI1': [[{'pH': 0}, {'ROS': 1}, {'PA': 1}], [{'PA': 0, 'ROS': 0, 'pH': 1}]], 'ADPRc': [[{'NO': 0}], [{'NO': 1}]], 'AGB1': [[{'GPA1': 0}], [{'GPA1': 1}]], 'Actin': [[{'Ca2_c': 0, 'RAC1': 1}], [{'RAC1': 0}, {'Ca2_c': 1}]], 'AnionEM': [[{'Ca2_c': 0, 'pH': 0}, {'ABI1': 1, 'pH': 0}, {'ABI1': 1, 'Ca2_c': 0}], [{'Ca2_c': 1, 'pH': 1}, {'ABI1': 0, 'pH': 1}, {'ABI1': 0, 'Ca2_c': 1}]], 'Atrboh': [[{'pH': 0}, {'ROP2': 0}, {'OST1': 0}, {'ABI1': 1}], [{'ABI1': 0, 'OST1': 1, 'ROP2': 1, 'pH': 1}]], 'CIS': [[{'InsP6': 0, 'cGMP': 0}, {'InsP6': 0, 'cADPR': 0}, {'InsP3': 0, 'cGMP': 0}, {'InsP3': 0, 'cADPR': 0}], [{'cADPR': 1, 'cGMP': 1}, {'InsP3': 1, 'InsP6': 1}]], 'Ca2_ATPase': [[{'Ca2_c': 0}], [{'Ca2_c': 1}]], 'Ca2_c': [[{'CIS': 0, 'CaIM': 0}, {'Ca2_ATPase': 1}], [{'Ca2_ATPase': 0, 'CaIM': 1}, {'CIS': 1, 'Ca2_ATPase': 0}]], 'CaIM': [[{'ABH1': 1, 'ERA1': 1, 'ROS': 0}, {'Depolar': 1}], [{'Depolar': 0, 'ROS': 1}, {'Depolar': 0, 'ERA1': 0}, {'ABH1': 0, 'Depolar': 0}]], 'Closure': [[{'KAP': 0, 'KOUT': 0}, {'Malate': 1}, {'AnionEM': 0}, {'Actin': 0}], [{'Actin': 1, 'AnionEM': 1, 'KOUT': 1, 'Malate': 0}, {'Actin': 1, 'AnionEM': 1, 'KAP': 1, 'Malate': 0}]], 'Depolar': [[{'AnionEM': 0, 'Ca2_c': 0, 'HTPase': 1, 'KEV': 0, 'KOUT': 1}], [{'KOUT': 0}, {'KEV': 1}, {'HTPase': 0}, {'Ca2_c': 1}, {'AnionEM': 1}]], 'ERA1': [[{'ERA1': 0}], [{'ERA1': 1}]], 'GC': [[{'NO': 0}], [{'NO': 1}]], 'GCR1': [[{'GCR1': 0}], [{'GCR1': 1}]], 'GPA1': [[{'GCR1': 1, 'S1P': 0}, {'AGB1': 0}], [{'AGB1': 1, 'S1P': 1}, {'AGB1': 1, 'GCR1': 0}]], 'HTPase': [[{'pH': 1}, {'ROS': 1}, {'Ca2_c': 1}], [{'Ca2_c': 0, 'ROS': 0, 'pH': 0}]], 'InsP3': [[{'PLC': 0}], [{'PLC': 1}]], 'InsP6': [[{'InsPK': 0}], [{'InsPK': 1}]], 'InsPK': [[{'ABA': 0}], [{'ABA': 1}]], 'KAP': [[{'Ca2_c': 1, 'pH': 1}, {'Depolar': 0}], [{'Depolar': 1, 'pH': 0}, {'Ca2_c': 0, 'Depolar': 1}]], 'KEV': [[{'Ca2_c': 0}], [{'Ca2_c': 1}]], 'KOUT': [[{'NO': 1, 'ROS': 1, 'pH': 0}, {'Depolar': 0}], [{'Depolar': 1, 'pH': 1}, {'Depolar': 1, 'ROS': 0}, {'Depolar': 1, 'NO': 0}]], 'Malate': [[{'PEPC': 0}, {'AnionEM': 1}, {'ABA': 1}], [{'ABA': 0, 'AnionEM': 0, 'PEPC': 1}]], 'NIA12': [[{'RCN1': 0}], [{'RCN1': 1}]], 'NO': [[{'NOS': 0}, {'NIA12': 0}], [{'NIA12': 1, 'NOS': 1}]], 'NOS': [[{'Ca2_c': 0}], [{'Ca2_c': 1}]], 'OST1': [[{'ABA': 0}], [{'ABA': 1}]], 'PA': [[{'PLD': 0}], [{'PLD': 1}]], 'PEPC': [[{'ABA': 1}], [{'ABA': 0}]], 'PLC': [[{'Ca2_c': 0}, {'ABA': 0}], [{'ABA': 1, 'Ca2_c': 1}]], 'PLD': [[{'GPA1': 0}], [{'GPA1': 1}]], 'RAC1': [[{'ABI1': 1}, {'ABA': 1}], [{'ABA': 0, 'ABI1': 0}]], 'RCN1': [[{'ABA': 0}], [{'ABA': 1}]], 'ROP10': [[{'ERA1': 0}], [{'ERA1': 1}]], 'ROP2': [[{'PA': 0}], [{'PA': 1}]], 'ROS': [[{'Atrboh': 0}], [{'Atrboh': 1}]], 'S1P': [[{'SphK': 0}], [{'SphK': 1}]], 'SphK': [[{'ABA': 0}], [{'ABA': 1}]], 'cADPR': [[{'ADPRc': 0}], [{'ADPRc': 1}]], 'cGMP': [[{'GC': 0}], [{'GC': 1}]], 'pH': [[{'ABA': 0}], [{'ABA': 1}]]}, 'update': 'asynchronous', 'is_complete': 'yes', 'attractors': ({'min_trap_space': {'str': '00000--00-----0000-000----00-001001000000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&!AGB1&!Atrboh&!CIS&!ERA1&!GC&!GCR1&!GPA1&!InsP3&!InsP6&!InsPK&!NIA12&!NO&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&!ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '00000000000000000010000001000001001000000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Actin': 0, 'AnionEM': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 0, 'HTPase': 1, 'KAP': 0, 'KEV': 0, 'KOUT': 0, 'Malate': 1, 'NOS': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&!AGB1&!Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&!Depolar&!ERA1&!GC&!GCR1&!GPA1&HTPase&!InsP3&!InsP6&!InsPK&!KAP&!KEV&!KOUT&Malate&!NIA12&!NO&!NOS&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&!ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '00000--00-----1010-000----00-001001010000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&!AGB1&!Atrboh&!CIS&ERA1&!GC&GCR1&!GPA1&!InsP3&!InsP6&!InsPK&!NIA12&!NO&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '00000000000100101010000001000001001010000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Actin': 0, 'AnionEM': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 1, 'Closure': 0, 'Depolar': 0, 'HTPase': 1, 'KAP': 0, 'KEV': 0, 'KOUT': 0, 'Malate': 1, 'NOS': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&!AGB1&!Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&CaIM&!Closure&!Depolar&ERA1&!GC&GCR1&!GPA1&HTPase&!InsP3&!InsP6&!InsPK&!KAP&!KEV&!KOUT&Malate&!NIA12&!NO&!NOS&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '00000--00-----0010-000----00-001001000000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&!AGB1&!Atrboh&!CIS&!ERA1&!GC&GCR1&!GPA1&!InsP3&!InsP6&!InsPK&!NIA12&!NO&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&!ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '00000100001001001000000111000001001000000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Actin': 1, 'AnionEM': 0, 'Ca2_ATPase': 0, 'Ca2_c': 1, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'HTPase': 0, 'KAP': 0, 'KEV': 1, 'KOUT': 1, 'Malate': 1, 'NOS': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&GCR1&!GPA1&!HTPase&!InsP3&!InsP6&!InsPK&!KAP&KEV&KOUT&Malate&!NIA12&!NO&!NOS&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&!ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '00000--00-----1000-000----00-001001010000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&!AGB1&!Atrboh&!CIS&ERA1&!GC&!GCR1&!GPA1&!InsP3&!InsP6&!InsPK&!NIA12&!NO&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '00000100010101100010000111001001001010000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Actin': 1, 'AnionEM': 0, 'Ca2_ATPase': 1, 'Ca2_c': 0, 'CaIM': 1, 'Closure': 0, 'Depolar': 1, 'HTPase': 1, 'KAP': 0, 'KEV': 1, 'KOUT': 1, 'Malate': 1, 'NOS': 1}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&Ca2_ATPase&!Ca2_c&CaIM&!Closure&Depolar&ERA1&!GC&!GCR1&!GPA1&HTPase&!InsP3&!InsP6&!InsPK&!KAP&KEV&KOUT&Malate&!NIA12&!NO&NOS&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '00001--00-----1001-000----00-011011011000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Atrboh': 0, 'CIS': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&AGB1&!Atrboh&!CIS&ERA1&!GC&!GCR1&GPA1&!InsP3&!InsP6&!InsPK&!NIA12&!NO&!OST1&PA&PEPC&!PLC&PLD&RAC1&!RCN1&ROP10&ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '00001000000100100110000001000011011011000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Atrboh': 0, 'CIS': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Actin': 0, 'AnionEM': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 1, 'Closure': 0, 'Depolar': 0, 'HTPase': 1, 'KAP': 0, 'KEV': 0, 'KOUT': 0, 'Malate': 1, 'NOS': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&AGB1&!Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&CaIM&!Closure&!Depolar&ERA1&!GC&!GCR1&GPA1&HTPase&!InsP3&!InsP6&!InsPK&!KAP&!KEV&!KOUT&Malate&!NIA12&!NO&!NOS&!OST1&PA&PEPC&!PLC&PLD&RAC1&!RCN1&ROP10&ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '00001--00-----0001-000----00-011011001000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&AGB1&!Atrboh&!CIS&!ERA1&!GC&!GCR1&GPA1&!InsP3&!InsP6&!InsPK&!NIA12&!NO&!OST1&PA&PEPC&!PLC&PLD&RAC1&!RCN1&!ROP10&ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '00001110010011000100001110000011011001000000', 'dict': {'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Actin': 1, 'AnionEM': 1, 'Ca2_ATPase': 1, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'HTPase': 0, 'KAP': 1, 'KEV': 1, 'KOUT': 1, 'Malate': 0, 'NOS': 0}, 'prop': '!ABA&!ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&!Atrboh&!CIS&Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&!ERA1&!GC&!GCR1&GPA1&!HTPase&!InsP3&!InsP6&!InsPK&KAP&KEV&KOUT&!Malate&!NIA12&!NO&!NOS&!OST1&PA&PEPC&!PLC&PLD&RAC1&!RCN1&!ROP10&ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '0100000000000-10001000-0-1000001001010000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 0, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KEV': 0, 'Malate': 1, 'NIA12': 0, 'NO': 0, 'NOS': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&!AGB1&!Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&ERA1&!GC&!GCR1&!GPA1&HTPase&!InsP3&!InsP6&!InsPK&!KEV&Malate&!NIA12&!NO&!NOS&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '01000000000000100010000011000001001010000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 0, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KEV': 0, 'Malate': 1, 'NIA12': 0, 'NO': 0, 'NOS': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Depolar': 0, 'KAP': 0, 'KOUT': 1}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&!AGB1&!Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&!Depolar&ERA1&!GC&!GCR1&!GPA1&HTPase&!InsP3&!InsP6&!InsPK&!KAP&!KEV&KOUT&Malate&!NIA12&!NO&!NOS&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '0100000000000-10101000-0-1000001001010000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 0, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KEV': 0, 'Malate': 1, 'NIA12': 0, 'NO': 0, 'NOS': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&!AGB1&!Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&ERA1&!GC&GCR1&!GPA1&HTPase&!InsP3&!InsP6&!InsPK&!KEV&Malate&!NIA12&!NO&!NOS&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '01000000000001101010000011000001001010000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 0, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KEV': 0, 'Malate': 1, 'NIA12': 0, 'NO': 0, 'NOS': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Depolar': 1, 'KAP': 0, 'KOUT': 1}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&!AGB1&!Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&ERA1&!GC&GCR1&!GPA1&HTPase&!InsP3&!InsP6&!InsPK&!KAP&!KEV&KOUT&Malate&!NIA12&!NO&!NOS&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '01000--00-----0010-000----00-001001000000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&!AGB1&!Atrboh&!CIS&!ERA1&!GC&GCR1&!GPA1&!InsP3&!InsP6&!InsPK&!NIA12&!NO&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&!ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '01000000000101001010000000000001001000000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Actin': 0, 'AnionEM': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 1, 'Closure': 0, 'Depolar': 1, 'HTPase': 1, 'KAP': 0, 'KEV': 0, 'KOUT': 0, 'Malate': 0, 'NOS': 0}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&!AGB1&!Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&CaIM&!Closure&Depolar&!ERA1&!GC&GCR1&!GPA1&HTPase&!InsP3&!InsP6&!InsPK&!KAP&!KEV&!KOUT&!Malate&!NIA12&!NO&!NOS&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&!ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '01000--00-----0000-000----00-001001000000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&!AGB1&!Atrboh&!CIS&!ERA1&!GC&!GCR1&!GPA1&!InsP3&!InsP6&!InsPK&!NIA12&!NO&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&!ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '01000010010001000010001010001001001000000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Actin': 0, 'AnionEM': 1, 'Ca2_ATPase': 1, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'HTPase': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NOS': 1}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&!AGB1&!Actin&AnionEM&!Atrboh&!CIS&Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&!GCR1&!GPA1&HTPase&!InsP3&!InsP6&!InsPK&KAP&!KEV&KOUT&!Malate&!NIA12&!NO&NOS&!OST1&!PA&PEPC&!PLC&!PLD&RAC1&!RCN1&!ROP10&!ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '0100100000000-10011000-0-1000011011011000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 0, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KEV': 0, 'Malate': 1, 'NIA12': 0, 'NO': 0, 'NOS': 0, 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&AGB1&!Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&ERA1&!GC&!GCR1&GPA1&HTPase&!InsP3&!InsP6&!InsPK&!KEV&Malate&!NIA12&!NO&!NOS&!OST1&PA&PEPC&!PLC&PLD&RAC1&!RCN1&ROP10&ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '01001000000001100110001001000011011011000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 0, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KEV': 0, 'Malate': 1, 'NIA12': 0, 'NO': 0, 'NOS': 0, 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Depolar': 1, 'KAP': 1, 'KOUT': 0}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&AGB1&!Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&ERA1&!GC&!GCR1&GPA1&HTPase&!InsP3&!InsP6&!InsPK&KAP&!KEV&!KOUT&Malate&!NIA12&!NO&!NOS&!OST1&PA&PEPC&!PLC&PLD&RAC1&!RCN1&ROP10&ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '01001--00-----0001-000----00-011011001000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&AGB1&!Atrboh&!CIS&!ERA1&!GC&!GCR1&GPA1&!InsP3&!InsP6&!InsPK&!NIA12&!NO&!OST1&PA&PEPC&!PLC&PLD&RAC1&!RCN1&!ROP10&ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '01001010000001000110001010000011011001000000', 'dict': {'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Atrboh': 0, 'CIS': 0, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'NIA12': 0, 'NO': 0, 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0, 'Actin': 0, 'AnionEM': 1, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'HTPase': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NOS': 0}, 'prop': '!ABA&ABH1&!ABI1&!ADPRc&AGB1&!Actin&AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&!GCR1&GPA1&HTPase&!InsP3&!InsP6&!InsPK&KAP&!KEV&KOUT&!Malate&!NIA12&!NO&!NOS&!OST1&PA&PEPC&!PLC&PLD&RAC1&!RCN1&!ROP10&ROP2&!ROS&!S1P&!SphK&!cADPR&!cGMP&!pH'}, 'is_steady': False, 'is_cyclic': True}, {'min_trap_space': {'str': '10001111000011000100111010100110010101111001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&!ERA1&!GC&!GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&!ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '10001111000011000100111010100110010101111001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&!ERA1&!GC&!GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&!ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '10001111000011001100111010100110010101111001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&!ERA1&!GC&GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&!ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '10001111000011001100111010100110010101111001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&!ERA1&!GC&GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&!ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '10001111000011100100111010100110010111111001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&ERA1&!GC&!GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '10001111000011100100111010100110010111111001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&ERA1&!GC&!GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '10001111000011101100111010100110010111111001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&ERA1&!GC&GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '10001111000011101100111010100110010111111001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&ERA1&!GC&GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '10100100000001000000111010100100000100011001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&!GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&!ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '10100100000001000000111010100100000100011001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&!GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&!ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '10100100000001001000111010100100000100011001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&!ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '10100100000001001000111010100100000100011001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&!ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '10100100000001100000111010100100000110011001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&ERA1&!GC&!GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '10100100000001100000111010100100000110011001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&ERA1&!GC&!GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '10100100000001101000111010100100000110011001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&ERA1&!GC&GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '10100100000001101000111010100100000110011001', 'dict': {'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&!ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&ERA1&!GC&GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '11001111000011000100111010100110010101111001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&!ERA1&!GC&!GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&!ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '11001111000011000100111010100110010101111001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&!ERA1&!GC&!GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&!ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '11001111000011001100111010100110010101111001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&!ERA1&!GC&GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&!ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '11001111000011001100111010100110010101111001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&!ERA1&!GC&GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&!ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '11001111000011100100111010100110010111111001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&ERA1&!GC&!GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '11001111000011100100111010100110010111111001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&ERA1&!GC&!GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '11001111000011101100111010100110010111111001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&ERA1&!GC&GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '11001111000011101100111010100110010111111001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&!ABI1&!ADPRc&AGB1&Actin&AnionEM&Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&Closure&Depolar&ERA1&!GC&GCR1&GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&PA&!PEPC&!PLC&PLD&!RAC1&RCN1&ROP10&ROP2&ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '11100100000001000000111010100100000100011001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&!GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&!ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '11100100000001000000111010100100000100011001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&!GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&!ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '11100100000001001000111010100100000100011001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&!ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '11100100000001001000111010100100000100011001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&!ERA1&!GC&GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&!ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '11100100000001100000111010100100000110011001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&ERA1&!GC&!GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '11100100000001100000111010100100000110011001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&ERA1&!GC&!GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '11100100000001101000111010100100000110011001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&ERA1&!GC&GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '11100100000001101000111010100100000110011001', 'dict': {'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}, 'prop': 'ABA&ABH1&ABI1&!ADPRc&!AGB1&Actin&!AnionEM&!Atrboh&!CIS&!Ca2_ATPase&!Ca2_c&!CaIM&!Closure&Depolar&ERA1&!GC&GCR1&!GPA1&!HTPase&!InsP3&InsP6&InsPK&KAP&!KEV&KOUT&!Malate&NIA12&!NO&!NOS&OST1&!PA&!PEPC&!PLC&!PLD&!RAC1&RCN1&ROP10&!ROP2&!ROS&S1P&SphK&!cADPR&!cGMP&pH'}, 'is_steady': True, 'is_cyclic': False})}
+	Command being timed: "/usr/local/bin/python3 /Users/soh/app/pyboolnet230402-22h42m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet.bnet"
+	User time (seconds): 213.22
+	System time (seconds): 4.19
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:37.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 242073600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 1679407
+	Voluntary context switches: 1386
+	Involuntary context switches: 22142
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 52
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 217.41 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 217.41
+#MAXMEM: 0
+c 
+#END: [Mon Apr  3 00:59:28 2023]

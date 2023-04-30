@@ -1,0 +1,73 @@
+#BEGIN: [Tue Apr 25 17:43:51 2023]
+#HOST: mini09.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-sat4j
+#CSP: benchmark/automata-network/star/star14.an
+#K: 15
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 15 benchmark/automata-network/star/star14.an
+Using Sat4j SAT Solver
+
+A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12,A13,A14
+k: 1, #Var: 42, #Clause: 266
+UNSAT
+k: 2, #Var: 252, #Clause: 2538
+UNSAT
+k: 3, #Var: 462, #Clause: 6320
+UNSAT
+k: 4, #Var: 742, #Clause: 11810
+UNSAT
+k: 5, #Var: 1092, #Clause: 19008
+UNSAT
+k: 6, #Var: 1512, #Clause: 27914
+UNSAT
+k: 7, #Var: 2002, #Clause: 38528
+UNSAT
+k: 8, #Var: 2562, #Clause: 50850
+UNSAT
+k: 9, #Var: 3192, #Clause: 64880
+UNSAT
+k: 10, #Var: 3892, #Clause: 80618
+UNSAT
+k: 11, #Var: 4662, #Clause: 98064
+UNSAT
+k: 12, #Var: 5502, #Clause: 117218
+UNSAT
+k: 13, #Var: 6412, #Clause: 138080
+UNSAT
+k: 14, #Var: 7392, #Clause: 160650
+UNSAT
+k: 15, #Var: 8442, #Clause: 184928
+#1
+00000000000000 00000000000001 00000000000010 00000000000100 00000000001000 00000000010000 00000000100000 00000001000000 00000010000000 00000100000000 00001000000000 00010000000000 00100000000000 01000000000000 10000000000000
+	Command being timed: "/Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 15 benchmark/automata-network/star/star14.an"
+	User time (seconds): 11.12
+	System time (seconds): 0.52
+	Percent of CPU this job got: 141%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5014372352
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 324990
+	Voluntary context switches: 10
+	Involuntary context switches: 4661
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 20
+	Socket messages received: 0
+	Signals delivered: 8
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 11.64 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNSAT
+#FIN: FIN
+#CPU: 11.64
+#MAXMEM: 0
+c 
+#END: [Tue Apr 25 17:43:59 2023]

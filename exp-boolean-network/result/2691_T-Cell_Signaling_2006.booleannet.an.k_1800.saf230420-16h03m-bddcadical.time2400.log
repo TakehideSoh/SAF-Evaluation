@@ -1,0 +1,56 @@
+#BEGIN: [Wed Apr 26 05:13:29 2023]
+#HOST: mini04.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-bddcadical
+#CSP: benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.an
+#K: 1800
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 1800 -k1solver /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release -libname cadical -libpath /Users/soh/app/saf230420-16h03m/cadical/build/ benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.an
+Using IPASIR SAT Solver and AllSAT Solver
+Libpath: /Users/soh/app/saf230420-16h03m/cadical/build/
+Libname: cadical
+K1solver: /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release
+
+TCRlig,CD8,CD45,CRE,IKKbeta,Nfkb,JNK,Rsk,Rlk,RasGRP1,Lck,Raf,IP3,CREB,cCbl,TCRphos,SEK,Jun,Gads,SLP76,LAT,Ca,MEK,ERK,Fos,NFAT,DAG,Ras,Itk,TCRbind,PKCth,Fyn,PLCg_bind,Grb2Sos,PLCg_act,ZAP70,PAGCsk,IkB,Calcin,AP1
+0000000000000000000000000000000000000100
+0010000000000000000000000000000000000100
+0100000000000000000000000000000000000100
+1000000000000000000000000000010000000100
+1010000000000001000000000000010100001100
+1100000000000000000000000000010000000100
+1110000000000001000000000000010100001100
+k: 2, #Var: 801, #Clause: 16946
+UNSAT
+k: 3, #Var: 1473, #Clause: 48016
+UNSAT
+k: 4, #Var: 2369, #Clause: 94254
+UNSAT
+k: 5, #Var: 3489, #Clause: 155660
+UNSAT
+k: 6, #Var: 4833, #Clause: 232234
+UNSAT
+k: 7, #Var: 6401, #Clause: 323976
+UNSAT
+k: 8, #Var: 8193, #Clause: 430886
+UNSAT
+k: 9, #Var: 10209, #Clause: 552964
+UNSAT
+k: 10, #Var: 12449, #Clause: 690210
+UNSAT
+k: 11, #Var: 14913, #Clause: 842624
+UNSAT
+k: 12, #Var: 17601, #Clause: 1010206
+UNSAT
+k: 13, #Var: 20513, #Clause: 1192956
+UNSAT
+k: 14, #Var: 23649, #Clause: 1390874
+UNSAT
+k: 15, #Var: 27009, #Clause: 1603960
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNSAT
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+c 63541 killed(2). 63540 killed(2). 63539 killed(2). 63541 killed(9). 63540 killed(9). 63539 killed(9). 
+#END: [Wed Apr 26 05:53:30 2023]

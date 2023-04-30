@@ -1,0 +1,66 @@
+#BEGIN: [Mon Apr  3 02:17:52 2023]
+#HOST: mini17.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: boolSim
+#CSP: benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet.boolsim
+#K: 1800
+#COMMAND: /Users/soh/app/boolSim-1.2.0-Darwin/bin/boolSim -f benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet.boolsim -p 3
+geneDbOrg=69 geneDbReduced=55
+Attractor 1 ::: number of states = 1
+Attractor 2 ::: number of states = 1
+Attractor 3 ::: number of states = 1
+Attractor 4 ::: number of states = 1
+Attractor 5 ::: number of states = 1
+Attractor 6 ::: number of states = 1
+Attractor 7 ::: number of states = 1
+Attractor 8 ::: number of states = 1
+Attractor 9 ::: number of states = 1
+Attractor 10 ::: number of states = 1
+Attractor 11 ::: number of states = 1
+Attractor 12 ::: number of states = 1
+Attractor 13 ::: number of states = 1
+States of the attractor 1 are written in the file EMT.booleannet_1.txt
+States of the attractor 2 are written in the file EMT.booleannet_2.txt
+States of the attractor 3 are written in the file EMT.booleannet_3.txt
+States of the attractor 4 are written in the file EMT.booleannet_4.txt
+States of the attractor 5 are written in the file EMT.booleannet_5.txt
+States of the attractor 6 are written in the file EMT.booleannet_6.txt
+States of the attractor 7 are written in the file EMT.booleannet_7.txt
+States of the attractor 8 are written in the file EMT.booleannet_8.txt
+States of the attractor 9 are written in the file EMT.booleannet_9.txt
+States of the attractor 10 are written in the file EMT.booleannet_10.txt
+States of the attractor 11 are written in the file EMT.booleannet_11.txt
+States of the attractor 12 are written in the file EMT.booleannet_12.txt
+States of the attractor 13 are written in the file EMT.booleannet_13.txt
+	Command being timed: "/Users/soh/app/boolSim-1.2.0-Darwin/bin/boolSim -f benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet.boolsim -p 3"
+	User time (seconds): 1227.27
+	System time (seconds): 1.30
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 20:29.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2048983040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 138678
+	Voluntary context switches: 164
+	Involuntary context switches: 88704
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 322
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 1228.57 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 1228.57
+#MAXMEM: 0
+c 
+#END: [Mon Apr  3 02:38:22 2023]

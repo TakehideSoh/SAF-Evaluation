@@ -1,0 +1,67 @@
+#BEGIN: [Fri Oct 28 10:24:57 2022]
+#HOST: mini11.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: anSolverAsp221027
+#CSP: benchmark/automata-network/abdallah17amb_asp/tcrsig40.lp
+#K: 1
+#COMMAND: /Users/soh/app/finding_attractors/incremental-finding.sh benchmark/automata-network/abdallah17amb_asp/tcrsig40.lp 1
+benchmark/automata-network/abdallah17amb_asp/tcrsig40.lp 1
+-e %----- The attractor computed for benchmark/automata-network/abdallah17amb_asp/tcrsig40.lp 
+ %----- The size of the attractor = 1 
+
+clingo version 5.4.0
+Reading from ...from_paper2017/scripts/fixed-points.lp ...
+Solving...
+Answer: 1
+fix("TCRlig",1) fix("TCRbind",1) fix("cCbl",0) fix("PAGCsk",0) fix("LCK",0) fix("CD45",0) fix("CD8",1) fix("Fyn",0) fix("ZAP70",0) fix("TCRphos",0) fix("Rlk",0) fix("LAT",0) fix("Gads",0) fix("Itk",0) fix("Slp76",0) fix("IP3",0) fix("PLCg_a",0) fix("Ca",0) fix("Calcin",0) fix("NFAT",0) fix("CRE",0) fix("CREB",0) fix("AP1",0) fix("Fos",0) fix("Jun",0) fix("IkB",1) fix("NFkB",0) fix("Rsk",0) fix("ERK",0) fix("MEK",0) fix("JNK",0) fix("Raf",0) fix("Ras",0) fix("Grb2Sos",0) fix("RasGRP1",0) fix("PLCg_b",0) fix("DAG",0) fix("PKCth",0) fix("IKK",0) fix("SEK",0)
+Answer: 2
+fix("TCRlig",1) fix("TCRbind",1) fix("cCbl",0) fix("PAGCsk",0) fix("LCK",0) fix("CD45",0) fix("CD8",0) fix("Fyn",0) fix("ZAP70",0) fix("TCRphos",0) fix("Rlk",0) fix("LAT",0) fix("Gads",0) fix("Itk",0) fix("Slp76",0) fix("IP3",0) fix("PLCg_a",0) fix("Ca",0) fix("Calcin",0) fix("NFAT",0) fix("CRE",0) fix("CREB",0) fix("AP1",0) fix("Fos",0) fix("Jun",0) fix("IkB",1) fix("NFkB",0) fix("Rsk",0) fix("ERK",0) fix("MEK",0) fix("JNK",0) fix("Raf",0) fix("Ras",0) fix("Grb2Sos",0) fix("RasGRP1",0) fix("PLCg_b",0) fix("DAG",0) fix("PKCth",0) fix("IKK",0) fix("SEK",0)
+Answer: 3
+fix("TCRlig",1) fix("TCRbind",1) fix("cCbl",0) fix("PAGCsk",0) fix("LCK",0) fix("CD45",1) fix("CD8",0) fix("Fyn",1) fix("ZAP70",0) fix("TCRphos",1) fix("Rlk",0) fix("LAT",0) fix("Gads",0) fix("Itk",0) fix("Slp76",0) fix("IP3",0) fix("PLCg_a",0) fix("Ca",0) fix("Calcin",0) fix("NFAT",0) fix("CRE",0) fix("CREB",0) fix("AP1",0) fix("Fos",0) fix("Jun",0) fix("IkB",1) fix("NFkB",0) fix("Rsk",0) fix("ERK",0) fix("MEK",0) fix("JNK",0) fix("Raf",0) fix("Ras",0) fix("Grb2Sos",0) fix("RasGRP1",0) fix("PLCg_b",0) fix("DAG",0) fix("PKCth",0) fix("IKK",0) fix("SEK",0)
+Answer: 4
+fix("TCRbind",0) fix("TCRlig",0) fix("cCbl",0) fix("PAGCsk",1) fix("LCK",0) fix("CD45",0) fix("CD8",1) fix("Fyn",0) fix("ZAP70",0) fix("TCRphos",0) fix("Rlk",0) fix("LAT",0) fix("Gads",0) fix("Itk",0) fix("Slp76",0) fix("IP3",0) fix("PLCg_a",0) fix("Ca",0) fix("Calcin",0) fix("NFAT",0) fix("CRE",0) fix("CREB",0) fix("AP1",0) fix("Fos",0) fix("Jun",0) fix("IkB",1) fix("NFkB",0) fix("Rsk",0) fix("ERK",0) fix("MEK",0) fix("JNK",0) fix("Raf",0) fix("Ras",0) fix("Grb2Sos",0) fix("RasGRP1",0) fix("PLCg_b",0) fix("DAG",0) fix("PKCth",0) fix("IKK",0) fix("SEK",0)
+Answer: 5
+fix("TCRbind",0) fix("TCRlig",0) fix("cCbl",0) fix("PAGCsk",1) fix("LCK",0) fix("CD45",0) fix("CD8",0) fix("Fyn",0) fix("ZAP70",0) fix("TCRphos",0) fix("Rlk",0) fix("LAT",0) fix("Gads",0) fix("Itk",0) fix("Slp76",0) fix("IP3",0) fix("PLCg_a",0) fix("Ca",0) fix("Calcin",0) fix("NFAT",0) fix("CRE",0) fix("CREB",0) fix("AP1",0) fix("Fos",0) fix("Jun",0) fix("IkB",1) fix("NFkB",0) fix("Rsk",0) fix("ERK",0) fix("MEK",0) fix("JNK",0) fix("Raf",0) fix("Ras",0) fix("Grb2Sos",0) fix("RasGRP1",0) fix("PLCg_b",0) fix("DAG",0) fix("PKCth",0) fix("IKK",0) fix("SEK",0)
+Answer: 6
+fix("TCRbind",0) fix("TCRlig",0) fix("cCbl",0) fix("PAGCsk",1) fix("LCK",0) fix("CD45",1) fix("CD8",1) fix("Fyn",0) fix("ZAP70",0) fix("TCRphos",0) fix("Rlk",0) fix("LAT",0) fix("Gads",0) fix("Itk",0) fix("Slp76",0) fix("IP3",0) fix("PLCg_a",0) fix("Ca",0) fix("Calcin",0) fix("NFAT",0) fix("CRE",0) fix("CREB",0) fix("AP1",0) fix("Fos",0) fix("Jun",0) fix("IkB",1) fix("NFkB",0) fix("Rsk",0) fix("ERK",0) fix("MEK",0) fix("JNK",0) fix("Raf",0) fix("Ras",0) fix("Grb2Sos",0) fix("RasGRP1",0) fix("PLCg_b",0) fix("DAG",0) fix("PKCth",0) fix("IKK",0) fix("SEK",0)
+Answer: 7
+fix("TCRbind",0) fix("TCRlig",0) fix("cCbl",0) fix("PAGCsk",1) fix("LCK",0) fix("CD45",1) fix("CD8",0) fix("Fyn",0) fix("ZAP70",0) fix("TCRphos",0) fix("Rlk",0) fix("LAT",0) fix("Gads",0) fix("Itk",0) fix("Slp76",0) fix("IP3",0) fix("PLCg_a",0) fix("Ca",0) fix("Calcin",0) fix("NFAT",0) fix("CRE",0) fix("CREB",0) fix("AP1",0) fix("Fos",0) fix("Jun",0) fix("IkB",1) fix("NFkB",0) fix("Rsk",0) fix("ERK",0) fix("MEK",0) fix("JNK",0) fix("Raf",0) fix("Ras",0) fix("Grb2Sos",0) fix("RasGRP1",0) fix("PLCg_b",0) fix("DAG",0) fix("PKCth",0) fix("IKK",0) fix("SEK",0)
+SATISFIABLE
+
+Models       : 7
+Calls        : 1
+Time         : 0.014s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.009s
+s SATISFIABLE
+	Command being timed: "/Users/soh/app/finding_attractors/incremental-finding.sh benchmark/automata-network/abdallah17amb_asp/tcrsig40.lp 1"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 63%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14680064
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2296
+	Voluntary context switches: 26
+	Involuntary context switches: 57
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 44
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.01 MEM 0 MAXMEM 0 STALE 1
+#RESULT: SAT
+#FIN: FIN
+#CPU: 0.01
+#MAXMEM: 0
+c 
+#END: [Fri Oct 28 10:24:57 2022]

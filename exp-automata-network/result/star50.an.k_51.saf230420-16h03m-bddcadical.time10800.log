@@ -1,0 +1,98 @@
+#BEGIN: [Sun Apr 30 11:51:02 2023]
+#HOST: mini07.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-bddcadical
+#CSP: benchmark/automata-network/star/star50.an
+#K: 51
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 51 -k1solver /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release -libname cadical -libpath /Users/soh/app/saf230420-16h03m/cadical/build/ benchmark/automata-network/star/star50.an
+Using IPASIR SAT Solver and AllSAT Solver
+Libpath: /Users/soh/app/saf230420-16h03m/cadical/build/
+Libname: cadical
+K1solver: /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release
+
+A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12,A13,A14,A15,A16,A17,A18,A19,A20,A21,A22,A23,A24,A25,A26,A27,A28,A29,A30,A31,A32,A33,A34,A35,A36,A37,A38,A39,A40,A41,A42,A43,A44,A45,A46,A47,A48,A49,A50
+UNSAT
+k: 2, #Var: 900, #Clause: 27054
+UNSAT
+k: 3, #Var: 1650, #Clause: 71156
+UNSAT
+k: 4, #Var: 2650, #Clause: 135758
+UNSAT
+k: 5, #Var: 3900, #Clause: 220860
+UNSAT
+k: 6, #Var: 5400, #Clause: 326462
+UNSAT
+k: 7, #Var: 7150, #Clause: 452564
+UNSAT
+k: 8, #Var: 9150, #Clause: 599166
+UNSAT
+k: 9, #Var: 11400, #Clause: 766268
+UNSAT
+k: 10, #Var: 13900, #Clause: 953870
+UNSAT
+k: 11, #Var: 16650, #Clause: 1161972
+UNSAT
+k: 12, #Var: 19650, #Clause: 1390574
+UNSAT
+k: 13, #Var: 22900, #Clause: 1639676
+UNSAT
+k: 14, #Var: 26400, #Clause: 1909278
+UNSAT
+k: 15, #Var: 30150, #Clause: 2199380
+UNSAT
+k: 16, #Var: 34150, #Clause: 2509982
+UNSAT
+k: 17, #Var: 38400, #Clause: 2841084
+UNSAT
+k: 18, #Var: 42900, #Clause: 3192686
+UNSAT
+k: 19, #Var: 47650, #Clause: 3564788
+UNSAT
+k: 20, #Var: 52650, #Clause: 3957390
+UNSAT
+k: 21, #Var: 57900, #Clause: 4370492
+UNSAT
+k: 22, #Var: 63400, #Clause: 4804094
+UNSAT
+k: 23, #Var: 69150, #Clause: 5258196
+UNSAT
+k: 24, #Var: 75150, #Clause: 5732798
+UNSAT
+k: 25, #Var: 81400, #Clause: 6227900
+UNSAT
+k: 26, #Var: 87900, #Clause: 6743502
+UNSAT
+k: 27, #Var: 94650, #Clause: 7279604
+UNSAT
+k: 28, #Var: 101650, #Clause: 7836206
+UNSAT
+k: 29, #Var: 108900, #Clause: 8413308
+UNSAT
+k: 30, #Var: 116400, #Clause: 9010910
+UNSAT
+k: 31, #Var: 124150, #Clause: 9629012
+UNSAT
+k: 32, #Var: 132150, #Clause: 10267614
+UNSAT
+k: 33, #Var: 140400, #Clause: 10926716
+UNSAT
+k: 34, #Var: 148900, #Clause: 11606318
+UNSAT
+k: 35, #Var: 157650, #Clause: 12306420
+UNSAT
+k: 36, #Var: 166650, #Clause: 13027022
+UNSAT
+k: 37, #Var: 175900, #Clause: 13768124
+UNSAT
+k: 38, #Var: 185400, #Clause: 14529726
+UNSAT
+k: 39, #Var: 195150, #Clause: 15311828
+TIMEOUT CPU 10800 MEM 0 MAXMEM 0
+#RESULT: UNSAT
+#FIN: TO
+#CPU: 10800
+#MAXMEM: 0
+c 11161 killed(2). 11159 killed(2). 11160 killed(2). 11161 killed(9). 11159 killed(9). 11160 killed(9). 
+#END: [Sun Apr 30 14:51:04 2023]

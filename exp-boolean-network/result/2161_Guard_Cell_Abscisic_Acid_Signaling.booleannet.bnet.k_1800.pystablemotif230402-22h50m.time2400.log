@@ -1,0 +1,148 @@
+#BEGIN: [Mon Apr  3 10:20:49 2023]
+#HOST: mini04.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pystablemotif230402-22h50m
+#CSP: benchmark/boolean-network/pystablemotif-real/2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pystablemotif230402-22h50m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet.bnet
+Loading network . . .
+Network loaded.
+
+RULES
+ABA* = ABA
+ABH1* = ABH1
+ABI1* = !PA & !ROS & pH
+ADPRc* = NO
+AGB1* = GPA1
+Actin* = !RAC1 | Ca2_c
+AnionEM* = Ca2_c & pH | !ABI1 & pH | !ABI1 & Ca2_c
+Atrboh* = !ABI1 & OST1 & ROP2 & pH
+CIS* = cADPR & cGMP | InsP3 & InsP6
+Ca2_ATPase* = Ca2_c
+Ca2_c* = !Ca2_ATPase & CaIM | CIS & !Ca2_ATPase
+CaIM* = !Depolar & ROS | !Depolar & !ERA1 | !ABH1 & !Depolar
+Closure* = Actin & AnionEM & KOUT & !Malate | Actin & AnionEM & KAP & !Malate
+Depolar* = !KOUT | KEV | !HTPase | Ca2_c | AnionEM
+ERA1* = ERA1
+GC* = NO
+GCR1* = GCR1
+GPA1* = AGB1 & S1P | AGB1 & !GCR1
+HTPase* = !Ca2_c & !ROS & !pH
+InsP3* = PLC
+InsP6* = InsPK
+InsPK* = ABA
+KAP* = Depolar & !pH | !Ca2_c & Depolar
+KEV* = Ca2_c
+KOUT* = Depolar & pH | Depolar & !ROS | Depolar & !NO
+Malate* = !ABA & !AnionEM & PEPC
+NIA12* = RCN1
+NO* = NIA12 & NOS
+NOS* = Ca2_c
+OST1* = ABA
+PA* = PLD
+PEPC* = !ABA
+PLC* = ABA & Ca2_c
+PLD* = GPA1
+RAC1* = !ABA & !ABI1
+RCN1* = ABA
+ROP10* = ERA1
+ROP2* = PA
+ROS* = Atrboh
+S1P* = SphK
+SphK* = ABA
+cADPR* = ADPRc
+cGMP* = GC
+pH* = ABA
+
+Analyzing network . . .
+Analysis complete.
+
+There are 28 attractors.
+{'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 'X', 'AnionEM': 'X', 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 'X', 'Ca2_c': 'X', 'CaIM': 'X', 'Closure': 'X', 'Depolar': 'X', 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 'X', 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 'X', 'KOUT': 'X', 'Malate': 'X', 'NIA12': 0, 'NO': 0, 'NOS': 'X', 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 'X', 'AnionEM': 'X', 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 'X', 'Ca2_c': 'X', 'CaIM': 'X', 'Closure': 'X', 'Depolar': 'X', 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 'X', 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 'X', 'KOUT': 'X', 'Malate': 'X', 'NIA12': 0, 'NO': 0, 'NOS': 'X', 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 'X', 'AnionEM': 'X', 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 'X', 'Ca2_c': 'X', 'CaIM': 'X', 'Closure': 'X', 'Depolar': 'X', 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 'X', 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 'X', 'KOUT': 'X', 'Malate': 'X', 'NIA12': 0, 'NO': 0, 'NOS': 'X', 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 'X', 'AnionEM': 'X', 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 'X', 'Ca2_c': 'X', 'CaIM': 'X', 'Closure': 'X', 'Depolar': 'X', 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 'X', 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 'X', 'KOUT': 'X', 'Malate': 'X', 'NIA12': 0, 'NO': 0, 'NOS': 'X', 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 'X', 'AnionEM': 'X', 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 'X', 'Ca2_c': 'X', 'CaIM': 'X', 'Closure': 'X', 'Depolar': 'X', 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 'X', 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 'X', 'KOUT': 'X', 'Malate': 'X', 'NIA12': 0, 'NO': 0, 'NOS': 'X', 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 'X', 'AnionEM': 'X', 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 'X', 'Ca2_c': 'X', 'CaIM': 'X', 'Closure': 'X', 'Depolar': 'X', 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 'X', 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 'X', 'KOUT': 'X', 'Malate': 'X', 'NIA12': 0, 'NO': 0, 'NOS': 'X', 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 'X', 'AnionEM': 'X', 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 'X', 'Ca2_c': 'X', 'CaIM': 'X', 'Closure': 'X', 'Depolar': 'X', 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 'X', 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 'X', 'KOUT': 'X', 'Malate': 'X', 'NIA12': 0, 'NO': 0, 'NOS': 'X', 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 'X', 'AnionEM': 'X', 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 'X', 'Ca2_c': 'X', 'CaIM': 'X', 'Closure': 'X', 'Depolar': 'X', 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 'X', 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 'X', 'KOUT': 'X', 'Malate': 'X', 'NIA12': 0, 'NO': 0, 'NOS': 'X', 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 'X', 'AnionEM': 'X', 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 'X', 'Ca2_c': 'X', 'CaIM': 'X', 'Closure': 'X', 'Depolar': 'X', 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 'X', 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 'X', 'KOUT': 'X', 'Malate': 'X', 'NIA12': 0, 'NO': 0, 'NOS': 'X', 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 0, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 'X', 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 0, 'KOUT': 'X', 'Malate': 1, 'NIA12': 0, 'NO': 0, 'NOS': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 0, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 'X', 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 0, 'KOUT': 'X', 'Malate': 1, 'NIA12': 0, 'NO': 0, 'NOS': 0, 'OST1': 0, 'PA': 1, 'PEPC': 1, 'PLC': 0, 'PLD': 1, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 1, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 0, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 0, 'Actin': 0, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 'X', 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 1, 'InsP3': 0, 'InsP6': 0, 'InsPK': 0, 'KAP': 'X', 'KEV': 0, 'KOUT': 'X', 'Malate': 1, 'NIA12': 0, 'NO': 0, 'NOS': 0, 'OST1': 0, 'PA': 0, 'PEPC': 1, 'PLC': 0, 'PLD': 0, 'RAC1': 1, 'RCN1': 0, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 0, 'SphK': 0, 'cADPR': 0, 'cGMP': 0, 'pH': 0}
+
+{'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 0, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 0, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 0, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 0, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 0, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 1, 'ABI1': 1, 'ADPRc': 0, 'AGB1': 0, 'Actin': 1, 'AnionEM': 0, 'Atrboh': 0, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 0, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 0, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 0, 'PEPC': 0, 'PLC': 0, 'PLD': 0, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 0, 'ROS': 0, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+{'ABA': 1, 'ABH1': 1, 'ABI1': 0, 'ADPRc': 0, 'AGB1': 1, 'Actin': 1, 'AnionEM': 1, 'Atrboh': 1, 'CIS': 0, 'Ca2_ATPase': 0, 'Ca2_c': 0, 'CaIM': 0, 'Closure': 1, 'Depolar': 1, 'ERA1': 1, 'GC': 0, 'GCR1': 1, 'GPA1': 1, 'HTPase': 0, 'InsP3': 0, 'InsP6': 1, 'InsPK': 1, 'KAP': 1, 'KEV': 0, 'KOUT': 1, 'Malate': 0, 'NIA12': 1, 'NO': 0, 'NOS': 0, 'OST1': 1, 'PA': 1, 'PEPC': 0, 'PLC': 0, 'PLD': 1, 'RAC1': 0, 'RCN1': 1, 'ROP10': 1, 'ROP2': 1, 'ROS': 1, 'S1P': 1, 'SphK': 1, 'cADPR': 0, 'cGMP': 0, 'pH': 1}
+
+	Command being timed: "/usr/local/bin/python3 /Users/soh/app/pystablemotif230402-22h50m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet.bnet"
+	User time (seconds): 10.26
+	System time (seconds): 2.18
+	Percent of CPU this job got: 103%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1277394944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 810801
+	Voluntary context switches: 827
+	Involuntary context switches: 4105
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 19
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 12.44 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 12.44
+#MAXMEM: 0
+c 
+#END: [Mon Apr  3 10:21:01 2023]

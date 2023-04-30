@@ -1,0 +1,85 @@
+#BEGIN: [Tue Apr 25 17:43:52 2023]
+#HOST: mini10.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-sat4j
+#CSP: benchmark/automata-network/star/star20.an
+#K: 21
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 21 benchmark/automata-network/star/star20.an
+Using Sat4j SAT Solver
+
+A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12,A13,A14,A15,A16,A17,A18,A19,A20
+k: 1, #Var: 60, #Clause: 500
+UNSAT
+k: 2, #Var: 360, #Clause: 4824
+UNSAT
+k: 3, #Var: 660, #Clause: 12266
+UNSAT
+k: 4, #Var: 1060, #Clause: 23108
+UNSAT
+k: 5, #Var: 1560, #Clause: 37350
+UNSAT
+k: 6, #Var: 2160, #Clause: 54992
+UNSAT
+k: 7, #Var: 2860, #Clause: 76034
+UNSAT
+k: 8, #Var: 3660, #Clause: 100476
+UNSAT
+k: 9, #Var: 4560, #Clause: 128318
+UNSAT
+k: 10, #Var: 5560, #Clause: 159560
+UNSAT
+k: 11, #Var: 6660, #Clause: 194202
+UNSAT
+k: 12, #Var: 7860, #Clause: 232244
+UNSAT
+k: 13, #Var: 9160, #Clause: 273686
+UNSAT
+k: 14, #Var: 10560, #Clause: 318528
+UNSAT
+k: 15, #Var: 12060, #Clause: 366770
+UNSAT
+k: 16, #Var: 13660, #Clause: 418412
+UNSAT
+k: 17, #Var: 15360, #Clause: 473454
+UNSAT
+k: 18, #Var: 17160, #Clause: 531896
+UNSAT
+k: 19, #Var: 19060, #Clause: 593738
+UNSAT
+k: 20, #Var: 21060, #Clause: 658980
+UNSAT
+k: 21, #Var: 23160, #Clause: 727622
+#1
+00000000000000000000 00000000000000000001 00000000000000000010 00000000000000000100 00000000000000001000 00000000000000010000 00000000000000100000 00000000000001000000 00000000000010000000 00000000000100000000 00000000001000000000 00000000010000000000 00000000100000000000 00000001000000000000 00000010000000000000 00000100000000000000 00001000000000000000 00010000000000000000 00100000000000000000 01000000000000000000 10000000000000000000
+	Command being timed: "/Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 21 benchmark/automata-network/star/star20.an"
+	User time (seconds): 115.41
+	System time (seconds): 1.62
+	Percent of CPU this job got: 104%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:52.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17797120000
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1110126
+	Voluntary context switches: 11
+	Involuntary context switches: 15540
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 20
+	Socket messages received: 0
+	Signals delivered: 28
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 117.03 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNSAT
+#FIN: FIN
+#CPU: 117.03
+#MAXMEM: 0
+c 
+#END: [Tue Apr 25 17:45:44 2023]

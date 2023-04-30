@@ -1,0 +1,96 @@
+#BEGIN: [Mon Apr  3 01:58:54 2023]
+#HOST: mini12.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: boolSim
+#CSP: benchmark/boolean-network/pystablemotif-real/2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet.bnet.boolsim
+#K: 1800
+#COMMAND: /Users/soh/app/boolSim-1.2.0-Darwin/bin/boolSim -f benchmark/boolean-network/pystablemotif-real/2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet.bnet.boolsim -p 3
+geneDbOrg=44 geneDbReduced=44
+Attractor 1 ::: number of states = 6272
+Attractor 2 ::: number of states = 6272
+Attractor 3 ::: number of states = 1
+Attractor 4 ::: number of states = 1
+Attractor 5 ::: number of states = 6272
+Attractor 6 ::: number of states = 6272
+Attractor 7 ::: number of states = 6272
+Attractor 8 ::: number of states = 6272
+Attractor 9 ::: number of states = 6272
+Attractor 10 ::: number of states = 1
+Attractor 11 ::: number of states = 8
+Attractor 12 ::: number of states = 8
+Attractor 13 ::: number of states = 8
+Attractor 14 ::: number of states = 1
+Attractor 15 ::: number of states = 1
+Attractor 16 ::: number of states = 6272
+Attractor 17 ::: number of states = 6272
+Attractor 18 ::: number of states = 1
+Attractor 19 ::: number of states = 1
+Attractor 20 ::: number of states = 1
+Attractor 21 ::: number of states = 1
+Attractor 22 ::: number of states = 1
+Attractor 23 ::: number of states = 1
+Attractor 24 ::: number of states = 1
+Attractor 25 ::: number of states = 1
+Attractor 26 ::: number of states = 1
+Attractor 27 ::: number of states = 1
+Attractor 28 ::: number of states = 1
+States of the attractor 1 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_1.txt
+States of the attractor 2 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_2.txt
+States of the attractor 3 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_3.txt
+States of the attractor 4 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_4.txt
+States of the attractor 5 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_5.txt
+States of the attractor 6 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_6.txt
+States of the attractor 7 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_7.txt
+States of the attractor 8 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_8.txt
+States of the attractor 9 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_9.txt
+States of the attractor 10 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_10.txt
+States of the attractor 11 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_11.txt
+States of the attractor 12 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_12.txt
+States of the attractor 13 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_13.txt
+States of the attractor 14 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_14.txt
+States of the attractor 15 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_15.txt
+States of the attractor 16 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_16.txt
+States of the attractor 17 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_17.txt
+States of the attractor 18 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_18.txt
+States of the attractor 19 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_19.txt
+States of the attractor 20 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_20.txt
+States of the attractor 21 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_21.txt
+States of the attractor 22 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_22.txt
+States of the attractor 23 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_23.txt
+States of the attractor 24 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_24.txt
+States of the attractor 25 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_25.txt
+States of the attractor 26 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_26.txt
+States of the attractor 27 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_27.txt
+States of the attractor 28 are written in the file 2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet_28.txt
+	Command being timed: "/Users/soh/app/boolSim-1.2.0-Darwin/bin/boolSim -f benchmark/boolean-network/pystablemotif-real/2161_Guard_Cell_Abscisic_Acid_Signaling.booleannet.bnet.boolsim -p 3"
+	User time (seconds): 10.59
+	System time (seconds): 0.08
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 910770176
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55728
+	Voluntary context switches: 343
+	Involuntary context switches: 759
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 663
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 10.67 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 10.67
+#MAXMEM: 0
+c 
+#END: [Mon Apr  3 01:59:05 2023]

@@ -1,0 +1,104 @@
+#BEGIN: [Mon Apr  3 10:20:50 2023]
+#HOST: mini09.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pystablemotif230402-22h50m
+#CSP: benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pystablemotif230402-22h50m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.bnet
+Loading network . . .
+Network loaded.
+
+RULES
+AP1* = Fos & Jun
+CD45* = CD45
+CD8* = CD8
+CRE* = CREB
+CREB* = Rsk
+Ca* = IP3
+Calcin* = Ca
+DAG* = PLCg_act
+ERK* = MEK
+Fos* = ERK
+Fyn* = CD45 & TCRbind | CD45 & Lck
+Gads* = LAT
+Grb2Sos* = LAT
+IKKbeta* = PKCth
+IP3* = PLCg_act
+IkB* = !IKKbeta
+Itk* = SLP76 & ZAP70
+JNK* = SEK
+Jun* = JNK
+LAT* = ZAP70
+Lck* = CD45 & CD8 & !PAGCsk
+MEK* = Raf
+NFAT* = Calcin
+Nfkb* = !IkB
+PAGCsk* = Fyn
+PKCth* = DAG
+PLCg_act* = PLCg_bind & Rlk & SLP76 & ZAP70 | Itk & PLCg_bind & SLP76 & ZAP70
+PLCg_bind* = LAT
+Raf* = Ras
+Ras* = RasGRP1 | Grb2Sos
+RasGRP1* = DAG & PKCth
+Rlk* = Lck
+Rsk* = ERK
+SEK* = PKCth
+SLP76* = Gads
+TCRbind* = TCRlig & !cCbl
+TCRlig* = TCRlig
+TCRphos* = Fyn
+ZAP70* = Lck & TCRphos & !cCbl
+cCbl* = ZAP70
+
+Analyzing network . . .
+Analysis complete.
+
+There are 8 attractors.
+{'AP1': 0, 'CD45': 0, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 0, 'TCRlig': 0, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}
+
+{'AP1': 0, 'CD45': 0, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}
+
+{'AP1': 0, 'CD45': 1, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 0, 'TCRlig': 0, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}
+
+{'AP1': 0, 'CD45': 1, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 1, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 1, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 1, 'ZAP70': 0, 'cCbl': 0}
+
+{'AP1': 0, 'CD45': 0, 'CD8': 1, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 0, 'TCRlig': 0, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}
+
+{'AP1': 0, 'CD45': 0, 'CD8': 1, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}
+
+{'AP1': '?', 'CD45': 1, 'CD8': 1, 'CRE': '?', 'CREB': '?', 'Ca': '?', 'Calcin': '?', 'DAG': '?', 'ERK': '?', 'Fos': '?', 'Fyn': '?', 'Gads': '?', 'Grb2Sos': '?', 'IKKbeta': '?', 'IP3': '?', 'IkB': '?', 'Itk': '?', 'JNK': '?', 'Jun': '?', 'LAT': '?', 'Lck': '?', 'MEK': '?', 'NFAT': '?', 'Nfkb': '?', 'PAGCsk': '?', 'PKCth': '?', 'PLCg_act': '?', 'PLCg_bind': '?', 'Raf': '?', 'Ras': '?', 'RasGRP1': '?', 'Rlk': '?', 'Rsk': '?', 'SEK': '?', 'SLP76': '?', 'TCRbind': 0, 'TCRlig': 0, 'TCRphos': '?', 'ZAP70': '?', 'cCbl': '?'}
+
+{'AP1': 0, 'CD45': 1, 'CD8': 1, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 1, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 1, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 1, 'ZAP70': 0, 'cCbl': 0}
+
+	Command being timed: "/usr/local/bin/python3 /Users/soh/app/pystablemotif230402-22h50m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.bnet"
+	User time (seconds): 1.84
+	System time (seconds): 0.42
+	Percent of CPU this job got: 103%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 446398464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 150928
+	Voluntary context switches: 139
+	Involuntary context switches: 607
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 21
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 2.26 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 2.26
+#MAXMEM: 0
+c 
+#END: [Mon Apr  3 10:20:52 2023]

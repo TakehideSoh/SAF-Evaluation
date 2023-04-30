@@ -1,0 +1,418 @@
+#BEGIN: [Fri Oct 28 11:37:00 2022]
+#HOST: mini02.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: anSolverAsp221027
+#CSP: benchmark/automata-network/star_asp/star10.lp
+#K: 20
+#COMMAND: /Users/soh/app/finding_attractors/incremental-finding.sh benchmark/automata-network/star_asp/star10.lp 20
+benchmark/automata-network/star_asp/star10.lp 1
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 1 
+
+clingo version 5.4.0
+Reading from ...from_paper2017/scripts/fixed-points.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.008s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.004s
+benchmark/automata-network/star_asp/star10.lp 2
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 2 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=2 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.048s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.039s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 3
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 3 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=3 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.048s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.043s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 4
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 4 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=4 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.062s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.057s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 5
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 5 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=5 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.087s (Solving: 0.01s 1st Model: 0.00s Unsat: 0.01s)
+CPU Time     : 0.081s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 6
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 6 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=6 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.120s (Solving: 0.02s 1st Model: 0.00s Unsat: 0.02s)
+CPU Time     : 0.114s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 7
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 7 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=7 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.190s (Solving: 0.04s 1st Model: 0.00s Unsat: 0.04s)
+CPU Time     : 0.185s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 8
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 8 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=8 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.334s (Solving: 0.08s 1st Model: 0.00s Unsat: 0.08s)
+CPU Time     : 0.329s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 9
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 9 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=9 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.525s (Solving: 0.18s 1st Model: 0.00s Unsat: 0.18s)
+CPU Time     : 0.520s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 10
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 10 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=10 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.924s (Solving: 0.40s 1st Model: 0.00s Unsat: 0.40s)
+CPU Time     : 0.918s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 11
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 11 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=11 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 1.826s (Solving: 1.07s 1st Model: 0.00s Unsat: 1.07s)
+CPU Time     : 1.817s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 12
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 12 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=12 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 2.726s (Solving: 1.65s 1st Model: 0.00s Unsat: 1.65s)
+CPU Time     : 2.720s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 13
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 13 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=13 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 3.929s (Solving: 2.37s 1st Model: 0.00s Unsat: 2.37s)
+CPU Time     : 3.923s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 14
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 14 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=14 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 8.474s (Solving: 6.41s 1st Model: 0.00s Unsat: 6.41s)
+CPU Time     : 8.467s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 15
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 15 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=15 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 6.699s (Solving: 3.87s 1st Model: 0.00s Unsat: 3.87s)
+CPU Time     : 6.682s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 16
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 16 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=16 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 28.806s (Solving: 25.20s 1st Model: 0.00s Unsat: 25.20s)
+CPU Time     : 28.784s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 17
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 17 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=17 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 8.446s (Solving: 3.85s 1st Model: 0.00s Unsat: 3.85s)
+CPU Time     : 8.438s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 18
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 18 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=18 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 56.110s (Solving: 49.77s 1st Model: 0.00s Unsat: 49.77s)
+CPU Time     : 56.082s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 19
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 19 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=19 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 14.251s (Solving: 6.72s 1st Model: 0.00s Unsat: 6.72s)
+CPU Time     : 14.240s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star10.lp 20
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star10.lp 
+ %----- The size of the attractor = 20 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star10.lp --const n=20 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+Answer: 1
+active(level("A1",1),7) active(level("A2",1),15) active(level("A3",1),1) active(level("A4",1),13) active(level("A5",1),11) active(level("A6",1),19) active(level("A7",1),5) active(level("A8",1),3) active(level("A9",1),17) active(level("A10",1),9) active(level("A1",0),1) active(level("A1",0),2) active(level("A1",0),3) active(level("A1",0),4) active(level("A1",0),5) active(level("A1",0),6) active(level("A1",0),8) active(level("A1",0),9) active(level("A1",0),10) active(level("A1",0),11) active(level("A1",0),12) active(level("A1",0),13) active(level("A1",0),14) active(level("A1",0),15) active(level("A1",0),16) active(level("A1",0),17) active(level("A1",0),18) active(level("A1",0),19) active(level("A1",0),20) active(level("A2",0),1) active(level("A2",0),2) active(level("A2",0),3) active(level("A2",0),4) active(level("A2",0),5) active(level("A2",0),6) active(level("A2",0),7) active(level("A2",0),8) active(level("A2",0),9) active(level("A2",0),10) active(level("A2",0),11) active(level("A2",0),12) active(level("A2",0),13) active(level("A2",0),14) active(level("A2",0),16) active(level("A2",0),17) active(level("A2",0),18) active(level("A2",0),19) active(level("A2",0),20) active(level("A3",0),2) active(level("A3",0),3) active(level("A3",0),4) active(level("A3",0),5) active(level("A3",0),6) active(level("A3",0),7) active(level("A3",0),8) active(level("A3",0),9) active(level("A3",0),10) active(level("A3",0),11) active(level("A3",0),12) active(level("A3",0),13) active(level("A3",0),14) active(level("A3",0),15) active(level("A3",0),16) active(level("A3",0),17) active(level("A3",0),18) active(level("A3",0),19) active(level("A3",0),20) active(level("A4",0),1) active(level("A4",0),2) active(level("A4",0),3) active(level("A4",0),4) active(level("A4",0),5) active(level("A4",0),6) active(level("A4",0),7) active(level("A4",0),8) active(level("A4",0),9) active(level("A4",0),10) active(level("A4",0),11) active(level("A4",0),12) active(level("A4",0),14) active(level("A4",0),15) active(level("A4",0),16) active(level("A4",0),17) active(level("A4",0),18) active(level("A4",0),19) active(level("A4",0),20) active(level("A5",0),1) active(level("A5",0),2) active(level("A5",0),3) active(level("A5",0),4) active(level("A5",0),5) active(level("A5",0),6) active(level("A5",0),7) active(level("A5",0),8) active(level("A5",0),9) active(level("A5",0),10) active(level("A5",0),12) active(level("A5",0),13) active(level("A5",0),14) active(level("A5",0),15) active(level("A5",0),16) active(level("A5",0),17) active(level("A5",0),18) active(level("A5",0),19) active(level("A5",0),20) active(level("A6",0),1) active(level("A6",0),2) active(level("A6",0),3) active(level("A6",0),4) active(level("A6",0),5) active(level("A6",0),6) active(level("A6",0),7) active(level("A6",0),8) active(level("A6",0),9) active(level("A6",0),10) active(level("A6",0),11) active(level("A6",0),12) active(level("A6",0),13) active(level("A6",0),14) active(level("A6",0),15) active(level("A6",0),16) active(level("A6",0),17) active(level("A6",0),18) active(level("A6",0),20) active(level("A7",0),1) active(level("A7",0),2) active(level("A7",0),3) active(level("A7",0),4) active(level("A7",0),6) active(level("A7",0),7) active(level("A7",0),8) active(level("A7",0),9) active(level("A7",0),10) active(level("A7",0),11) active(level("A7",0),12) active(level("A7",0),13) active(level("A7",0),14) active(level("A7",0),15) active(level("A7",0),16) active(level("A7",0),17) active(level("A7",0),18) active(level("A7",0),19) active(level("A7",0),20) active(level("A8",0),1) active(level("A8",0),2) active(level("A8",0),4) active(level("A8",0),5) active(level("A8",0),6) active(level("A8",0),7) active(level("A8",0),8) active(level("A8",0),9) active(level("A8",0),10) active(level("A8",0),11) active(level("A8",0),12) active(level("A8",0),13) active(level("A8",0),14) active(level("A8",0),15) active(level("A8",0),16) active(level("A8",0),17) active(level("A8",0),18) active(level("A8",0),19) active(level("A8",0),20) active(level("A9",0),1) active(level("A9",0),2) active(level("A9",0),3) active(level("A9",0),4) active(level("A9",0),5) active(level("A9",0),6) active(level("A9",0),7) active(level("A9",0),8) active(level("A9",0),9) active(level("A9",0),10) active(level("A9",0),11) active(level("A9",0),12) active(level("A9",0),13) active(level("A9",0),14) active(level("A9",0),15) active(level("A9",0),16) active(level("A9",0),18) active(level("A9",0),19) active(level("A9",0),20) active(level("A10",0),1) active(level("A10",0),2) active(level("A10",0),3) active(level("A10",0),4) active(level("A10",0),5) active(level("A10",0),6) active(level("A10",0),7) active(level("A10",0),8) active(level("A10",0),10) active(level("A10",0),11) active(level("A10",0),12) active(level("A10",0),13) active(level("A10",0),14) active(level("A10",0),15) active(level("A10",0),16) active(level("A10",0),17) active(level("A10",0),18) active(level("A10",0),19) active(level("A10",0),20) active(level("A10",0),0) active(level("A9",0),0) active(level("A8",0),0) active(level("A7",0),0) active(level("A6",0),0) active(level("A5",0),0) active(level("A4",0),0) active(level("A3",0),0) active(level("A2",0),0) active(level("A1",0),0) numberStates(11)
+SATISFIABLE
+
+Models       : 1
+Calls        : 1
+Time         : 13.925s (Solving: 3.61s 1st Model: 0.11s Unsat: 3.51s)
+CPU Time     : 13.915s
+[ Calling Python ]
+[ Solving ready ]
+*** New model found! (currently 1 solutions found)
+{(0, 0, 0, 0, 0, 0, 0, 0, 0, 1), (0, 0, 0, 0, 0, 0, 0, 0, 1, 0), (0, 0, 0, 0, 0, 0, 1, 0, 0, 0), (1, 0, 0, 0, 0, 0, 0, 0, 0, 0), (0, 0, 0, 0, 0, 0, 0, 0, 0, 0), (0, 0, 0, 0, 0, 1, 0, 0, 0, 0), (0, 0, 1, 0, 0, 0, 0, 0, 0, 0), (0, 0, 0, 0, 0, 0, 0, 1, 0, 0), (0, 0, 0, 0, 1, 0, 0, 0, 0, 0), (0, 1, 0, 0, 0, 0, 0, 0, 0, 0), (0, 0, 0, 1, 0, 0, 0, 0, 0, 0)}
+*** Found: 1; skipped: 0
+s SATISFIABLE
+	Command being timed: "/Users/soh/app/finding_attractors/incremental-finding.sh benchmark/automata-network/star_asp/star10.lp 20"
+	User time (seconds): 146.92
+	System time (seconds): 1.10
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:28.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1231929344
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 475132
+	Voluntary context switches: 610
+	Involuntary context switches: 11371
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 1077
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 148.02 MEM 0 MAXMEM 0 STALE 1
+#RESULT: SAT
+#FIN: FIN
+#CPU: 148.02
+#MAXMEM: 0
+c 
+#END: [Fri Oct 28 11:39:28 2022]

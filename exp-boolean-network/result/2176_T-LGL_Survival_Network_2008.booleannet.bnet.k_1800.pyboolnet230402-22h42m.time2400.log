@@ -1,0 +1,25 @@
+#BEGIN: [Mon Apr  3 00:55:50 2023]
+#HOST: mini01.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pyboolnet230402-22h42m
+#CSP: benchmark/boolean-network/pystablemotif-real/2176_T-LGL_Survival_Network_2008.booleannet.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pyboolnet230402-22h42m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2176_T-LGL_Survival_Network_2008.booleannet.bnet
+INFO attractors.completeness(..)
+INFO created /Users/soh/condor/local/execute/dir_86470/pyboolnet_atq5aeww
+INFO created /Users/soh/condor/local/execute/dir_86470/pyboolnet_d21l4at3
+INFO created /Users/soh/condor/local/execute/dir_86470/pyboolnet_n7fom8t9
+INFO created /Users/soh/condor/local/execute/dir_86470/pyboolnet_lcxe9u5m
+INFO created /Users/soh/condor/local/execute/dir_86470/pyboolnet_qrcqf4ar
+INFO created /Users/soh/condor/local/execute/dir_86470/pyboolnet_xedc240_
+INFO created /Users/soh/condor/local/execute/dir_86470/pyboolnet_24yvrs0o
+INFO created /Users/soh/condor/local/execute/dir_86470/pyboolnet_jcchg7e6
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+c 86477 killed(2). 86538 killed(2). 86476 killed(2). 86477 killed(9). 86538 killed(9). 86476 killed(9). 
+#END: [Mon Apr  3 01:35:51 2023]

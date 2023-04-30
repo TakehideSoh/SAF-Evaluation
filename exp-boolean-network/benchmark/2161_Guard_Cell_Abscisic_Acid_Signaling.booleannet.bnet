@@ -1,0 +1,48 @@
+# model in BoolNet format
+# the header targets, factors is mandatory to be importable in the R package BoolNet
+
+targets, factors
+ABA,        ABA
+ABH1,       ABH1
+ABI1,       !ROS&!PA&pH
+ADPRc,      NO
+AGB1,       GPA1
+Actin,      !Ca2_c&!RAC1 | Ca2_c
+AnionEM,    !Ca2_c&!ABI1&pH | Ca2_c&!ABI1 | Ca2_c&ABI1&pH
+Atrboh,     OST1&ROP2&!ABI1&pH
+CIS,        !InsP3&cGMP&cADPR | InsP3&!cGMP&InsP6 | InsP3&cGMP&!InsP6&cADPR | InsP3&cGMP&InsP6
+Ca2_ATPase, Ca2_c
+Ca2_c,      !CIS&!Ca2_ATPase&CaIM | CIS&!Ca2_ATPase
+CaIM,       !ABH1&!Depolar | ABH1&!ERA1&!Depolar | ABH1&ERA1&ROS&!Depolar
+Closure,    Actin&!Malate&AnionEM&!KOUT&KAP | Actin&!Malate&AnionEM&KOUT
+Depolar,    !Ca2_c&!KEV&!HTPase | !Ca2_c&!KEV&HTPase&!AnionEM&!KOUT | !Ca2_c&!KEV&HTPase&AnionEM | !Ca2_c&KEV | Ca2_c
+ERA1,       ERA1
+GC,         NO
+GCR1,       GCR1
+GPA1,       !GCR1&AGB1 | GCR1&AGB1&S1P
+HTPase,     !Ca2_c&!ROS&!pH
+InsP3,      PLC
+InsP6,      InsPK
+InsPK,      ABA
+KAP,        !Ca2_c&Depolar | Ca2_c&Depolar&!pH
+KEV,        Ca2_c
+KOUT,       !NO&Depolar | NO&!ROS&Depolar | NO&ROS&Depolar&pH
+Malate,     !ABA&PEPC&!AnionEM
+NIA12,      RCN1
+NO,         NOS&NIA12
+NOS,        Ca2_c
+OST1,       ABA
+PA,         PLD
+PEPC,       !ABA
+PLC,        ABA&Ca2_c
+PLD,        GPA1
+RAC1,       !ABA&!ABI1
+RCN1,       ABA
+ROP10,      ERA1
+ROP2,       PA
+ROS,        Atrboh
+S1P,        SphK
+SphK,       ABA
+cADPR,      ADPRc
+cGMP,       GC
+pH,         ABA

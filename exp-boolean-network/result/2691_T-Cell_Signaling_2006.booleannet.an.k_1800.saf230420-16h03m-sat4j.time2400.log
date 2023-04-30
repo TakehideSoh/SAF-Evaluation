@@ -1,0 +1,51 @@
+#BEGIN: [Thu Apr 20 21:30:26 2023]
+#HOST: mini06.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-sat4j
+#CSP: benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.an
+#K: 1800
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 256 benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.an
+Using Sat4j SAT Solver
+
+TCRlig,CD8,CD45,CRE,IKKbeta,Nfkb,JNK,Rsk,Rlk,RasGRP1,Lck,Raf,IP3,CREB,cCbl,TCRphos,SEK,Jun,Gads,SLP76,LAT,Ca,MEK,ERK,Fos,NFAT,DAG,Ras,Itk,TCRbind,PKCth,Fyn,PLCg_bind,Grb2Sos,PLCg_act,ZAP70,PAGCsk,IkB,Calcin,AP1
+k: 1, #Var: 132, #Clause: 416
+#1
+0000000000000000000000000000000000000100
+#2
+0100000000000000000000000000000000000100
+#3
+0010000000000000000000000000000000000100
+#4
+1000000000000000000000000000010000000100
+#5
+1100000000000000000000000000010000000100
+#6
+1010000000000001000000000000010100001100
+#7
+1110000000000001000000000000010100001100
+k: 2, #Var: 801, #Clause: 16946
+UNSAT
+k: 3, #Var: 1473, #Clause: 48016
+UNSAT
+k: 4, #Var: 2369, #Clause: 94254
+UNSAT
+k: 5, #Var: 3489, #Clause: 155660
+UNSAT
+k: 6, #Var: 4833, #Clause: 232234
+UNSAT
+k: 7, #Var: 6401, #Clause: 323976
+UNSAT
+k: 8, #Var: 8193, #Clause: 430886
+UNSAT
+k: 9, #Var: 10209, #Clause: 552964
+UNSAT
+k: 10, #Var: 12449, #Clause: 690210
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNSAT
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+c 66883 killed(2). 66885 killed(2). 66884 killed(2). 66883 killed(9). 66885 killed(9). 66884 killed(9). 
+#END: [Thu Apr 20 22:10:26 2023]

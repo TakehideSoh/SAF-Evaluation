@@ -1,0 +1,58 @@
+#BEGIN: [Sun Apr  2 22:53:09 2023]
+#HOST: mini02.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pyboolnet230402-22h42m
+#CSP: benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pyboolnet230402-22h42m/findAttractor.py benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.bnet
+INFO there are possibly more than 1000 trap spaces.
+INFO increase MaxOutput to find out.
+INFO attractors.completeness(..)
+INFO there are possibly more than 1000 trap spaces.
+INFO increase MaxOutput to find out.
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet__329bokp
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_c6ck0qrd
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_vg3ydpfk
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_6z5pfk6h
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_ugowrank
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_xcn3d2qm
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_zhth9dgs
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_vw3k8xm6
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_oeaiugkh
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_v722g1v8
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet__nnp9hn7
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_gtprbm9c
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_cv5nu4d_
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_wtb323en
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_r_5oqm7p
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_3kxadxan
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_ufajc8yq
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_jqw1pja1
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_i1df5jwk
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_2v40nxyk
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_dqruxx4n
+INFO there are possibly more than 1000 trap spaces.
+INFO increase MaxOutput to find out.
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_9dmnlfvd
+INFO no
+INFO  working on minimal trapspace 1/1000: 1011011011000011000011001001111010110000011000000011100101001100011110001110100101011000010001010100001
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=103, update=asynchronous, length=1030, attempts=10
+INFO trial 0
+INFO start: 1011011011000011000011001001111010110000011000000011100101001100011110001110100101011000010001010100001
+INFO end: 1011011011000011000011001001111010110000011000000011100101001100011110001110100101011000010001010100001
+INFO created /Users/soh/condor/local/execute/dir_59776/pyboolnet_c7ty3fhe
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+c 59782 killed(2). 60085 killed(2). 59783 killed(2). 59782 killed(9). 60085 killed(9). 59783 killed(9). 
+#END: [Sun Apr  2 23:33:10 2023]

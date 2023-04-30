@@ -1,0 +1,16 @@
+#BEGIN: [Mon Apr  3 10:20:14 2023]
+#HOST: mini02.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pystablemotif230402-22h50m
+#CSP: benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pystablemotif230402-22h50m/findAttractor.py benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.bnet
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+c 60764 killed(2). 60763 killed(2). 60764 killed(9). 60763 killed(9). 
+#END: [Mon Apr  3 11:00:15 2023]

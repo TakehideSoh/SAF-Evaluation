@@ -1,0 +1,26 @@
+#BEGIN: [Fri Apr  7 14:49:37 2023]
+#HOST: mini02.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: cabean201
+#CSP: benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.bnet
+#K: 1800
+#COMMAND: /Users/soh/app/CABEAN-release-2.0.1/BinaryFile/MacOS/cabean benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.bnet
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: /Users/soh/app/CABEAN-release-2.0.1/BinaryFile/MacOS/cabean benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.bnet
+Convert the model format: benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.bnet -> benchmark/boolean-network/pyboolnet-repository/jaoude_thdiff/jaoude_thdiff.ispl
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+
+Caught signal SIGINT
+c 80005 killed(2). 80004 killed(2). 80005 killed(9). 80004 killed(9). 
+#END: [Fri Apr  7 15:29:37 2023]

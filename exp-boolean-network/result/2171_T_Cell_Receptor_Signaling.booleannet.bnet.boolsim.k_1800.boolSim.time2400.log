@@ -1,0 +1,17 @@
+#BEGIN: [Mon Apr  3 01:59:05 2023]
+#HOST: mini12.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: boolSim
+#CSP: benchmark/boolean-network/pystablemotif-real/2171_T_Cell_Receptor_Signaling.booleannet.bnet.boolsim
+#K: 1800
+#COMMAND: /Users/soh/app/boolSim-1.2.0-Darwin/bin/boolSim -f benchmark/boolean-network/pystablemotif-real/2171_T_Cell_Receptor_Signaling.booleannet.bnet.boolsim -p 3
+geneDbOrg=101 geneDbReduced=101
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+c 11681 killed(2). 11680 killed(2). 11681 killed(9). 11680 killed(9). 
+#END: [Mon Apr  3 02:39:05 2023]

@@ -1,0 +1,118 @@
+#BEGIN: [Fri Oct 28 10:24:56 2022]
+#HOST: mini16.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: anSolverAsp221027
+#CSP: benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp
+#K: 4
+#COMMAND: /Users/soh/app/finding_attractors/incremental-finding.sh benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp 4
+benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp 1
+-e %----- The attractor computed for benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp 
+ %----- The size of the attractor = 1 
+
+clingo version 5.4.0
+Reading from ...from_paper2017/scripts/fixed-points.lp ...
+Solving...
+Answer: 1
+fix("Trp",2) fix("TrpE",0) fix("TrpR",1) fix("Trpext",2)
+Answer: 2
+fix("Trp",1) fix("TrpE",0) fix("TrpR",0) fix("Trpext",1)
+SATISFIABLE
+
+Models       : 2
+Calls        : 1
+Time         : 0.008s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.003s
+benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp 2
+-e %----- The attractor computed for benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp 
+ %----- The size of the attractor = 2 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp --const n=2 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.042s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.036s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp 3
+-e %----- The attractor computed for benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp 
+ %----- The size of the attractor = 3 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp --const n=3 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.048s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.042s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp 4
+-e %----- The attractor computed for benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp 
+ %----- The size of the attractor = 4 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp --const n=4 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+Answer: 1
+active(level("Trp",1),1) active(level("Trp",1),2) active(level("Trp",0),3) active(level("Trp",0),4) active(level("TrpE",1),1) active(level("TrpE",1),4) active(level("TrpE",0),2) active(level("TrpE",0),3) active(level("TrpR",0),1) active(level("TrpR",0),2) active(level("TrpR",0),3) active(level("TrpR",0),4) active(level("Trpext",0),1) active(level("Trpext",0),0) active(level("TrpR",0),0) active(level("TrpE",1),0) active(level("Trp",0),0) active(level("Trpext",0),2) active(level("Trpext",0),3) active(level("Trpext",0),4) numberStates(4)
+SATISFIABLE
+
+Models       : 1
+Calls        : 1
+Time         : 0.053s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.048s
+[ Calling Python ]
+[ Solving ready ]
+*** New model found! (currently 1 solutions found)
+{(1, 1, 0, 0), (0, 1, 0, 0), (1, 0, 0, 0), (0, 0, 0, 0)}
+*** Found: 1; skipped: 0
+s SATISFIABLE
+	Command being timed: "/Users/soh/app/finding_attractors/incremental-finding.sh benchmark/automata-network/abdallah17amb_asp/Trp_reg.lp 4"
+	User time (seconds): 0.13
+	System time (seconds): 0.03
+	Percent of CPU this job got: 78%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 40484864
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11354
+	Voluntary context switches: 109
+	Involuntary context switches: 207
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 194
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.16 MEM 0 MAXMEM 0 STALE 1
+#RESULT: SAT
+#FIN: FIN
+#CPU: 0.16
+#MAXMEM: 0
+c 
+#END: [Fri Oct 28 10:24:57 2022]

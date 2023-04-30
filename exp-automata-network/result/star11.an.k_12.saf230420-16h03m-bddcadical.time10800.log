@@ -1,0 +1,69 @@
+#BEGIN: [Tue Apr 25 20:14:37 2023]
+#HOST: mini07.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-bddcadical
+#CSP: benchmark/automata-network/star/star11.an
+#K: 12
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 12 -k1solver /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release -libname cadical -libpath /Users/soh/app/saf230420-16h03m/cadical/build/ benchmark/automata-network/star/star11.an
+Using IPASIR SAT Solver and AllSAT Solver
+Libpath: /Users/soh/app/saf230420-16h03m/cadical/build/
+Libname: cadical
+K1solver: /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release
+
+A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11
+UNSAT
+k: 2, #Var: 198, #Clause: 1665
+UNSAT
+k: 3, #Var: 363, #Clause: 4076
+UNSAT
+k: 4, #Var: 583, #Clause: 7565
+UNSAT
+k: 5, #Var: 858, #Clause: 12132
+UNSAT
+k: 6, #Var: 1188, #Clause: 17777
+UNSAT
+k: 7, #Var: 1573, #Clause: 24500
+UNSAT
+k: 8, #Var: 2013, #Clause: 32301
+UNSAT
+k: 9, #Var: 2508, #Clause: 41180
+UNSAT
+k: 10, #Var: 3058, #Clause: 51137
+UNSAT
+k: 11, #Var: 3663, #Clause: 62172
+UNSAT
+k: 12, #Var: 4323, #Clause: 74285
+#1
+00000000000 00000000001 00000000010 00000000100 00000001000 00000010000 00000100000 00001000000 00010000000 00100000000 01000000000 10000000000
+	Command being timed: "/Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 12 -k1solver /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release -libname cadical -libpath /Users/soh/app/saf230420-16h03m/cadical/build/ benchmark/automata-network/star/star11.an"
+	User time (seconds): 4.04
+	System time (seconds): 0.26
+	Percent of CPU this job got: 203%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2224242688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 147231
+	Voluntary context switches: 19
+	Involuntary context switches: 3410
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 28
+	Socket messages received: 0
+	Signals delivered: 2
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 4.3 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNSAT
+#FIN: FIN
+#CPU: 4.3
+#MAXMEM: 0
+c 
+#END: [Tue Apr 25 20:14:40 2023]

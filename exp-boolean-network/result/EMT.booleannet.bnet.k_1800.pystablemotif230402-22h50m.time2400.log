@@ -1,0 +1,129 @@
+#BEGIN: [Mon Apr  3 10:20:51 2023]
+#HOST: mini10.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pystablemotif230402-22h50m
+#CSP: benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pystablemotif230402-22h50m/findAttractor.py benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet
+Loading network . . .
+Network loaded.
+
+RULES
+AKT* = PI3K | ILK
+AXIN2* = TCF_LEF | AXIN2
+BTrCP* = !Csn
+Bcatenin_memb* = !Bcatenin_nuc & Ecadherin
+Bcatenin_nuc* = !Bcatenin_memb & !Dest_compl & !SUFU | !Bcatenin_memb & !Dest_compl & !Ecadherin
+CD44* = TCF_LEF
+CDC42* = TGFBR
+Csl* = NOTCH_ic
+Csn* = NFKB
+DELTA* = RAS
+DSH* = Frizzled
+Dest_compl* = AXIN2 & Bcatenin_nuc & GSK3B | Dest_compl & GSK3B
+EGR1* = cfos
+EMT* = !Ecadherin
+ERK* = MEK
+Ecadherin* = Bcatenin_memb & !ZEB2 | Bcatenin_memb & !ZEB1 | Bcatenin_memb & !TWIST1 | Bcatenin_memb & !SNAI2 | Bcatenin_memb & !SNAI1 | Bcatenin_memb & !HEY1 | Bcatenin_memb & !FOXC2
+FOXC2* = TWIST1 | SNAI1
+FUS* = SMO
+Frizzled* = Wnt
+GLI* = TCF_LEF | !SUFU
+GSK3B* = !AKT & !DSH & !ERK | !AKT & !DSH & !Dest_compl | !AKT & !Csn & !DSH
+HEY1* = SMAD | Csl
+IKKA* = AKT
+ILK* = SMAD
+Jagged* = TCF_LEF | SMAD
+LIV1* = STAT
+MEK* = !RKIP | RAF
+NFKB* = IKKA
+NOTCH* = Jagged | DELTA
+NOTCH_ic* = NOTCH
+PAK1* = CDC42
+PI3K* = RAS
+Patched* = !SHH
+RAF* = RAS
+RAS* = TCF_LEF | SRC | SOS_GRB2 | !GSK3B
+RKIP* = !SNAI1 | !ERK
+SHH* = SMAD | GLI
+SMAD* = TGFBR & !ZEB2 | TGFBR & ZEB1 | ERK & !ZEB2 | ERK & ZEB1
+SMO* = !Patched
+SNAI1* = SMAD | PAK1 | LIV1 | !GSK3B | GLI | EGR1 | Csl | !BTrCP
+SNAI2* = TWIST1 | SNAI2 | ERK | Bcatenin_nuc
+SOS_GRB2* = !ERK & cMet | !ERK & TGFBR
+SRC* = cMet
+STAT* = SRC
+SUFU* = !FUS
+TCF_LEF* = Bcatenin_nuc
+TGFB* = TWIST1 | SNAI1 | GLI
+TGFBR* = TGFB
+TWIST1* = TCF_LEF | SNAI1 | NFKB
+Wnt* = GLI
+ZEB1* = SNAI1 & !miR200
+ZEB2* = SNAI1 & !miR200
+cMet* = CD44
+cfos* = ERK
+miR200* = !SNAI1 & !ZEB1 & !ZEB2
+
+Analyzing network . . .
+Analysis complete.
+
+There are 13 attractors.
+{'AKT': 1, 'AXIN2': 1, 'BTrCP': 0, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'CD44': 1, 'CDC42': 1, 'Csl': 1, 'Csn': 1, 'DELTA': 1, 'DSH': 1, 'Dest_compl': 0, 'EGR1': 1, 'EMT': 1, 'ERK': 1, 'Ecadherin': 0, 'FOXC2': 1, 'FUS': 1, 'Frizzled': 1, 'GLI': 1, 'GSK3B': 0, 'HEY1': 1, 'IKKA': 1, 'ILK': 1, 'Jagged': 1, 'LIV1': 1, 'MEK': 1, 'NFKB': 1, 'NOTCH': 1, 'NOTCH_ic': 1, 'PAK1': 1, 'PI3K': 1, 'Patched': 0, 'RAF': 1, 'RAS': 1, 'RKIP': 0, 'SHH': 1, 'SMAD': 1, 'SMO': 1, 'SNAI1': 1, 'SNAI2': 1, 'SOS_GRB2': 0, 'SRC': 1, 'STAT': 1, 'SUFU': 0, 'TCF_LEF': 1, 'TGFB': 1, 'TGFBR': 1, 'TWIST1': 1, 'Wnt': 1, 'ZEB1': 1, 'ZEB2': 1, 'cMet': 1, 'cfos': 1, 'miR200': 0}
+
+{'AKT': 0, 'AXIN2': 1, 'BTrCP': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 1, 'EGR1': 0, 'EMT': 1, 'ERK': 0, 'Ecadherin': 0, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 1, 'BTrCP': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 1, 'EGR1': 0, 'EMT': 1, 'ERK': 0, 'Ecadherin': 0, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 0, 'BTrCP': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 1, 'EGR1': 0, 'EMT': 1, 'ERK': 0, 'Ecadherin': 0, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 0, 'BTrCP': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 1, 'EGR1': 0, 'EMT': 1, 'ERK': 0, 'Ecadherin': 0, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 1, 'BTrCP': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 1, 'EGR1': 0, 'EMT': 0, 'ERK': 0, 'Ecadherin': 1, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 1, 'BTrCP': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 0, 'EGR1': 0, 'EMT': 0, 'ERK': 0, 'Ecadherin': 1, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 1, 'BTrCP': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 1, 'EGR1': 0, 'EMT': 0, 'ERK': 0, 'Ecadherin': 1, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 1, 'BTrCP': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 0, 'EGR1': 0, 'EMT': 0, 'ERK': 0, 'Ecadherin': 1, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 0, 'BTrCP': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 1, 'EGR1': 0, 'EMT': 0, 'ERK': 0, 'Ecadherin': 1, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 0, 'BTrCP': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 0, 'EGR1': 0, 'EMT': 0, 'ERK': 0, 'Ecadherin': 1, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 0, 'BTrCP': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 1, 'EGR1': 0, 'EMT': 0, 'ERK': 0, 'Ecadherin': 1, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+{'AKT': 0, 'AXIN2': 0, 'BTrCP': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'CD44': 0, 'CDC42': 0, 'Csl': 0, 'Csn': 0, 'DELTA': 0, 'DSH': 0, 'Dest_compl': 0, 'EGR1': 0, 'EMT': 0, 'ERK': 0, 'Ecadherin': 1, 'FOXC2': 0, 'FUS': 0, 'Frizzled': 0, 'GLI': 0, 'GSK3B': 1, 'HEY1': 0, 'IKKA': 0, 'ILK': 0, 'Jagged': 0, 'LIV1': 0, 'MEK': 0, 'NFKB': 0, 'NOTCH': 0, 'NOTCH_ic': 0, 'PAK1': 0, 'PI3K': 0, 'Patched': 1, 'RAF': 0, 'RAS': 0, 'RKIP': 1, 'SHH': 0, 'SMAD': 0, 'SMO': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'SRC': 0, 'STAT': 0, 'SUFU': 1, 'TCF_LEF': 0, 'TGFB': 0, 'TGFBR': 0, 'TWIST1': 0, 'Wnt': 0, 'ZEB1': 0, 'ZEB2': 0, 'cMet': 0, 'cfos': 0, 'miR200': 1}
+
+	Command being timed: "/usr/local/bin/python3 /Users/soh/app/pystablemotif230402-22h50m/findAttractor.py benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet"
+	User time (seconds): 8.63
+	System time (seconds): 1.88
+	Percent of CPU this job got: 104%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 450183168
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 587857
+	Voluntary context switches: 675
+	Involuntary context switches: 3555
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 21
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 10.51 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 10.51
+#MAXMEM: 0
+c 
+#END: [Mon Apr  3 10:21:01 2023]

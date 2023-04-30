@@ -1,0 +1,180 @@
+#BEGIN: [Mon Apr  3 00:55:50 2023]
+#HOST: mini13.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pyboolnet230402-22h42m
+#CSP: benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pyboolnet230402-22h42m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.bnet
+INFO attractors.completeness(..)
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_m63hwbid
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_voxxmagp
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_ihfe2qs9
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_bunzpkbk
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_ex682gpl
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_iagnctp2
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_nmv6iod8
+INFO yes
+INFO  working on minimal trapspace 1/8: 0100000000000001000000000000000000000000
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=40, update=asynchronous, length=400, attempts=10
+INFO trial 0
+INFO start: 0100000000000001000000000000000000000000
+INFO end: 0100000000000001000000000000000000000000
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_j4r0aohy
+INFO is attractor state
+INFO  working on minimal trapspace 2/8: 0110000000100001000000001000000000011100
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=40, update=asynchronous, length=400, attempts=10
+INFO trial 0
+INFO start: 0110000000100001000000001000000000011100
+INFO end: 0110000000100001000000001000000000011100
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_6z98rk72
+INFO is attractor state
+INFO  working on minimal trapspace 3/8: 0100000000100001000000001000000000011100
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=40, update=asynchronous, length=400, attempts=10
+INFO trial 0
+INFO start: 0100000000100001000000001000000000011100
+INFO end: 0100000000100001000000001000000000011100
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_4rnpixa5
+INFO is attractor state
+INFO  working on minimal trapspace 4/8: 0010000000000001000000000000000000000000
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=40, update=asynchronous, length=400, attempts=10
+INFO trial 0
+INFO start: 0010000000000001000000000000000000000000
+INFO end: 0010000000000001000000000000000000000000
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_8y03cp_o
+INFO is attractor state
+INFO  working on minimal trapspace 5/8: 0000000000000001000000000000000000000000
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=40, update=asynchronous, length=400, attempts=10
+INFO trial 0
+INFO start: 0000000000000001000000000000000000000000
+INFO end: 0000000000000001000000000000000000000000
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_4emy464r
+INFO is attractor state
+INFO  working on minimal trapspace 6/8: 0010000000000001000000000000000000011000
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=40, update=asynchronous, length=400, attempts=10
+INFO trial 0
+INFO start: 0010000000000001000000000000000000011000
+INFO end: 0010000000000001000000000000000000011000
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_rpfihqgm
+INFO is attractor state
+INFO  working on minimal trapspace 7/8: 0000000000000001000000000000000000011000
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=40, update=asynchronous, length=400, attempts=10
+INFO trial 0
+INFO start: 0000000000000001000000000000000000011000
+INFO end: 0000000000000001000000000000000000011000
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_ceb183u2
+INFO is attractor state
+INFO  working on minimal trapspace 8/8: -11--------------------------------00---
+INFO attractors.univocality(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=36, update=asynchronous, length=360, attempts=10
+INFO trial 0
+INFO start: 001100110100010000001001100011110100
+INFO end: 111000110001000110110100000000111000
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_iij6_h6f
+INFO is attractor state
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_v_u4lbry
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_rl8eeqee
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=40, update=asynchronous, length=400, attempts=10
+INFO trial 0
+INFO start: 0111101001000011101000100100111010000010
+INFO end: 0111100000000001000000000000000010000100
+INFO created /Users/soh/condor/local/execute/dir_53245/pyboolnet_x5k4b617
+INFO is attractor state
+INFO created attrs.json
+yes
+True
+0000000000000001000000000000000000000000
+True
+0000000000000001000000000000000000011000
+True
+0010000000000001000000000000000000000000
+True
+0010000000000001000000000000000000011000
+True
+0100000000000001000000000000000000000000
+True
+0100000000100001000000001000000000011100
+True
+0110000000100001000000001000000000011100
+False
+0111100000000001000000000000000010000100
+{'primes': {'AP1': [[{'Jun': 0}, {'Fos': 0}], [{'Fos': 1, 'Jun': 1}]], 'CD45': [[{'CD45': 0}], [{'CD45': 1}]], 'CD8': [[{'CD8': 0}], [{'CD8': 1}]], 'CRE': [[{'CREB': 0}], [{'CREB': 1}]], 'CREB': [[{'Rsk': 0}], [{'Rsk': 1}]], 'Ca': [[{'IP3': 0}], [{'IP3': 1}]], 'Calcin': [[{'Ca': 0}], [{'Ca': 1}]], 'DAG': [[{'PLCg_act': 0}], [{'PLCg_act': 1}]], 'ERK': [[{'MEK': 0}], [{'MEK': 1}]], 'Fos': [[{'ERK': 0}], [{'ERK': 1}]], 'Fyn': [[{'Lck': 0, 'TCRbind': 0}, {'CD45': 0}], [{'CD45': 1, 'TCRbind': 1}, {'CD45': 1, 'Lck': 1}]], 'Gads': [[{'LAT': 0}], [{'LAT': 1}]], 'Grb2Sos': [[{'LAT': 0}], [{'LAT': 1}]], 'IKKbeta': [[{'PKCth': 0}], [{'PKCth': 1}]], 'IP3': [[{'PLCg_act': 0}], [{'PLCg_act': 1}]], 'IkB': [[{'IKKbeta': 1}], [{'IKKbeta': 0}]], 'Itk': [[{'ZAP70': 0}, {'SLP76': 0}], [{'SLP76': 1, 'ZAP70': 1}]], 'JNK': [[{'SEK': 0}], [{'SEK': 1}]], 'Jun': [[{'JNK': 0}], [{'JNK': 1}]], 'LAT': [[{'ZAP70': 0}], [{'ZAP70': 1}]], 'Lck': [[{'PAGCsk': 1}, {'CD8': 0}, {'CD45': 0}], [{'CD45': 1, 'CD8': 1, 'PAGCsk': 0}]], 'MEK': [[{'Raf': 0}], [{'Raf': 1}]], 'NFAT': [[{'Calcin': 0}], [{'Calcin': 1}]], 'Nfkb': [[{'IkB': 1}], [{'IkB': 0}]], 'PAGCsk': [[{'Fyn': 0}], [{'Fyn': 1}]], 'PKCth': [[{'DAG': 0}], [{'DAG': 1}]], 'PLCg_act': [[{'Itk': 0, 'Rlk': 0}, {'ZAP70': 0}, {'SLP76': 0}, {'PLCg_bind': 0}], [{'PLCg_bind': 1, 'Rlk': 1, 'SLP76': 1, 'ZAP70': 1}, {'Itk': 1, 'PLCg_bind': 1, 'SLP76': 1, 'ZAP70': 1}]], 'PLCg_bind': [[{'LAT': 0}], [{'LAT': 1}]], 'Raf': [[{'Ras': 0}], [{'Ras': 1}]], 'Ras': [[{'Grb2Sos': 0, 'RasGRP1': 0}], [{'RasGRP1': 1}, {'Grb2Sos': 1}]], 'RasGRP1': [[{'PKCth': 0}, {'DAG': 0}], [{'DAG': 1, 'PKCth': 1}]], 'Rlk': [[{'Lck': 0}], [{'Lck': 1}]], 'Rsk': [[{'ERK': 0}], [{'ERK': 1}]], 'SEK': [[{'PKCth': 0}], [{'PKCth': 1}]], 'SLP76': [[{'Gads': 0}], [{'Gads': 1}]], 'TCRbind': [[{'cCbl': 1}, {'TCRlig': 0}], [{'TCRlig': 1, 'cCbl': 0}]], 'TCRlig': [[{'TCRlig': 0}], [{'TCRlig': 1}]], 'TCRphos': [[{'Fyn': 0}], [{'Fyn': 1}]], 'ZAP70': [[{'cCbl': 1}, {'TCRphos': 0}, {'Lck': 0}], [{'Lck': 1, 'TCRphos': 1, 'cCbl': 0}]], 'cCbl': [[{'ZAP70': 0}], [{'ZAP70': 1}]]}, 'update': 'asynchronous', 'is_complete': 'yes', 'attractors': ({'min_trap_space': {'str': '0000000000000001000000000000000000000000', 'dict': {'AP1': 0, 'CD45': 0, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 0, 'TCRlig': 0, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&!CD45&!CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&!TCRbind&!TCRlig&!TCRphos&!ZAP70&!cCbl', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '0000000000000001000000000000000000000000', 'dict': {'AP1': 0, 'CD45': 0, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 0, 'TCRlig': 0, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&!CD45&!CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&!TCRbind&!TCRlig&!TCRphos&!ZAP70&!cCbl'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '0000000000000001000000000000000000011000', 'dict': {'AP1': 0, 'CD45': 0, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&!CD45&!CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&TCRbind&TCRlig&!TCRphos&!ZAP70&!cCbl', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '0000000000000001000000000000000000011000', 'dict': {'AP1': 0, 'CD45': 0, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&!CD45&!CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&TCRbind&TCRlig&!TCRphos&!ZAP70&!cCbl'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '0010000000000001000000000000000000000000', 'dict': {'AP1': 0, 'CD45': 0, 'CD8': 1, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 0, 'TCRlig': 0, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&!CD45&CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&!TCRbind&!TCRlig&!TCRphos&!ZAP70&!cCbl', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '0010000000000001000000000000000000000000', 'dict': {'AP1': 0, 'CD45': 0, 'CD8': 1, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 0, 'TCRlig': 0, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&!CD45&CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&!TCRbind&!TCRlig&!TCRphos&!ZAP70&!cCbl'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '0010000000000001000000000000000000011000', 'dict': {'AP1': 0, 'CD45': 0, 'CD8': 1, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&!CD45&CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&TCRbind&TCRlig&!TCRphos&!ZAP70&!cCbl', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '0010000000000001000000000000000000011000', 'dict': {'AP1': 0, 'CD45': 0, 'CD8': 1, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&!CD45&CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&TCRbind&TCRlig&!TCRphos&!ZAP70&!cCbl'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '0100000000000001000000000000000000000000', 'dict': {'AP1': 0, 'CD45': 1, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 0, 'TCRlig': 0, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&CD45&!CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&!TCRbind&!TCRlig&!TCRphos&!ZAP70&!cCbl', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '0100000000000001000000000000000000000000', 'dict': {'AP1': 0, 'CD45': 1, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 0, 'TCRlig': 0, 'TCRphos': 0, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&CD45&!CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&!TCRbind&!TCRlig&!TCRphos&!ZAP70&!cCbl'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '0100000000100001000000001000000000011100', 'dict': {'AP1': 0, 'CD45': 1, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 1, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 1, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 1, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&CD45&!CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&TCRbind&TCRlig&TCRphos&!ZAP70&!cCbl', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '0100000000100001000000001000000000011100', 'dict': {'AP1': 0, 'CD45': 1, 'CD8': 0, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 1, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 1, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 1, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&CD45&!CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&TCRbind&TCRlig&TCRphos&!ZAP70&!cCbl'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '0110000000100001000000001000000000011100', 'dict': {'AP1': 0, 'CD45': 1, 'CD8': 1, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 1, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 1, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 1, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&CD45&CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&TCRbind&TCRlig&TCRphos&!ZAP70&!cCbl', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '0110000000100001000000001000000000011100', 'dict': {'AP1': 0, 'CD45': 1, 'CD8': 1, 'CRE': 0, 'CREB': 0, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 1, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 1, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 0, 'SEK': 0, 'SLP76': 0, 'TCRbind': 1, 'TCRlig': 1, 'TCRphos': 1, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&CD45&CD8&!CRE&!CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&!Rsk&!SEK&!SLP76&TCRbind&TCRlig&TCRphos&!ZAP70&!cCbl'}, 'is_steady': True, 'is_cyclic': False}, {'min_trap_space': {'str': '-11--------------------------------00---', 'dict': {'CD45': 1, 'CD8': 1, 'TCRbind': 0, 'TCRlig': 0}, 'prop': 'CD45&CD8&!TCRbind&!TCRlig', 'is_univocal': 'yes', 'is_faithful': 'yes'}, 'state': {'str': '0111100000000001000000000000000010000100', 'dict': {'CD45': 1, 'CD8': 1, 'TCRbind': 0, 'TCRlig': 0, 'AP1': 0, 'CRE': 1, 'CREB': 1, 'Ca': 0, 'Calcin': 0, 'DAG': 0, 'ERK': 0, 'Fos': 0, 'Fyn': 0, 'Gads': 0, 'Grb2Sos': 0, 'IKKbeta': 0, 'IP3': 0, 'IkB': 1, 'Itk': 0, 'JNK': 0, 'Jun': 0, 'LAT': 0, 'Lck': 0, 'MEK': 0, 'NFAT': 0, 'Nfkb': 0, 'PAGCsk': 0, 'PKCth': 0, 'PLCg_act': 0, 'PLCg_bind': 0, 'Raf': 0, 'Ras': 0, 'RasGRP1': 0, 'Rlk': 0, 'Rsk': 1, 'SEK': 0, 'SLP76': 0, 'TCRphos': 1, 'ZAP70': 0, 'cCbl': 0}, 'prop': '!AP1&CD45&CD8&CRE&CREB&!Ca&!Calcin&!DAG&!ERK&!Fos&!Fyn&!Gads&!Grb2Sos&!IKKbeta&!IP3&IkB&!Itk&!JNK&!Jun&!LAT&!Lck&!MEK&!NFAT&!Nfkb&!PAGCsk&!PKCth&!PLCg_act&!PLCg_bind&!Raf&!Ras&!RasGRP1&!Rlk&Rsk&!SEK&!SLP76&!TCRbind&!TCRlig&TCRphos&!ZAP70&!cCbl'}, 'is_steady': False, 'is_cyclic': True})}
+	Command being timed: "/usr/local/bin/python3 /Users/soh/app/pyboolnet230402-22h42m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.bnet"
+	User time (seconds): 25.90
+	System time (seconds): 0.40
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:26.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 235700224
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 208680
+	Voluntary context switches: 267
+	Involuntary context switches: 2713
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 51
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 26.3 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 26.3
+#MAXMEM: 0
+c 
+#END: [Mon Apr  3 00:56:17 2023]

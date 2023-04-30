@@ -1,0 +1,44 @@
+# model in BoolNet format
+# the header targets, factors is mandatory to be importable in the R package BoolNet
+
+targets, factors
+AP1,       Jun&Fos
+CD45,      CD45
+CD8,       CD8
+CRE,       CREB
+CREB,      Rsk
+Ca,        IP3
+Calcin,    Ca
+DAG,       PLCg_act
+ERK,       MEK
+Fos,       ERK
+Fyn,       CD45&!Lck&TCRbind | CD45&Lck
+Gads,      LAT
+Grb2Sos,   LAT
+IKKbeta,   PKCth
+IP3,       PLCg_act
+IkB,       !IKKbeta
+Itk,       SLP76&ZAP70
+JNK,       SEK
+Jun,       JNK
+LAT,       ZAP70
+Lck,       CD8&CD45&!PAGCsk
+MEK,       Raf
+NFAT,      Calcin
+Nfkb,      !IkB
+PAGCsk,    Fyn
+PKCth,     DAG
+PLCg_act,  !Rlk&SLP76&Itk&PLCg_bind&ZAP70 | Rlk&SLP76&PLCg_bind&ZAP70
+PLCg_bind, LAT
+Raf,       Ras
+Ras,       !RasGRP1&Grb2Sos | RasGRP1
+RasGRP1,   DAG&PKCth
+Rlk,       Lck
+Rsk,       ERK
+SEK,       PKCth
+SLP76,     Gads
+TCRbind,   TCRlig&!cCbl
+TCRlig,    TCRlig
+TCRphos,   Fyn
+ZAP70,     Lck&!cCbl&TCRphos
+cCbl,      ZAP70

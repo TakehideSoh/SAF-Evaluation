@@ -1,0 +1,82 @@
+#BEGIN: [Tue Apr 25 17:43:53 2023]
+#HOST: mini13.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-sat4j
+#CSP: benchmark/automata-network/star/star40.an
+#K: 41
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 41 benchmark/automata-network/star/star40.an
+Using Sat4j SAT Solver
+
+A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12,A13,A14,A15,A16,A17,A18,A19,A20,A21,A22,A23,A24,A25,A26,A27,A28,A29,A30,A31,A32,A33,A34,A35,A36,A37,A38,A39,A40
+k: 1, #Var: 120, #Clause: 1800
+UNSAT
+k: 2, #Var: 720, #Clause: 17644
+UNSAT
+k: 3, #Var: 1320, #Clause: 46126
+UNSAT
+k: 4, #Var: 2120, #Clause: 87808
+UNSAT
+k: 5, #Var: 3120, #Clause: 142690
+UNSAT
+k: 6, #Var: 4320, #Clause: 210772
+UNSAT
+k: 7, #Var: 5720, #Clause: 292054
+UNSAT
+k: 8, #Var: 7320, #Clause: 386536
+UNSAT
+k: 9, #Var: 9120, #Clause: 494218
+UNSAT
+k: 10, #Var: 11120, #Clause: 615100
+UNSAT
+k: 11, #Var: 13320, #Clause: 749182
+UNSAT
+k: 12, #Var: 15720, #Clause: 896464
+UNSAT
+k: 13, #Var: 18320, #Clause: 1056946
+UNSAT
+k: 14, #Var: 21120, #Clause: 1230628
+UNSAT
+k: 15, #Var: 24120, #Clause: 1417510
+UNSAT
+k: 16, #Var: 27320, #Clause: 1617592
+UNSAT
+k: 17, #Var: 30720, #Clause: 1830874
+UNSAT
+k: 18, #Var: 34320, #Clause: 2057356
+UNSAT
+k: 19, #Var: 38120, #Clause: 2297038
+UNSAT
+k: 20, #Var: 42120, #Clause: 2549920
+UNSAT
+k: 21, #Var: 46320, #Clause: 2816002
+UNSAT
+k: 22, #Var: 50720, #Clause: 3095284
+UNSAT
+k: 23, #Var: 55320, #Clause: 3387766
+UNSAT
+k: 24, #Var: 60120, #Clause: 3693448
+UNSAT
+k: 25, #Var: 65120, #Clause: 4012330
+UNSAT
+k: 26, #Var: 70320, #Clause: 4344412
+UNSAT
+k: 27, #Var: 75720, #Clause: 4689694
+UNSAT
+k: 28, #Var: 81320, #Clause: 5048176
+UNSAT
+k: 29, #Var: 87120, #Clause: 5419858
+UNSAT
+k: 30, #Var: 93120, #Clause: 5804740
+UNSAT
+k: 31, #Var: 99320, #Clause: 6202822
+UNSAT
+k: 32, #Var: 105720, #Clause: 6614104
+TIMEOUT CPU 10800 MEM 0 MAXMEM 0
+#RESULT: UNSAT
+#FIN: TO
+#CPU: 10800
+#MAXMEM: 0
+c 31654 killed(2). 31652 killed(2). 31653 killed(2). 31654 killed(9). 31652 killed(9). 31653 killed(9). 
+#END: [Tue Apr 25 20:43:54 2023]

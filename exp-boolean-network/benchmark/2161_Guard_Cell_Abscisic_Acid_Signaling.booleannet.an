@@ -1,0 +1,225 @@
+(* This model has been automatically generated using colomoto/logicalmodels
+ * You may want to optimize this model for pint using the following command:
+       pint-export --simplify -i model.an -o model.an
+ * where model.an is this file.
+ *)
+
+"ABH1" [0, 1]
+"GCR1" [0, 1]
+"ABA" [0, 1]
+"ERA1" [0, 1]
+"OST1" [0, 1]
+"Actin" [0, 1]
+"InsPK" [0, 1]
+"Ca2_c" [0, 1]
+"KEV" [0, 1]
+"InsP3" [0, 1]
+"PLC" [0, 1]
+"Atrboh" [0, 1]
+"cGMP" [0, 1]
+"InsP6" [0, 1]
+"ROP10" [0, 1]
+"ROP2" [0, 1]
+"Malate" [0, 1]
+"HTPase" [0, 1]
+"NO" [0, 1]
+"ADPRc" [0, 1]
+"AGB1" [0, 1]
+"ROS" [0, 1]
+"SphK" [0, 1]
+"CIS" [0, 1]
+"GPA1" [0, 1]
+"cADPR" [0, 1]
+"Depolar" [0, 1]
+"Ca2_ATPase" [0, 1]
+"Closure" [0, 1]
+"RCN1" [0, 1]
+"PLD" [0, 1]
+"PA" [0, 1]
+"PEPC" [0, 1]
+"RAC1" [0, 1]
+"GC" [0, 1]
+"S1P" [0, 1]
+"ABI1" [0, 1]
+"NOS" [0, 1]
+"AnionEM" [0, 1]
+"KOUT" [0, 1]
+"KAP" [0, 1]
+"NIA12" [0, 1]
+"CaIM" [0, 1]
+"pH" [0, 1]
+
+
+
+
+
+"OST1" 1 -> 0 when "ABA"=0
+"OST1" 0 -> 1 when "ABA"=1
+
+"Actin" 0 -> 1 when "Ca2_c"=0 and "RAC1"=0
+"Actin" 1 -> 0 when "Ca2_c"=0 and "RAC1"=1
+"Actin" 0 -> 1 when "Ca2_c"=1
+
+"InsPK" 1 -> 0 when "ABA"=0
+"InsPK" 0 -> 1 when "ABA"=1
+
+"Ca2_c" 1 -> 0 when "CIS"=0 and "Ca2_ATPase"=0 and "CaIM"=0
+"Ca2_c" 0 -> 1 when "CIS"=0 and "Ca2_ATPase"=0 and "CaIM"=1
+"Ca2_c" 1 -> 0 when "CIS"=0 and "Ca2_ATPase"=1
+"Ca2_c" 0 -> 1 when "CIS"=1 and "Ca2_ATPase"=0
+"Ca2_c" 1 -> 0 when "CIS"=1 and "Ca2_ATPase"=1
+
+"KEV" 1 -> 0 when "Ca2_c"=0
+"KEV" 0 -> 1 when "Ca2_c"=1
+
+"InsP3" 1 -> 0 when "PLC"=0
+"InsP3" 0 -> 1 when "PLC"=1
+
+"PLC" 1 -> 0 when "ABA"=0
+"PLC" 1 -> 0 when "ABA"=1 and "Ca2_c"=0
+"PLC" 0 -> 1 when "ABA"=1 and "Ca2_c"=1
+
+"Atrboh" 1 -> 0 when "OST1"=0
+"Atrboh" 1 -> 0 when "OST1"=1 and "ROP2"=0
+"Atrboh" 1 -> 0 when "OST1"=1 and "ROP2"=1 and "ABI1"=0 and "pH"=0
+"Atrboh" 0 -> 1 when "OST1"=1 and "ROP2"=1 and "ABI1"=0 and "pH"=1
+"Atrboh" 1 -> 0 when "OST1"=1 and "ROP2"=1 and "ABI1"=1
+
+"cGMP" 1 -> 0 when "GC"=0
+"cGMP" 0 -> 1 when "GC"=1
+
+"InsP6" 1 -> 0 when "InsPK"=0
+"InsP6" 0 -> 1 when "InsPK"=1
+
+"ROP10" 1 -> 0 when "ERA1"=0
+"ROP10" 0 -> 1 when "ERA1"=1
+
+"ROP2" 1 -> 0 when "PA"=0
+"ROP2" 0 -> 1 when "PA"=1
+
+"Malate" 1 -> 0 when "ABA"=0 and "PEPC"=0
+"Malate" 0 -> 1 when "ABA"=0 and "PEPC"=1 and "AnionEM"=0
+"Malate" 1 -> 0 when "ABA"=0 and "PEPC"=1 and "AnionEM"=1
+"Malate" 1 -> 0 when "ABA"=1
+
+"HTPase" 0 -> 1 when "Ca2_c"=0 and "ROS"=0 and "pH"=0
+"HTPase" 1 -> 0 when "Ca2_c"=0 and "ROS"=0 and "pH"=1
+"HTPase" 1 -> 0 when "Ca2_c"=0 and "ROS"=1
+"HTPase" 1 -> 0 when "Ca2_c"=1
+
+"NO" 1 -> 0 when "NOS"=0
+"NO" 1 -> 0 when "NOS"=1 and "NIA12"=0
+"NO" 0 -> 1 when "NOS"=1 and "NIA12"=1
+
+"ADPRc" 1 -> 0 when "NO"=0
+"ADPRc" 0 -> 1 when "NO"=1
+
+"AGB1" 1 -> 0 when "GPA1"=0
+"AGB1" 0 -> 1 when "GPA1"=1
+
+"ROS" 1 -> 0 when "Atrboh"=0
+"ROS" 0 -> 1 when "Atrboh"=1
+
+"SphK" 1 -> 0 when "ABA"=0
+"SphK" 0 -> 1 when "ABA"=1
+
+"CIS" 1 -> 0 when "InsP3"=0 and "cGMP"=0
+"CIS" 1 -> 0 when "InsP3"=0 and "cGMP"=1 and "cADPR"=0
+"CIS" 0 -> 1 when "InsP3"=0 and "cGMP"=1 and "cADPR"=1
+"CIS" 1 -> 0 when "InsP3"=1 and "cGMP"=0 and "InsP6"=0
+"CIS" 0 -> 1 when "InsP3"=1 and "cGMP"=0 and "InsP6"=1
+"CIS" 1 -> 0 when "InsP3"=1 and "cGMP"=1 and "InsP6"=0 and "cADPR"=0
+"CIS" 0 -> 1 when "InsP3"=1 and "cGMP"=1 and "InsP6"=0 and "cADPR"=1
+"CIS" 0 -> 1 when "InsP3"=1 and "cGMP"=1 and "InsP6"=1
+
+"GPA1" 1 -> 0 when "GCR1"=0 and "AGB1"=0
+"GPA1" 0 -> 1 when "GCR1"=0 and "AGB1"=1
+"GPA1" 1 -> 0 when "GCR1"=1 and "AGB1"=0
+"GPA1" 1 -> 0 when "GCR1"=1 and "AGB1"=1 and "S1P"=0
+"GPA1" 0 -> 1 when "GCR1"=1 and "AGB1"=1 and "S1P"=1
+
+"cADPR" 1 -> 0 when "ADPRc"=0
+"cADPR" 0 -> 1 when "ADPRc"=1
+
+"Depolar" 0 -> 1 when "Ca2_c"=0 and "KEV"=0 and "HTPase"=0
+"Depolar" 0 -> 1 when "Ca2_c"=0 and "KEV"=0 and "HTPase"=1 and "AnionEM"=0 and "KOUT"=0
+"Depolar" 1 -> 0 when "Ca2_c"=0 and "KEV"=0 and "HTPase"=1 and "AnionEM"=0 and "KOUT"=1
+"Depolar" 0 -> 1 when "Ca2_c"=0 and "KEV"=0 and "HTPase"=1 and "AnionEM"=1
+"Depolar" 0 -> 1 when "Ca2_c"=0 and "KEV"=1
+"Depolar" 0 -> 1 when "Ca2_c"=1
+
+"Ca2_ATPase" 1 -> 0 when "Ca2_c"=0
+"Ca2_ATPase" 0 -> 1 when "Ca2_c"=1
+
+"Closure" 1 -> 0 when "Actin"=0
+"Closure" 1 -> 0 when "Actin"=1 and "Malate"=0 and "AnionEM"=0
+"Closure" 1 -> 0 when "Actin"=1 and "Malate"=0 and "AnionEM"=1 and "KOUT"=0 and "KAP"=0
+"Closure" 0 -> 1 when "Actin"=1 and "Malate"=0 and "AnionEM"=1 and "KOUT"=0 and "KAP"=1
+"Closure" 0 -> 1 when "Actin"=1 and "Malate"=0 and "AnionEM"=1 and "KOUT"=1
+"Closure" 1 -> 0 when "Actin"=1 and "Malate"=1
+
+"RCN1" 1 -> 0 when "ABA"=0
+"RCN1" 0 -> 1 when "ABA"=1
+
+"PLD" 1 -> 0 when "GPA1"=0
+"PLD" 0 -> 1 when "GPA1"=1
+
+"PA" 1 -> 0 when "PLD"=0
+"PA" 0 -> 1 when "PLD"=1
+
+"PEPC" 0 -> 1 when "ABA"=0
+"PEPC" 1 -> 0 when "ABA"=1
+
+"RAC1" 0 -> 1 when "ABA"=0 and "ABI1"=0
+"RAC1" 1 -> 0 when "ABA"=0 and "ABI1"=1
+"RAC1" 1 -> 0 when "ABA"=1
+
+"GC" 1 -> 0 when "NO"=0
+"GC" 0 -> 1 when "NO"=1
+
+"S1P" 1 -> 0 when "SphK"=0
+"S1P" 0 -> 1 when "SphK"=1
+
+"ABI1" 1 -> 0 when "ROS"=0 and "PA"=0 and "pH"=0
+"ABI1" 0 -> 1 when "ROS"=0 and "PA"=0 and "pH"=1
+"ABI1" 1 -> 0 when "ROS"=0 and "PA"=1
+"ABI1" 1 -> 0 when "ROS"=1
+
+"NOS" 1 -> 0 when "Ca2_c"=0
+"NOS" 0 -> 1 when "Ca2_c"=1
+
+"AnionEM" 1 -> 0 when "Ca2_c"=0 and "ABI1"=0 and "pH"=0
+"AnionEM" 0 -> 1 when "Ca2_c"=0 and "ABI1"=0 and "pH"=1
+"AnionEM" 1 -> 0 when "Ca2_c"=0 and "ABI1"=1
+"AnionEM" 0 -> 1 when "Ca2_c"=1 and "ABI1"=0
+"AnionEM" 1 -> 0 when "Ca2_c"=1 and "ABI1"=1 and "pH"=0
+"AnionEM" 0 -> 1 when "Ca2_c"=1 and "ABI1"=1 and "pH"=1
+
+"KOUT" 1 -> 0 when "NO"=0 and "Depolar"=0
+"KOUT" 0 -> 1 when "NO"=0 and "Depolar"=1
+"KOUT" 1 -> 0 when "NO"=1 and "ROS"=0 and "Depolar"=0
+"KOUT" 0 -> 1 when "NO"=1 and "ROS"=0 and "Depolar"=1
+"KOUT" 1 -> 0 when "NO"=1 and "ROS"=1 and "Depolar"=0
+"KOUT" 1 -> 0 when "NO"=1 and "ROS"=1 and "Depolar"=1 and "pH"=0
+"KOUT" 0 -> 1 when "NO"=1 and "ROS"=1 and "Depolar"=1 and "pH"=1
+
+"KAP" 1 -> 0 when "Ca2_c"=0 and "Depolar"=0
+"KAP" 0 -> 1 when "Ca2_c"=0 and "Depolar"=1
+"KAP" 1 -> 0 when "Ca2_c"=1 and "Depolar"=0
+"KAP" 0 -> 1 when "Ca2_c"=1 and "Depolar"=1 and "pH"=0
+"KAP" 1 -> 0 when "Ca2_c"=1 and "Depolar"=1 and "pH"=1
+
+"NIA12" 1 -> 0 when "RCN1"=0
+"NIA12" 0 -> 1 when "RCN1"=1
+
+"CaIM" 0 -> 1 when "ABH1"=0 and "Depolar"=0
+"CaIM" 1 -> 0 when "ABH1"=0 and "Depolar"=1
+"CaIM" 0 -> 1 when "ABH1"=1 and "ERA1"=0 and "Depolar"=0
+"CaIM" 1 -> 0 when "ABH1"=1 and "ERA1"=0 and "Depolar"=1
+"CaIM" 1 -> 0 when "ABH1"=1 and "ERA1"=1 and "ROS"=0
+"CaIM" 0 -> 1 when "ABH1"=1 and "ERA1"=1 and "ROS"=1 and "Depolar"=0
+"CaIM" 1 -> 0 when "ABH1"=1 and "ERA1"=1 and "ROS"=1 and "Depolar"=1
+
+"pH" 1 -> 0 when "ABA"=0
+"pH" 0 -> 1 when "ABA"=1
+

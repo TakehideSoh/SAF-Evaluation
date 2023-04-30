@@ -1,0 +1,56 @@
+#BEGIN: [Mon Apr  3 02:17:52 2023]
+#HOST: mini11.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: boolSim
+#CSP: benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.bnet.boolsim
+#K: 1800
+#COMMAND: /Users/soh/app/boolSim-1.2.0-Darwin/bin/boolSim -f benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.bnet.boolsim -p 3
+geneDbOrg=40 geneDbReduced=40
+Attractor 1 ::: number of states = 0
+Attractor 2 ::: number of states = 1
+Attractor 3 ::: number of states = 1
+Attractor 4 ::: number of states = 1
+Attractor 5 ::: number of states = 1
+Attractor 6 ::: number of states = 1
+Attractor 7 ::: number of states = 1
+Attractor 8 ::: number of states = 1
+States of the attractor 1 are written in the file 2691_T-Cell_Signaling_2006.booleannet_1.txt
+States of the attractor 2 are written in the file 2691_T-Cell_Signaling_2006.booleannet_2.txt
+States of the attractor 3 are written in the file 2691_T-Cell_Signaling_2006.booleannet_3.txt
+States of the attractor 4 are written in the file 2691_T-Cell_Signaling_2006.booleannet_4.txt
+States of the attractor 5 are written in the file 2691_T-Cell_Signaling_2006.booleannet_5.txt
+States of the attractor 6 are written in the file 2691_T-Cell_Signaling_2006.booleannet_6.txt
+States of the attractor 7 are written in the file 2691_T-Cell_Signaling_2006.booleannet_7.txt
+States of the attractor 8 are written in the file 2691_T-Cell_Signaling_2006.booleannet_8.txt
+	Command being timed: "/Users/soh/app/boolSim-1.2.0-Darwin/bin/boolSim -f benchmark/boolean-network/pystablemotif-real/2691_T-Cell_Signaling_2006.booleannet.bnet.boolsim -p 3"
+	User time (seconds): 492.19
+	System time (seconds): 0.55
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:13.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 807649280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 52161
+	Voluntary context switches: 108
+	Involuntary context switches: 35288
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 207
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 492.74 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 492.74
+#MAXMEM: 0
+c 
+#END: [Mon Apr  3 02:26:05 2023]

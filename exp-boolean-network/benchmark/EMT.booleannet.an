@@ -1,0 +1,350 @@
+(* This model has been automatically generated using colomoto/logicalmodels
+ * You may want to optimize this model for pint using the following command:
+       pint-export --simplify -i model.an -o model.an
+ * where model.an is this file.
+ *)
+
+"AKT" [0, 1]
+"Dest_compl" [0, 1]
+"AXIN2" [0, 1]
+"Bcatenin_memb" [0, 1]
+"Bcatenin_nuc" [0, 1]
+"BTrCP" [0, 1]
+"CD44" [0, 1]
+"CDC42" [0, 1]
+"cfos" [0, 1]
+"cMet" [0, 1]
+"Csl" [0, 1]
+"Csn" [0, 1]
+"DELTA" [0, 1]
+"DSH" [0, 1]
+"Ecadherin" [0, 1]
+"EGFR" [0, 1]
+"EGR1" [0, 1]
+"EMT" [0, 1]
+"ERK" [0, 1]
+"FGFR" [0, 1]
+"FOXC2" [0, 1]
+"Frizzled" [0, 1]
+"FUS" [0, 1]
+"GLI" [0, 1]
+"GSK3B" [0, 1]
+"HEY1" [0, 1]
+"HIF1A" [0, 1]
+"IGF1R" [0, 1]
+"IKKA" [0, 1]
+"ILK" [0, 1]
+"Jagged" [0, 1]
+"LIV1" [0, 1]
+"LOXL23" [0, 1]
+"MEK" [0, 1]
+"miR200" [0, 1]
+"NFKB" [0, 1]
+"NOTCH" [0, 1]
+"NOTCH_ic" [0, 1]
+"PAK1" [0, 1]
+"Patched" [0, 1]
+"PDGFR" [0, 1]
+"PI3K" [0, 1]
+"RAF" [0, 1]
+"RAS" [0, 1]
+"RKIP" [0, 1]
+"SHH" [0, 1]
+"SNAI2" [0, 1]
+"SMAD" [0, 1]
+"SMO" [0, 1]
+"SNAI1" [0, 1]
+"SOS_GRB2" [0, 1]
+"SRC" [0, 1]
+"STAT" [0, 1]
+"SUFU" [0, 1]
+"TCF_LEF" [0, 1]
+"TGFB" [0, 1]
+"TGFBR" [0, 1]
+"TWIST1" [0, 1]
+"Wnt" [0, 1]
+"ZEB1" [0, 1]
+"ZEB2" [0, 1]
+"EGF" [0, 1]
+"FGF" [0, 1]
+"HGF" [0, 1]
+"Goosecoid" [0, 1]
+"Hypoxia" [0, 1]
+"IGF1" [0, 1]
+"PDGF" [0, 1]
+"CHD1L" [0, 1]
+
+"AKT" 1 -> 0 when "ILK"=0 and "PI3K"=0
+"AKT" 0 -> 1 when "ILK"=0 and "PI3K"=1
+"AKT" 0 -> 1 when "ILK"=1
+
+"Dest_compl" 0 -> 1 when "AXIN2"=1 and "Bcatenin_nuc"=1 and "GSK3B"=1
+"Dest_compl" 1 -> 0 when "GSK3B"=0
+
+"AXIN2" 0 -> 1 when "TCF_LEF"=1
+
+"Bcatenin_memb" 1 -> 0 when "Bcatenin_nuc"=0 and "Ecadherin"=0
+"Bcatenin_memb" 0 -> 1 when "Bcatenin_nuc"=0 and "Ecadherin"=1
+"Bcatenin_memb" 1 -> 0 when "Bcatenin_nuc"=1
+
+"Bcatenin_nuc" 0 -> 1 when "Dest_compl"=0 and "Bcatenin_memb"=0 and "Ecadherin"=0
+"Bcatenin_nuc" 0 -> 1 when "Dest_compl"=0 and "Bcatenin_memb"=0 and "Ecadherin"=1 and "SUFU"=0
+"Bcatenin_nuc" 1 -> 0 when "Dest_compl"=0 and "Bcatenin_memb"=0 and "Ecadherin"=1 and "SUFU"=1
+"Bcatenin_nuc" 1 -> 0 when "Dest_compl"=0 and "Bcatenin_memb"=1
+"Bcatenin_nuc" 1 -> 0 when "Dest_compl"=1
+
+"BTrCP" 0 -> 1 when "Csn"=0
+"BTrCP" 1 -> 0 when "Csn"=1
+
+"CD44" 1 -> 0 when "TCF_LEF"=0
+"CD44" 0 -> 1 when "TCF_LEF"=1
+
+"CDC42" 1 -> 0 when "TGFBR"=0 and "CHD1L"=0
+"CDC42" 0 -> 1 when "TGFBR"=0 and "CHD1L"=1
+"CDC42" 0 -> 1 when "TGFBR"=1
+
+"cfos" 1 -> 0 when "ERK"=0
+"cfos" 0 -> 1 when "ERK"=1
+
+"cMet" 1 -> 0 when "CD44"=0 and "HGF"=0
+"cMet" 0 -> 1 when "CD44"=0 and "HGF"=1
+"cMet" 0 -> 1 when "CD44"=1
+
+"Csl" 1 -> 0 when "NOTCH_ic"=0
+"Csl" 0 -> 1 when "NOTCH_ic"=1
+
+"Csn" 1 -> 0 when "NFKB"=0
+"Csn" 0 -> 1 when "NFKB"=1
+
+"DELTA" 1 -> 0 when "RAS"=0
+"DELTA" 0 -> 1 when "RAS"=1
+
+"DSH" 1 -> 0 when "Frizzled"=0
+"DSH" 0 -> 1 when "Frizzled"=1
+
+"Ecadherin" 1 -> 0 when "Bcatenin_memb"=0
+"Ecadherin" 0 -> 1 when "Bcatenin_memb"=1 and "FOXC2"=0
+"Ecadherin" 0 -> 1 when "Bcatenin_memb"=1 and "FOXC2"=1 and "HEY1"=0
+"Ecadherin" 0 -> 1 when "Bcatenin_memb"=1 and "FOXC2"=1 and "HEY1"=1 and "SNAI2"=0
+"Ecadherin" 0 -> 1 when "Bcatenin_memb"=1 and "FOXC2"=1 and "HEY1"=1 and "SNAI2"=1 and "SNAI1"=0
+"Ecadherin" 0 -> 1 when "Bcatenin_memb"=1 and "FOXC2"=1 and "HEY1"=1 and "SNAI2"=1 and "SNAI1"=1 and "TWIST1"=0
+"Ecadherin" 0 -> 1 when "Bcatenin_memb"=1 and "FOXC2"=1 and "HEY1"=1 and "SNAI2"=1 and "SNAI1"=1 and "TWIST1"=1 and "ZEB1"=0
+"Ecadherin" 0 -> 1 when "Bcatenin_memb"=1 and "FOXC2"=1 and "HEY1"=1 and "SNAI2"=1 and "SNAI1"=1 and "TWIST1"=1 and "ZEB1"=1 and "ZEB2"=0
+"Ecadherin" 1 -> 0 when "Bcatenin_memb"=1 and "FOXC2"=1 and "HEY1"=1 and "SNAI2"=1 and "SNAI1"=1 and "TWIST1"=1 and "ZEB1"=1 and "ZEB2"=1
+
+"EGFR" 1 -> 0 when "EGF"=0
+"EGFR" 0 -> 1 when "EGF"=1
+
+"EGR1" 1 -> 0 when "cfos"=0
+"EGR1" 0 -> 1 when "cfos"=1
+
+"EMT" 0 -> 1 when "Ecadherin"=0
+"EMT" 1 -> 0 when "Ecadherin"=1
+
+"ERK" 1 -> 0 when "MEK"=0
+"ERK" 0 -> 1 when "MEK"=1
+
+"FGFR" 1 -> 0 when "FGF"=0
+"FGFR" 0 -> 1 when "FGF"=1
+
+"FOXC2" 1 -> 0 when "SNAI1"=0 and "TWIST1"=0 and "Goosecoid"=0
+"FOXC2" 0 -> 1 when "SNAI1"=0 and "TWIST1"=0 and "Goosecoid"=1
+"FOXC2" 0 -> 1 when "SNAI1"=0 and "TWIST1"=1
+"FOXC2" 0 -> 1 when "SNAI1"=1
+
+"Frizzled" 1 -> 0 when "Wnt"=0
+"Frizzled" 0 -> 1 when "Wnt"=1
+
+"FUS" 1 -> 0 when "SMO"=0
+"FUS" 0 -> 1 when "SMO"=1
+
+"GLI" 0 -> 1 when "SUFU"=0
+"GLI" 1 -> 0 when "SUFU"=1 and "TCF_LEF"=0
+"GLI" 0 -> 1 when "SUFU"=1 and "TCF_LEF"=1
+
+"GSK3B" 0 -> 1 when "AKT"=0 and "Dest_compl"=0 and "DSH"=0
+"GSK3B" 1 -> 0 when "AKT"=0 and "Dest_compl"=0 and "DSH"=1
+"GSK3B" 0 -> 1 when "AKT"=0 and "Dest_compl"=1 and "Csn"=0 and "DSH"=0
+"GSK3B" 1 -> 0 when "AKT"=0 and "Dest_compl"=1 and "Csn"=0 and "DSH"=1
+"GSK3B" 0 -> 1 when "AKT"=0 and "Dest_compl"=1 and "Csn"=1 and "DSH"=0 and "ERK"=0
+"GSK3B" 1 -> 0 when "AKT"=0 and "Dest_compl"=1 and "Csn"=1 and "DSH"=0 and "ERK"=1
+"GSK3B" 1 -> 0 when "AKT"=0 and "Dest_compl"=1 and "Csn"=1 and "DSH"=1
+"GSK3B" 1 -> 0 when "AKT"=1
+
+"HEY1" 1 -> 0 when "Csl"=0 and "SMAD"=0
+"HEY1" 0 -> 1 when "Csl"=0 and "SMAD"=1
+"HEY1" 0 -> 1 when "Csl"=1
+
+"HIF1A" 1 -> 0 when "Hypoxia"=0
+"HIF1A" 0 -> 1 when "Hypoxia"=1
+
+"IGF1R" 1 -> 0 when "IGF1"=0
+"IGF1R" 0 -> 1 when "IGF1"=1
+
+"IKKA" 1 -> 0 when "AKT"=0
+"IKKA" 0 -> 1 when "AKT"=1
+
+"ILK" 1 -> 0 when "SMAD"=0
+"ILK" 0 -> 1 when "SMAD"=1
+
+"Jagged" 1 -> 0 when "SMAD"=0 and "TCF_LEF"=0
+"Jagged" 0 -> 1 when "SMAD"=0 and "TCF_LEF"=1
+"Jagged" 0 -> 1 when "SMAD"=1
+
+"LIV1" 1 -> 0 when "STAT"=0
+"LIV1" 0 -> 1 when "STAT"=1
+
+"LOXL23" 1 -> 0 when "HIF1A"=0
+"LOXL23" 0 -> 1 when "HIF1A"=1
+
+"MEK" 0 -> 1 when "RAF"=0 and "RKIP"=0
+"MEK" 1 -> 0 when "RAF"=0 and "RKIP"=1
+"MEK" 0 -> 1 when "RAF"=1
+
+"miR200" 0 -> 1 when "SNAI1"=0 and "ZEB1"=0 and "ZEB2"=0
+"miR200" 1 -> 0 when "SNAI1"=0 and "ZEB1"=0 and "ZEB2"=1
+"miR200" 1 -> 0 when "SNAI1"=0 and "ZEB1"=1
+"miR200" 1 -> 0 when "SNAI1"=1
+
+"NFKB" 1 -> 0 when "IKKA"=0
+"NFKB" 0 -> 1 when "IKKA"=1
+
+"NOTCH" 1 -> 0 when "DELTA"=0 and "Jagged"=0
+"NOTCH" 0 -> 1 when "DELTA"=0 and "Jagged"=1
+"NOTCH" 0 -> 1 when "DELTA"=1
+
+"NOTCH_ic" 1 -> 0 when "NOTCH"=0
+"NOTCH_ic" 0 -> 1 when "NOTCH"=1
+
+"PAK1" 1 -> 0 when "CDC42"=0
+"PAK1" 0 -> 1 when "CDC42"=1
+
+"Patched" 0 -> 1 when "SHH"=0
+"Patched" 1 -> 0 when "SHH"=1
+
+"PDGFR" 1 -> 0 when "PDGF"=0
+"PDGFR" 0 -> 1 when "PDGF"=1
+
+"PI3K" 1 -> 0 when "RAS"=0
+"PI3K" 0 -> 1 when "RAS"=1
+
+"RAF" 1 -> 0 when "RAS"=0
+"RAF" 0 -> 1 when "RAS"=1
+
+"RAS" 0 -> 1 when "GSK3B"=0
+"RAS" 1 -> 0 when "GSK3B"=1 and "SOS_GRB2"=0 and "SRC"=0 and "TCF_LEF"=0
+"RAS" 0 -> 1 when "GSK3B"=1 and "SOS_GRB2"=0 and "SRC"=0 and "TCF_LEF"=1
+"RAS" 0 -> 1 when "GSK3B"=1 and "SOS_GRB2"=0 and "SRC"=1
+"RAS" 0 -> 1 when "GSK3B"=1 and "SOS_GRB2"=1
+
+"RKIP" 0 -> 1 when "ERK"=0
+"RKIP" 0 -> 1 when "ERK"=1 and "SNAI1"=0
+"RKIP" 1 -> 0 when "ERK"=1 and "SNAI1"=1
+
+"SHH" 1 -> 0 when "GLI"=0 and "SMAD"=0
+"SHH" 0 -> 1 when "GLI"=0 and "SMAD"=1
+"SHH" 0 -> 1 when "GLI"=1
+
+"SNAI2" 0 -> 1 when "Bcatenin_nuc"=0 and "ERK"=0 and "TWIST1"=1
+"SNAI2" 0 -> 1 when "Bcatenin_nuc"=0 and "ERK"=1
+"SNAI2" 0 -> 1 when "Bcatenin_nuc"=1
+
+"SMAD" 1 -> 0 when "ERK"=0 and "TGFBR"=0
+"SMAD" 0 -> 1 when "ERK"=0 and "TGFBR"=1 and "ZEB1"=0 and "ZEB2"=0
+"SMAD" 1 -> 0 when "ERK"=0 and "TGFBR"=1 and "ZEB1"=0 and "ZEB2"=1
+"SMAD" 0 -> 1 when "ERK"=0 and "TGFBR"=1 and "ZEB1"=1
+"SMAD" 0 -> 1 when "ERK"=1 and "ZEB1"=0 and "ZEB2"=0
+"SMAD" 1 -> 0 when "ERK"=1 and "ZEB1"=0 and "ZEB2"=1
+"SMAD" 0 -> 1 when "ERK"=1 and "ZEB1"=1
+
+"SMO" 0 -> 1 when "Patched"=0
+"SMO" 1 -> 0 when "Patched"=1
+
+"SNAI1" 0 -> 1 when "BTrCP"=0
+"SNAI1" 0 -> 1 when "BTrCP"=1 and "Csl"=0 and "EGR1"=0 and "GLI"=0 and "GSK3B"=0
+"SNAI1" 1 -> 0 when "BTrCP"=1 and "Csl"=0 and "EGR1"=0 and "GLI"=0 and "GSK3B"=1 and "LIV1"=0 and "LOXL23"=0 and "PAK1"=0 and "SMAD"=0 and "Goosecoid"=0
+"SNAI1" 0 -> 1 when "BTrCP"=1 and "Csl"=0 and "EGR1"=0 and "GLI"=0 and "GSK3B"=1 and "LIV1"=0 and "LOXL23"=0 and "PAK1"=0 and "SMAD"=0 and "Goosecoid"=1
+"SNAI1" 0 -> 1 when "BTrCP"=1 and "Csl"=0 and "EGR1"=0 and "GLI"=0 and "GSK3B"=1 and "LIV1"=0 and "LOXL23"=0 and "PAK1"=0 and "SMAD"=1
+"SNAI1" 0 -> 1 when "BTrCP"=1 and "Csl"=0 and "EGR1"=0 and "GLI"=0 and "GSK3B"=1 and "LIV1"=0 and "LOXL23"=0 and "PAK1"=1
+"SNAI1" 0 -> 1 when "BTrCP"=1 and "Csl"=0 and "EGR1"=0 and "GLI"=0 and "GSK3B"=1 and "LIV1"=0 and "LOXL23"=1
+"SNAI1" 0 -> 1 when "BTrCP"=1 and "Csl"=0 and "EGR1"=0 and "GLI"=0 and "GSK3B"=1 and "LIV1"=1
+"SNAI1" 0 -> 1 when "BTrCP"=1 and "Csl"=0 and "EGR1"=0 and "GLI"=1
+"SNAI1" 0 -> 1 when "BTrCP"=1 and "Csl"=0 and "EGR1"=1
+"SNAI1" 0 -> 1 when "BTrCP"=1 and "Csl"=1
+
+"SOS_GRB2" 1 -> 0 when "cMet"=0 and "EGFR"=0 and "ERK"=0 and "FGFR"=0 and "IGF1R"=0 and "PDGFR"=0 and "TGFBR"=0
+"SOS_GRB2" 0 -> 1 when "cMet"=0 and "EGFR"=0 and "ERK"=0 and "FGFR"=0 and "IGF1R"=0 and "PDGFR"=0 and "TGFBR"=1
+"SOS_GRB2" 0 -> 1 when "cMet"=0 and "EGFR"=0 and "ERK"=0 and "FGFR"=0 and "IGF1R"=0 and "PDGFR"=1
+"SOS_GRB2" 0 -> 1 when "cMet"=0 and "EGFR"=0 and "ERK"=0 and "FGFR"=0 and "IGF1R"=1
+"SOS_GRB2" 0 -> 1 when "cMet"=0 and "EGFR"=0 and "ERK"=0 and "FGFR"=1
+"SOS_GRB2" 1 -> 0 when "cMet"=0 and "EGFR"=0 and "ERK"=1
+"SOS_GRB2" 0 -> 1 when "cMet"=0 and "EGFR"=1 and "ERK"=0
+"SOS_GRB2" 1 -> 0 when "cMet"=0 and "EGFR"=1 and "ERK"=1
+"SOS_GRB2" 0 -> 1 when "cMet"=1 and "ERK"=0
+"SOS_GRB2" 1 -> 0 when "cMet"=1 and "ERK"=1
+
+"SRC" 1 -> 0 when "cMet"=0 and "EGFR"=0 and "FGFR"=0 and "IGF1R"=0 and "PDGFR"=0
+"SRC" 0 -> 1 when "cMet"=0 and "EGFR"=0 and "FGFR"=0 and "IGF1R"=0 and "PDGFR"=1
+"SRC" 0 -> 1 when "cMet"=0 and "EGFR"=0 and "FGFR"=0 and "IGF1R"=1
+"SRC" 0 -> 1 when "cMet"=0 and "EGFR"=0 and "FGFR"=1
+"SRC" 0 -> 1 when "cMet"=0 and "EGFR"=1
+"SRC" 0 -> 1 when "cMet"=1
+
+"STAT" 1 -> 0 when "SRC"=0
+"STAT" 0 -> 1 when "SRC"=1
+
+"SUFU" 0 -> 1 when "FUS"=0
+"SUFU" 1 -> 0 when "FUS"=1
+
+"TCF_LEF" 1 -> 0 when "Bcatenin_nuc"=0
+"TCF_LEF" 0 -> 1 when "Bcatenin_nuc"=1
+
+"TGFB" 1 -> 0 when "GLI"=0 and "SNAI1"=0 and "TWIST1"=0 and "Goosecoid"=0
+"TGFB" 0 -> 1 when "GLI"=0 and "SNAI1"=0 and "TWIST1"=0 and "Goosecoid"=1
+"TGFB" 0 -> 1 when "GLI"=0 and "SNAI1"=0 and "TWIST1"=1
+"TGFB" 0 -> 1 when "GLI"=0 and "SNAI1"=1
+"TGFB" 0 -> 1 when "GLI"=1
+
+"TGFBR" 1 -> 0 when "TGFB"=0
+"TGFBR" 0 -> 1 when "TGFB"=1
+
+"TWIST1" 1 -> 0 when "HIF1A"=0 and "NFKB"=0 and "SNAI1"=0 and "TCF_LEF"=0 and "Goosecoid"=0
+"TWIST1" 0 -> 1 when "HIF1A"=0 and "NFKB"=0 and "SNAI1"=0 and "TCF_LEF"=0 and "Goosecoid"=1
+"TWIST1" 0 -> 1 when "HIF1A"=0 and "NFKB"=0 and "SNAI1"=0 and "TCF_LEF"=1
+"TWIST1" 0 -> 1 when "HIF1A"=0 and "NFKB"=0 and "SNAI1"=1
+"TWIST1" 0 -> 1 when "HIF1A"=0 and "NFKB"=1
+"TWIST1" 0 -> 1 when "HIF1A"=1
+
+"Wnt" 1 -> 0 when "GLI"=0
+"Wnt" 0 -> 1 when "GLI"=1
+
+"ZEB1" 1 -> 0 when "HIF1A"=0 and "miR200"=0 and "SNAI1"=0 and "Goosecoid"=0
+"ZEB1" 0 -> 1 when "HIF1A"=0 and "miR200"=0 and "SNAI1"=0 and "Goosecoid"=1
+"ZEB1" 0 -> 1 when "HIF1A"=0 and "miR200"=0 and "SNAI1"=1
+"ZEB1" 1 -> 0 when "HIF1A"=0 and "miR200"=1
+"ZEB1" 0 -> 1 when "HIF1A"=1 and "miR200"=0
+"ZEB1" 1 -> 0 when "HIF1A"=1 and "miR200"=1
+
+"ZEB2" 1 -> 0 when "HIF1A"=0 and "miR200"=0 and "SNAI1"=0 and "Goosecoid"=0
+"ZEB2" 0 -> 1 when "HIF1A"=0 and "miR200"=0 and "SNAI1"=0 and "Goosecoid"=1
+"ZEB2" 0 -> 1 when "HIF1A"=0 and "miR200"=0 and "SNAI1"=1
+"ZEB2" 1 -> 0 when "HIF1A"=0 and "miR200"=1
+"ZEB2" 0 -> 1 when "HIF1A"=1 and "miR200"=0
+"ZEB2" 1 -> 0 when "HIF1A"=1 and "miR200"=1
+
+"EGF" 1 -> 0
+
+"FGF" 1 -> 0
+
+"HGF" 1 -> 0
+
+"Goosecoid" 1 -> 0
+
+"Hypoxia" 1 -> 0
+
+"IGF1" 1 -> 0
+
+"PDGF" 1 -> 0
+
+"CHD1L" 1 -> 0
+

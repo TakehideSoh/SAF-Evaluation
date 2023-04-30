@@ -1,0 +1,101 @@
+#BEGIN: [Fri Apr  7 14:50:29 2023]
+#HOST: mini01.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: cabean201
+#CSP: benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet
+#K: 1800
+#COMMAND: /Users/soh/app/CABEAN-release-2.0.1/BinaryFile/MacOS/cabean benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: /Users/soh/app/CABEAN-release-2.0.1/BinaryFile/MacOS/cabean benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet
+Convert the model format: benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet -> benchmark/boolean-network/pystablemotif-real/EMTbooleannet.ispl
+======================== find attractor #1 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-0-1-0-0-0-0-0-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #2 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-0-1-0-0-0-0-0-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #3 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #4 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #5 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-0-1-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #6 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-0-1-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #7 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-1-1-0-0-0-0-0-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #8 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-1-1-0-0-0-0-0-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #9 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-1-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #10 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-1-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #11 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-1-1-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #12 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+0-1-1-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #13 : 1 states ========================
+: 70 nodes 1 leaves 1 minterms
+1-1-0-0-1-1-1-0-1-1-1-1-0-0-0-1-1-1-0-0-0-1-1-1-1-0-0-1-0-0-0-0-0-1-1-1-1-0-1-1-1-1-1-0-0-1-0-1-1-0-1-1-1-1-1-0-1-1-0-1-1-1-1-1-1-1-1-1-0-  1
+
+number of attractors = 13
+time for attractor detection=4.155
+	Command being timed: "/Users/soh/app/CABEAN-release-2.0.1/BinaryFile/MacOS/cabean benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet"
+	User time (seconds): 5.21
+	System time (seconds): 0.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 75055104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4700
+	Voluntary context switches: 30
+	Involuntary context switches: 309
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 61
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 5.21 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 5.21
+#MAXMEM: 0
+c 
+#END: [Fri Apr  7 14:50:34 2023]

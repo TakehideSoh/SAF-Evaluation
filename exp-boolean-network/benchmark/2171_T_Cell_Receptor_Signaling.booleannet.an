@@ -1,0 +1,467 @@
+(* This model has been automatically generated using colomoto/logicalmodels
+ * You may want to optimize this model for pint using the following command:
+       pint-export --simplify -i model.an -o model.an
+ * where model.an is this file.
+ *)
+
+"unknown_input" [0, 1]
+"lckr_input" [0, 1]
+"unknown_input2" [0, 1]
+"cd28_input" [0, 1]
+"cd4" [0, 1]
+"tcrlig_input" [0, 1]
+"unknown_input3" [0, 1]
+"bcl10" [0, 1]
+"grb2" [0, 1]
+"cre" [0, 1]
+"mlk3" [0, 1]
+"pkcth" [0, 1]
+"cblb" [0, 1]
+"creb" [0, 1]
+"cd45" [0, 1]
+"plcga" [0, 1]
+"cam" [0, 1]
+"ccblr" [0, 1]
+"gsk3" [0, 1]
+"sh3bp2" [0, 1]
+"bcat" [0, 1]
+"rasgrp" [0, 1]
+"pdk1" [0, 1]
+"p38" [0, 1]
+"p70s" [0, 1]
+"cyc1" [0, 1]
+"jun" [0, 1]
+"rac1r" [0, 1]
+"ap1" [0, 1]
+"ccblp2" [0, 1]
+"pkb" [0, 1]
+"jnk" [0, 1]
+"erk" [0, 1]
+"pip3" [0, 1]
+"p21c" [0, 1]
+"csk" [0, 1]
+"sos" [0, 1]
+"nfat" [0, 1]
+"card11a" [0, 1]
+"malt1" [0, 1]
+"tcrb" [0, 1]
+"ship1" [0, 1]
+"rac1p1" [0, 1]
+"fos" [0, 1]
+"camk4" [0, 1]
+"bclxl" [0, 1]
+"xx" [0, 1]
+"cd28" [0, 1]
+"cdc42" [0, 1]
+"ip3" [0, 1]
+"camk2" [0, 1]
+"shp2" [0, 1]
+"lat" [0, 1]
+"sre" [0, 1]
+"card11" [0, 1]
+"p27k" [0, 1]
+"lckr" [0, 1]
+"tcrp" [0, 1]
+"vav1" [0, 1]
+"shp1" [0, 1]
+"rlk" [0, 1]
+"vav3" [0, 1]
+"calpr1" [0, 1]
+"fyn" [0, 1]
+"tcrlig" [0, 1]
+"hpk1" [0, 1]
+"lckp1" [0, 1]
+"pi3k" [0, 1]
+"mek" [0, 1]
+"ikb" [0, 1]
+"lckp2" [0, 1]
+"dag" [0, 1]
+"gap" [0, 1]
+"rsk" [0, 1]
+"slp76" [0, 1]
+"zap70" [0, 1]
+"pag" [0, 1]
+"rac1p2" [0, 1]
+"itk" [0, 1]
+"akap79" [0, 1]
+"ikkab" [0, 1]
+"nfkb" [0, 1]
+"raf" [0, 1]
+"abl" [0, 1]
+"calcin" [0, 1]
+"bad" [0, 1]
+"ca" [0, 1]
+"mkk4" [0, 1]
+"pten" [0, 1]
+"plcgb" [0, 1]
+"Dummy" [0, 1]
+"fkhr" [0, 1]
+"mekk1" [0, 1]
+"ikkg" [0, 1]
+"gab2" [0, 1]
+"gadd45" [0, 1]
+"cabin1" [0, 1]
+"dgk" [0, 1]
+"ras" [0, 1]
+"ccblp1" [0, 1]
+"gads" [0, 1]
+
+
+
+
+
+
+
+
+"bcl10" 1 -> 0 when "unknown_input2"=0
+"bcl10" 0 -> 1 when "unknown_input2"=1
+
+"grb2" 1 -> 0 when "lat"=0
+"grb2" 0 -> 1 when "lat"=1
+
+"cre" 1 -> 0 when "creb"=0
+"cre" 0 -> 1 when "creb"=1
+
+"mlk3" 1 -> 0 when "rac1p1"=0 and "hpk1"=0
+"mlk3" 0 -> 1 when "rac1p1"=0 and "hpk1"=1
+"mlk3" 0 -> 1 when "rac1p1"=1
+
+"pkcth" 1 -> 0 when "pdk1"=0
+"pkcth" 1 -> 0 when "pdk1"=1 and "vav1"=0
+"pkcth" 1 -> 0 when "pdk1"=1 and "vav1"=1 and "dag"=0
+"pkcth" 0 -> 1 when "pdk1"=1 and "vav1"=1 and "dag"=1
+
+"cblb" 0 -> 1 when "cd28"=0
+"cblb" 1 -> 0 when "cd28"=1
+
+"creb" 1 -> 0 when "rsk"=0
+"creb" 0 -> 1 when "rsk"=1
+
+"cd45" 1 -> 0 when "unknown_input"=0
+"cd45" 0 -> 1 when "unknown_input"=1
+
+"plcga" 1 -> 0 when "ccblp2"=0 and "vav1"=0
+"plcga" 1 -> 0 when "ccblp2"=0 and "vav1"=1 and "slp76"=0
+"plcga" 1 -> 0 when "ccblp2"=0 and "vav1"=1 and "slp76"=1 and "zap70"=0
+"plcga" 1 -> 0 when "ccblp2"=0 and "vav1"=1 and "slp76"=1 and "zap70"=1 and "itk"=0
+"plcga" 1 -> 0 when "ccblp2"=0 and "vav1"=1 and "slp76"=1 and "zap70"=1 and "itk"=1 and "plcgb"=0
+"plcga" 0 -> 1 when "ccblp2"=0 and "vav1"=1 and "slp76"=1 and "zap70"=1 and "itk"=1 and "plcgb"=1
+"plcga" 1 -> 0 when "ccblp2"=1
+
+"cam" 1 -> 0 when "ca"=0
+"cam" 0 -> 1 when "ca"=1
+
+"ccblr" 1 -> 0 when "unknown_input"=0
+"ccblr" 0 -> 1 when "unknown_input"=1
+
+"gsk3" 0 -> 1 when "pkb"=0
+"gsk3" 1 -> 0 when "pkb"=1
+
+"sh3bp2" 1 -> 0 when "lat"=0
+"sh3bp2" 1 -> 0 when "lat"=1 and "zap70"=0
+"sh3bp2" 0 -> 1 when "lat"=1 and "zap70"=1
+
+"bcat" 0 -> 1 when "gsk3"=0
+"bcat" 1 -> 0 when "gsk3"=1
+
+"rasgrp" 1 -> 0 when "dag"=0
+"rasgrp" 0 -> 1 when "dag"=1
+
+"pdk1" 1 -> 0 when "pip3"=0
+"pdk1" 0 -> 1 when "pip3"=1
+
+"p38" 1 -> 0 when "zap70"=0
+"p38" 0 -> 1 when "zap70"=1 and "gadd45"=0
+"p38" 1 -> 0 when "zap70"=1 and "gadd45"=1
+
+"p70s" 1 -> 0 when "pdk1"=0
+"p70s" 0 -> 1 when "pdk1"=1
+
+"cyc1" 0 -> 1 when "gsk3"=0
+"cyc1" 1 -> 0 when "gsk3"=1
+
+"jun" 1 -> 0 when "jnk"=0
+"jun" 0 -> 1 when "jnk"=1
+
+"rac1r" 1 -> 0 when "unknown_input"=0
+"rac1r" 0 -> 1 when "unknown_input"=1
+
+"ap1" 1 -> 0 when "jun"=0
+"ap1" 1 -> 0 when "jun"=1 and "fos"=0
+"ap1" 0 -> 1 when "jun"=1 and "fos"=1
+
+"ccblp2" 1 -> 0 when "ccblr"=0
+"ccblp2" 1 -> 0 when "ccblr"=1 and "fyn"=0
+"ccblp2" 0 -> 1 when "ccblr"=1 and "fyn"=1
+
+"pkb" 1 -> 0 when "pdk1"=0
+"pkb" 0 -> 1 when "pdk1"=1
+
+"jnk" 1 -> 0 when "mkk4"=0 and "mekk1"=0
+"jnk" 0 -> 1 when "mkk4"=0 and "mekk1"=1
+"jnk" 0 -> 1 when "mkk4"=1
+
+"erk" 1 -> 0 when "mek"=0
+"erk" 0 -> 1 when "mek"=1
+
+"pip3" 1 -> 0 when "ship1"=0 and "pi3k"=0
+"pip3" 0 -> 1 when "ship1"=0 and "pi3k"=1 and "pten"=0
+"pip3" 1 -> 0 when "ship1"=0 and "pi3k"=1 and "pten"=1
+"pip3" 1 -> 0 when "ship1"=1
+
+"p21c" 0 -> 1 when "pkb"=0
+"p21c" 1 -> 0 when "pkb"=1
+
+"csk" 1 -> 0 when "pag"=0
+"csk" 0 -> 1 when "pag"=1
+
+"sos" 1 -> 0 when "grb2"=0
+"sos" 0 -> 1 when "grb2"=1
+
+"nfat" 1 -> 0 when "calcin"=0
+"nfat" 0 -> 1 when "calcin"=1
+
+"card11a" 1 -> 0 when "bcl10"=0
+"card11a" 1 -> 0 when "bcl10"=1 and "malt1"=0
+"card11a" 1 -> 0 when "bcl10"=1 and "malt1"=1 and "card11"=0
+"card11a" 0 -> 1 when "bcl10"=1 and "malt1"=1 and "card11"=1
+
+"malt1" 1 -> 0 when "unknown_input"=0
+"malt1" 0 -> 1 when "unknown_input"=1
+
+"tcrb" 1 -> 0 when "tcrlig"=0
+"tcrb" 0 -> 1 when "tcrlig"=1 and "ccblp1"=0
+"tcrb" 1 -> 0 when "tcrlig"=1 and "ccblp1"=1
+
+"ship1" 1 -> 0 when "unknown_input2"=0
+"ship1" 0 -> 1 when "unknown_input2"=1
+
+"rac1p1" 1 -> 0 when "rac1r"=0
+"rac1p1" 1 -> 0 when "rac1r"=1 and "vav1"=0
+"rac1p1" 0 -> 1 when "rac1r"=1 and "vav1"=1
+
+"fos" 1 -> 0 when "erk"=0
+"fos" 0 -> 1 when "erk"=1
+
+"camk4" 1 -> 0 when "cam"=0
+"camk4" 0 -> 1 when "cam"=1
+
+"bclxl" 0 -> 1 when "bad"=0
+"bclxl" 1 -> 0 when "bad"=1
+
+"xx" 1 -> 0 when "cd28"=0
+"xx" 0 -> 1 when "cd28"=1
+
+"cd28" 1 -> 0 when "cd28_input"=0
+"cd28" 0 -> 1 when "cd28_input"=1
+
+"cdc42" 1 -> 0 when "unknown_input2"=0
+"cdc42" 0 -> 1 when "unknown_input2"=1
+
+"ip3" 1 -> 0 when "plcga"=0
+"ip3" 0 -> 1 when "plcga"=1
+
+"camk2" 1 -> 0 when "cam"=0
+"camk2" 0 -> 1 when "cam"=1
+
+"shp2" 1 -> 0 when "gab2"=0
+"shp2" 0 -> 1 when "gab2"=1
+
+"lat" 1 -> 0 when "zap70"=0
+"lat" 0 -> 1 when "zap70"=1
+
+"sre" 1 -> 0 when "cdc42"=0 and "rac1p2"=0
+"sre" 0 -> 1 when "cdc42"=0 and "rac1p2"=1
+"sre" 0 -> 1 when "cdc42"=1
+
+"card11" 1 -> 0 when "unknown_input"=0
+"card11" 0 -> 1 when "unknown_input"=1
+
+"p27k" 0 -> 1 when "pkb"=0
+"p27k" 1 -> 0 when "pkb"=1
+
+"lckr" 1 -> 0 when "lckr_input"=0
+"lckr" 0 -> 1 when "lckr_input"=1
+
+"tcrp" 1 -> 0 when "tcrb"=0
+"tcrp" 1 -> 0 when "tcrb"=1 and "fyn"=0 and "lckp1"=0
+"tcrp" 0 -> 1 when "tcrb"=1 and "fyn"=0 and "lckp1"=1
+"tcrp" 0 -> 1 when "tcrb"=1 and "fyn"=1
+
+"vav1" 1 -> 0 when "sh3bp2"=0 and "xx"=0
+"vav1" 0 -> 1 when "sh3bp2"=0 and "xx"=1
+"vav1" 1 -> 0 when "sh3bp2"=1 and "xx"=0 and "zap70"=0
+"vav1" 0 -> 1 when "sh3bp2"=1 and "xx"=0 and "zap70"=1
+"vav1" 0 -> 1 when "sh3bp2"=1 and "xx"=1
+
+"shp1" 1 -> 0 when "erk"=0 and "lckp1"=0
+"shp1" 0 -> 1 when "erk"=0 and "lckp1"=1
+"shp1" 1 -> 0 when "erk"=1
+
+"rlk" 1 -> 0 when "lckp1"=0
+"rlk" 0 -> 1 when "lckp1"=1
+
+"vav3" 1 -> 0 when "sh3bp2"=0
+"vav3" 0 -> 1 when "sh3bp2"=1
+
+"calpr1" 1 -> 0 when "unknown_input2"=0
+"calpr1" 0 -> 1 when "unknown_input2"=1
+
+"fyn" 1 -> 0 when "cd45"=0 and "tcrb"=0
+"fyn" 1 -> 0 when "cd45"=0 and "tcrb"=1 and "lckr"=0
+"fyn" 0 -> 1 when "cd45"=0 and "tcrb"=1 and "lckr"=1
+"fyn" 1 -> 0 when "cd45"=1 and "tcrb"=0 and "lckp1"=0
+"fyn" 0 -> 1 when "cd45"=1 and "tcrb"=0 and "lckp1"=1
+"fyn" 1 -> 0 when "cd45"=1 and "tcrb"=1 and "lckr"=0 and "lckp1"=0
+"fyn" 0 -> 1 when "cd45"=1 and "tcrb"=1 and "lckr"=0 and "lckp1"=1
+"fyn" 0 -> 1 when "cd45"=1 and "tcrb"=1 and "lckr"=1
+
+"tcrlig" 1 -> 0 when "tcrlig_input"=0
+"tcrlig" 0 -> 1 when "tcrlig_input"=1
+
+"hpk1" 1 -> 0 when "lat"=0
+"hpk1" 0 -> 1 when "lat"=1
+
+"lckp1" 1 -> 0 when "cd4"=0
+"lckp1" 1 -> 0 when "cd4"=1 and "cd45"=0
+"lckp1" 1 -> 0 when "cd4"=1 and "cd45"=1 and "csk"=0 and "lckr"=0
+"lckp1" 0 -> 1 when "cd4"=1 and "cd45"=1 and "csk"=0 and "lckr"=1 and "shp1"=0
+"lckp1" 1 -> 0 when "cd4"=1 and "cd45"=1 and "csk"=0 and "lckr"=1 and "shp1"=1
+"lckp1" 1 -> 0 when "cd4"=1 and "cd45"=1 and "csk"=1
+
+"pi3k" 1 -> 0 when "cblb"=0 and "xx"=0 and "lckp2"=0
+"pi3k" 0 -> 1 when "cblb"=0 and "xx"=0 and "lckp2"=1
+"pi3k" 0 -> 1 when "cblb"=0 and "xx"=1
+"pi3k" 1 -> 0 when "cblb"=1
+
+"mek" 1 -> 0 when "raf"=0
+"mek" 0 -> 1 when "raf"=1
+
+"ikb" 0 -> 1 when "ikkab"=0
+"ikb" 1 -> 0 when "ikkab"=1
+
+"lckp2" 1 -> 0 when "tcrb"=0
+"lckp2" 1 -> 0 when "tcrb"=1 and "lckr"=0
+"lckp2" 0 -> 1 when "tcrb"=1 and "lckr"=1
+
+"dag" 1 -> 0 when "plcga"=0
+"dag" 0 -> 1 when "plcga"=1 and "dgk"=0
+"dag" 1 -> 0 when "plcga"=1 and "dgk"=1
+
+"gap" 1 -> 0 when "unknown_input3"=0
+"gap" 0 -> 1 when "unknown_input3"=1
+
+"rsk" 1 -> 0 when "erk"=0
+"rsk" 0 -> 1 when "erk"=1
+
+"slp76" 1 -> 0 when "zap70"=0
+"slp76" 1 -> 0 when "zap70"=1 and "gab2"=0 and "gads"=0
+"slp76" 0 -> 1 when "zap70"=1 and "gab2"=0 and "gads"=1
+"slp76" 1 -> 0 when "zap70"=1 and "gab2"=1
+
+"zap70" 1 -> 0 when "tcrp"=0
+"zap70" 1 -> 0 when "tcrp"=1 and "abl"=0
+"zap70" 0 -> 1 when "tcrp"=1 and "abl"=1 and "ccblp1"=0
+"zap70" 1 -> 0 when "tcrp"=1 and "abl"=1 and "ccblp1"=1
+
+"pag" 1 -> 0 when "tcrb"=0 and "fyn"=0
+"pag" 0 -> 1 when "tcrb"=0 and "fyn"=1
+"pag" 1 -> 0 when "tcrb"=1
+
+"rac1p2" 1 -> 0 when "rac1r"=0
+"rac1p2" 1 -> 0 when "rac1r"=1 and "vav3"=0
+"rac1p2" 0 -> 1 when "rac1r"=1 and "vav3"=1
+
+"itk" 1 -> 0 when "pip3"=0
+"itk" 1 -> 0 when "pip3"=1 and "slp76"=0
+"itk" 1 -> 0 when "pip3"=1 and "slp76"=1 and "zap70"=0
+"itk" 0 -> 1 when "pip3"=1 and "slp76"=1 and "zap70"=1
+
+"akap79" 1 -> 0 when "unknown_input2"=0
+"akap79" 0 -> 1 when "unknown_input2"=1
+
+"ikkab" 1 -> 0 when "camk2"=0
+"ikkab" 1 -> 0 when "camk2"=1 and "ikkg"=0
+"ikkab" 0 -> 1 when "camk2"=1 and "ikkg"=1
+
+"nfkb" 0 -> 1 when "ikb"=0
+"nfkb" 1 -> 0 when "ikb"=1
+
+"raf" 1 -> 0 when "ras"=0
+"raf" 0 -> 1 when "ras"=1
+
+"abl" 1 -> 0 when "fyn"=0 and "lckp1"=0
+"abl" 0 -> 1 when "fyn"=0 and "lckp1"=1
+"abl" 0 -> 1 when "fyn"=1
+
+"calcin" 1 -> 0 when "cam"=0
+"calcin" 0 -> 1 when "cam"=1 and "calpr1"=0 and "akap79"=0 and "cabin1"=0
+"calcin" 1 -> 0 when "cam"=1 and "calpr1"=0 and "akap79"=0 and "cabin1"=1
+"calcin" 1 -> 0 when "cam"=1 and "calpr1"=0 and "akap79"=1
+"calcin" 1 -> 0 when "cam"=1 and "calpr1"=1
+
+"bad" 0 -> 1 when "pkb"=0
+"bad" 1 -> 0 when "pkb"=1
+
+"ca" 1 -> 0 when "ip3"=0
+"ca" 0 -> 1 when "ip3"=1
+
+"mkk4" 1 -> 0 when "mlk3"=0 and "mekk1"=0
+"mkk4" 0 -> 1 when "mlk3"=0 and "mekk1"=1
+"mkk4" 0 -> 1 when "mlk3"=1
+
+"pten" 1 -> 0 when "unknown_input2"=0
+"pten" 0 -> 1 when "unknown_input2"=1
+
+"plcgb" 1 -> 0 when "lat"=0
+"plcgb" 0 -> 1 when "lat"=1
+
+"Dummy" 1 -> 0 when "ccblp2"=0 and "vav1"=0
+"Dummy" 1 -> 0 when "ccblp2"=0 and "vav1"=1 and "slp76"=0
+"Dummy" 1 -> 0 when "ccblp2"=0 and "vav1"=1 and "slp76"=1 and "zap70"=0
+"Dummy" 1 -> 0 when "ccblp2"=0 and "vav1"=1 and "slp76"=1 and "zap70"=1 and "itk"=0
+"Dummy" 1 -> 0 when "ccblp2"=0 and "vav1"=1 and "slp76"=1 and "zap70"=1 and "itk"=1 and "plcgb"=0
+"Dummy" 0 -> 1 when "ccblp2"=0 and "vav1"=1 and "slp76"=1 and "zap70"=1 and "itk"=1 and "plcgb"=1
+"Dummy" 1 -> 0 when "ccblp2"=1
+
+"fkhr" 0 -> 1 when "pkb"=0
+"fkhr" 1 -> 0 when "pkb"=1
+
+"mekk1" 1 -> 0 when "cdc42"=0 and "hpk1"=0 and "rac1p2"=0
+"mekk1" 0 -> 1 when "cdc42"=0 and "hpk1"=0 and "rac1p2"=1
+"mekk1" 0 -> 1 when "cdc42"=0 and "hpk1"=1
+"mekk1" 0 -> 1 when "cdc42"=1
+
+"ikkg" 1 -> 0 when "pkcth"=0
+"ikkg" 1 -> 0 when "pkcth"=1 and "card11a"=0
+"ikkg" 0 -> 1 when "pkcth"=1 and "card11a"=1
+
+"gab2" 1 -> 0 when "grb2"=0 and "lat"=0
+"gab2" 1 -> 0 when "grb2"=0 and "lat"=1 and "zap70"=0
+"gab2" 1 -> 0 when "grb2"=0 and "lat"=1 and "zap70"=1 and "gads"=0
+"gab2" 0 -> 1 when "grb2"=0 and "lat"=1 and "zap70"=1 and "gads"=1
+"gab2" 1 -> 0 when "grb2"=1 and "lat"=0
+"gab2" 1 -> 0 when "grb2"=1 and "lat"=1 and "zap70"=0
+"gab2" 0 -> 1 when "grb2"=1 and "lat"=1 and "zap70"=1
+
+"gadd45" 1 -> 0 when "unknown_input"=0
+"gadd45" 0 -> 1 when "unknown_input"=1
+
+"cabin1" 0 -> 1 when "camk4"=0
+"cabin1" 1 -> 0 when "camk4"=1
+
+"dgk" 1 -> 0 when "tcrb"=0
+"dgk" 0 -> 1 when "tcrb"=1
+
+"ras" 1 -> 0 when "rasgrp"=0
+"ras" 1 -> 0 when "rasgrp"=1 and "sos"=0
+"ras" 0 -> 1 when "rasgrp"=1 and "sos"=1 and "gap"=0
+"ras" 1 -> 0 when "rasgrp"=1 and "sos"=1 and "gap"=1
+
+"ccblp1" 1 -> 0 when "ccblr"=0
+"ccblp1" 1 -> 0 when "ccblr"=1 and "zap70"=0
+"ccblp1" 0 -> 1 when "ccblr"=1 and "zap70"=1
+
+"gads" 1 -> 0 when "lat"=0
+"gads" 0 -> 1 when "lat"=1
+

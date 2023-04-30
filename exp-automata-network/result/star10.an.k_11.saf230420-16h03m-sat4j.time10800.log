@@ -1,0 +1,65 @@
+#BEGIN: [Tue Apr 25 17:43:51 2023]
+#HOST: mini15.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-sat4j
+#CSP: benchmark/automata-network/star/star10.an
+#K: 11
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 11 benchmark/automata-network/star/star10.an
+Using Sat4j SAT Solver
+
+A1,A2,A3,A4,A5,A6,A7,A8,A9,A10
+k: 1, #Var: 30, #Clause: 150
+UNSAT
+k: 2, #Var: 180, #Clause: 1414
+UNSAT
+k: 3, #Var: 330, #Clause: 3436
+UNSAT
+k: 4, #Var: 530, #Clause: 6358
+UNSAT
+k: 5, #Var: 780, #Clause: 10180
+UNSAT
+k: 6, #Var: 1080, #Clause: 14902
+UNSAT
+k: 7, #Var: 1430, #Clause: 20524
+UNSAT
+k: 8, #Var: 1830, #Clause: 27046
+UNSAT
+k: 9, #Var: 2280, #Clause: 34468
+UNSAT
+k: 10, #Var: 2780, #Clause: 42790
+UNSAT
+k: 11, #Var: 3330, #Clause: 52012
+#1
+0000000000 0000000001 0000000010 0000000100 0000001000 0000010000 0000100000 0001000000 0010000000 0100000000 1000000000
+	Command being timed: "/Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 11 benchmark/automata-network/star/star10.an"
+	User time (seconds): 5.08
+	System time (seconds): 0.24
+	Percent of CPU this job got: 213%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1633042432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 114260
+	Voluntary context switches: 10
+	Involuntary context switches: 3786
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 19
+	Socket messages received: 0
+	Signals delivered: 2
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 5.32 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNSAT
+#FIN: FIN
+#CPU: 5.32
+#MAXMEM: 0
+c 
+#END: [Tue Apr 25 17:43:53 2023]

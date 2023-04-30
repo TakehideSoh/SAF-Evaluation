@@ -1,0 +1,18 @@
+#BEGIN: [Mon Apr  3 00:56:17 2023]
+#HOST: mini13.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pyboolnet230402-22h42m
+#CSP: benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pyboolnet230402-22h42m/findAttractor.py benchmark/boolean-network/pystablemotif-real/EMT.booleannet.bnet
+INFO attractors.completeness(..)
+INFO created /Users/soh/condor/local/execute/dir_53318/pyboolnet_g4vj7slp
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+c 53324 killed(2). 53347 killed(2). 53325 killed(2). 53324 killed(9). 53347 killed(9). 53325 killed(9). 
+#END: [Mon Apr  3 01:36:17 2023]

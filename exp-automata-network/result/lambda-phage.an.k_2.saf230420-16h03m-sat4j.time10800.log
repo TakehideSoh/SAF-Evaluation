@@ -1,0 +1,48 @@
+#BEGIN: [Tue Apr 25 17:43:50 2023]
+#HOST: mini14.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-sat4j
+#CSP: benchmark/automata-network/abdallah17amb/lambda-phage.an
+#K: 2
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 2 benchmark/automata-network/abdallah17amb/lambda-phage.an
+Using Sat4j SAT Solver
+
+CI,Cro,CII,N
+k: 1, #Var: 55, #Clause: 237
+#1
+2000
+k: 2, #Var: 356, #Clause: 2553
+#1
+0200 0300
+	Command being timed: "/Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 2 benchmark/automata-network/abdallah17amb/lambda-phage.an"
+	User time (seconds): 1.69
+	System time (seconds): 0.11
+	Percent of CPU this job got: 177%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 696696832
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46015
+	Voluntary context switches: 9
+	Involuntary context switches: 2943
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 17
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 1.8 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 1.8
+#MAXMEM: 0
+c 
+#END: [Tue Apr 25 17:43:51 2023]

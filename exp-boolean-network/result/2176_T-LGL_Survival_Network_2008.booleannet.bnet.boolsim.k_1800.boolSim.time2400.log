@@ -1,0 +1,17 @@
+#BEGIN: [Mon Apr  3 02:03:27 2023]
+#HOST: mini03.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: boolSim
+#CSP: benchmark/boolean-network/pystablemotif-real/2176_T-LGL_Survival_Network_2008.booleannet.bnet.boolsim
+#K: 1800
+#COMMAND: /Users/soh/app/boolSim-1.2.0-Darwin/bin/boolSim -f benchmark/boolean-network/pystablemotif-real/2176_T-LGL_Survival_Network_2008.booleannet.bnet.boolsim -p 3
+geneDbOrg=61 geneDbReduced=61
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+c 08958 killed(2). 08959 killed(2). 08958 killed(9). 08959 killed(9). 
+#END: [Mon Apr  3 02:43:27 2023]

@@ -1,0 +1,49 @@
+#BEGIN: [Mon Apr  3 00:55:51 2023]
+#HOST: mini17.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pyboolnet230402-22h42m
+#CSP: benchmark/boolean-network/pystablemotif-real/2171_T_Cell_Receptor_Signaling.booleannet.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pyboolnet230402-22h42m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2171_T_Cell_Receptor_Signaling.booleannet.bnet
+INFO attractors.completeness(..)
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_8basvs_b
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet___ubwdd5
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_7yfxxvn2
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_b0bmbxh4
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_uchjxsxb
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_1t92vnn_
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_fiw7xnuk
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_plugc8ch
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_rajznw95
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_auvloovz
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_2eqr_i33
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_9mniigpr
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_6gp4emdx
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_c78a9_0q
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_ewluc5cj
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_sz_vocwq
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_jg9g_l0u
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_itd4w2nt
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_xn8ocki1
+INFO yes
+INFO  working on minimal trapspace 1/128: 01000101010000000000011100000101000110101011000011101110011100001101111001000000000100101011110001111
+INFO attractors.univocality(..)
+INFO  yes
+INFO attractors.faithfulness(..)
+INFO yes
+INFO attractors.find_attractor_state_by_randomwalk_and_ctl(..)
+INFO find_attractor_state_by_randomwalk_and_ctl(..)
+INFO len(primes)=101, update=asynchronous, length=1010, attempts=10
+INFO trial 0
+INFO start: 01000101010000000000011100000101000110101011000011101110011100001101111001000000000100101011110001111
+INFO end: 01000101010000000000011100000101000110101011000011101110011100001101111001000000000100101011110001111
+INFO created /Users/soh/condor/local/execute/dir_7365/pyboolnet_fa128gd5
+TIMEOUT CPU 2400 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 2400
+#MAXMEM: 0
+c 07371 killed(2). 10242 killed(2). 07372 killed(2). 07371 killed(9). 10242 killed(9). 07372 killed(9). 
+#END: [Mon Apr  3 01:35:51 2023]

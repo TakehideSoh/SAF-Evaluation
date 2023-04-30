@@ -1,0 +1,131 @@
+#BEGIN: [Mon Apr  3 10:20:50 2023]
+#HOST: mini06.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: pystablemotif230402-22h50m
+#CSP: benchmark/boolean-network/pystablemotif-real/2176_T-LGL_Survival_Network_2008.booleannet.bnet
+#K: 1800
+#COMMAND: /usr/local/bin/python3 /Users/soh/app/pystablemotif230402-22h50m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2176_T-LGL_Survival_Network_2008.booleannet.bnet
+Loading network . . .
+Network loaded.
+
+RULES
+A20* = !Apoptosis & NFKB
+Apoptosis* = Caspase | Apoptosis
+BID* = !Apoptosis & !BclxL & GZMB & !MCL1 | !Apoptosis & !BclxL & Caspase & !MCL1
+BclxL* = !Apoptosis & !BID & !DISC & !GZMB & STAT3 | !Apoptosis & !BID & !DISC & !GZMB & NFKB
+CD45* = CD45
+CREB* = !Apoptosis & ERK & IFN
+CTLA4* = !Apoptosis & TCR
+Caspase* = !Apoptosis & BID & !IAP & TRADD | !Apoptosis & BID & GZMB & !IAP | !Apoptosis & DISC
+Ceramide* = !Apoptosis & Fas & !S1P
+Cytoskeleton_signaling* = !Apoptosis & FYN
+DISC* = !Apoptosis & Fas & FasT & IL2 | !Apoptosis & !FLIP & Fas & FasT | !Apoptosis & Ceramide & FasT
+ERK* = !Apoptosis & MEK & PI3K
+FLIP* = !Apoptosis & CREB & !DISC & IFNG | !Apoptosis & !DISC & NFKB
+FYN* = !Apoptosis & TCR | !Apoptosis & IL2RB
+Fas* = !Apoptosis & FasL & FasT & !sFas
+FasL* = !Apoptosis & STAT3 | !Apoptosis & NFKB | !Apoptosis & NFAT | !Apoptosis & ERK
+FasT* = !Apoptosis & NFKB
+GAP* = !Apoptosis & GAP & !IL15 & !IL2 & PDGFR | !Apoptosis & !IL15 & !IL2 & RAS
+GPCR* = !Apoptosis & S1P
+GRB2* = !Apoptosis & ZAP70 | !Apoptosis & IL2RB
+GZMB* = !Apoptosis & CREB & IFNG | !Apoptosis & TBET
+IAP* = !Apoptosis & !BID & NFKB
+IFN* = IFN
+IFNG* = !Apoptosis & IFNGT & !P2 & !SMAD & Stimuli | !Apoptosis & IFNGT & IL2 & !P2 & !SMAD | !Apoptosis & IFNGT & IL15 & !P2 & !SMAD
+IFNGT* = !Apoptosis & TBET | !Apoptosis & STAT3 | !Apoptosis & NFAT
+IL15* = IL15
+IL2* = !Apoptosis & STAT3 & !TBET | !Apoptosis & NFKB & !TBET | !Apoptosis & NFAT & !TBET
+IL2RA* = !Apoptosis & IL2 & !IL2RA & IL2RAT
+IL2RAT* = !Apoptosis & IL2 & STAT3 | !Apoptosis & IL2 & NFKB
+IL2RB* = !Apoptosis & IL2 & IL2RBT | !Apoptosis & IL15 & IL2RBT
+IL2RBT* = !Apoptosis & ERK & TBET
+JAK* = !Apoptosis & !CD45 & RANTES & !SOCS | !Apoptosis & !CD45 & IL2RB & !SOCS | !Apoptosis & !CD45 & IL2RA & !SOCS | !Apoptosis & !CD45 & IFNG & !SOCS
+LCK* = !Apoptosis & TCR & !ZAP70 | !Apoptosis & IL2RB & !ZAP70 | !Apoptosis & CD45
+MCL1* = !Apoptosis & IL2RB & NFKB & PI3K & STAT3
+MEK* = !Apoptosis & RAS
+NFAT* = !Apoptosis & PI3K
+NFKB* = !Apoptosis & FLIP & IAP & TRADD | !Apoptosis & TPL2 | !Apoptosis & PI3K
+P2* = !Apoptosis & P2 & !Stimuli2 | !Apoptosis & IFNG & !Stimuli2
+P27* = !Apoptosis & STAT3
+PDGF* = PDGF
+PDGFR* = !Apoptosis & S1P | !Apoptosis & PDGF
+PI3K* = !Apoptosis & RAS | !Apoptosis & PDGFR
+PLCG1* = !Apoptosis & PDGFR | !Apoptosis & GRB2
+Proliferation* = !Apoptosis & !P27 & STAT3
+RANTES* = !Apoptosis & NFKB
+RAS* = !Apoptosis & !GAP & PLCG1 | !Apoptosis & !GAP & GRB2
+S1P* = !Apoptosis & !Ceramide & SPHK1
+SMAD* = !Apoptosis & GPCR
+SOCS* = !Apoptosis & !IL15 & !IL2 & JAK
+SPHK1* = !Apoptosis & PDGFR
+STAT3* = !Apoptosis & JAK
+Stimuli* = Stimuli
+Stimuli2* = Stimuli2
+TAX* = TAX
+TBET* = !Apoptosis & TBET | !Apoptosis & JAK
+TCR* = !Apoptosis & !CTLA4 & Stimuli
+TNF* = !Apoptosis & NFKB
+TPL2* = !Apoptosis & PI3K & TNF | !Apoptosis & TAX
+TRADD* = !A20 & !Apoptosis & !IAP & TNF
+ZAP70* = !Apoptosis & !FYN & LCK
+sFas* = !Apoptosis & FasT
+
+Analyzing network . . .
+ERROR can not remove variable that are not closed under successor operation: variables=['GZMB']
+Traceback (most recent call last):
+  File "/Users/soh/app/pystablemotif230402-22h50m/findAttractor.py", line 25, in <module>
+    ar = sm.AttractorRepertoire.from_primes(primes,max_simulate_size=20)
+  File "/usr/local/lib/python3.9/site-packages/pystablemotifs/AttractorRepertoire.py", line 98, in from_primes
+    x.analyze_system(primes,max_simulate_size=max_simulate_size,max_simulate_size_vc=max_simulate_size_vc,max_stable_motifs=max_stable_motifs,max_in_degree=max_in_degree,MPBN_update=MPBN_update)
+  File "/usr/local/lib/python3.9/site-packages/pystablemotifs/AttractorRepertoire.py", line 196, in analyze_system
+    self.succession_diagram = sm_succession.build_succession_diagram(primes,max_simulate_size=max_simulate_size,max_simulate_size_vc=max_simulate_size_vc,max_stable_motifs=max_stable_motifs,max_in_degree=max_in_degree,MPBN_update=MPBN_update)
+  File "/usr/local/lib/python3.9/site-packages/pystablemotifs/succession.py", line 538, in build_succession_diagram
+    diagram = build_succession_diagram(np,fixed3,myMotifReduction.motif_history+[sm],
+  File "/usr/local/lib/python3.9/site-packages/pystablemotifs/succession.py", line 538, in build_succession_diagram
+    diagram = build_succession_diagram(np,fixed3,myMotifReduction.motif_history+[sm],
+  File "/usr/local/lib/python3.9/site-packages/pystablemotifs/succession.py", line 538, in build_succession_diagram
+    diagram = build_succession_diagram(np,fixed3,myMotifReduction.motif_history+[sm],
+  [Previous line repeated 1 more time]
+  File "/usr/local/lib/python3.9/site-packages/pystablemotifs/succession.py", line 535, in build_succession_diagram
+    np,fixed2 = sm_reduction.reduce_primes(sm,primes)
+  File "/usr/local/lib/python3.9/site-packages/pystablemotifs/reduction.py", line 57, in reduce_primes
+    pyboolnet.prime_implicants.remove_all_constants(reduced_primes, copy=False) # remove constants in place
+  File "/usr/local/lib/python3.9/site-packages/pyboolnet/prime_implicants.py", line 564, in remove_all_constants
+    return remove_variables(primes=primes, names=find_constants(primes=primes), copy=copy)
+  File "/usr/local/lib/python3.9/site-packages/pyboolnet/prime_implicants.py", line 459, in remove_variables
+    raise Exception
+Exception
+Command exited with non-zero status 1
+	Command being timed: "/usr/local/bin/python3 /Users/soh/app/pystablemotif230402-22h50m/findAttractor.py benchmark/boolean-network/pystablemotif-real/2176_T-LGL_Survival_Network_2008.booleannet.bnet"
+	User time (seconds): 16.52
+	System time (seconds): 0.80
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 466010112
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 310875
+	Voluntary context switches: 258
+	Involuntary context switches: 2862
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 21
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+FINISHED CPU 17.32 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 17.32
+#MAXMEM: 0
+c 
+#END: [Mon Apr  3 10:21:07 2023]

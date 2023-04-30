@@ -1,0 +1,49 @@
+#BEGIN: [Tue Apr 25 20:13:27 2023]
+#HOST: mini07.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-bddcadical
+#CSP: benchmark/automata-network/abdallah17amb/lambda-phage.an
+#K: 2
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 2 -k1solver /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release -libname cadical -libpath /Users/soh/app/saf230420-16h03m/cadical/build/ benchmark/automata-network/abdallah17amb/lambda-phage.an
+Using IPASIR SAT Solver and AllSAT Solver
+Libpath: /Users/soh/app/saf230420-16h03m/cadical/build/
+Libname: cadical
+K1solver: /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release
+
+CI,Cro,CII,N
+001100000
+k: 2, #Var: 356, #Clause: 2553
+#1
+0200 0300
+	Command being timed: "/Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 2 -k1solver /Users/soh/app/saf230420-16h03m/bdd_minisat_all-1.0.2/bdd_minisat_all_release -libname cadical -libpath /Users/soh/app/saf230420-16h03m/cadical/build/ benchmark/automata-network/abdallah17amb/lambda-phage.an"
+	User time (seconds): 1.78
+	System time (seconds): 0.12
+	Percent of CPU this job got: 178%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 711376896
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 48030
+	Voluntary context switches: 23
+	Involuntary context switches: 2741
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 27
+	Socket messages received: 0
+	Signals delivered: 2
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 1.9 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 1.9
+#MAXMEM: 0
+c 
+#END: [Tue Apr 25 20:13:29 2023]

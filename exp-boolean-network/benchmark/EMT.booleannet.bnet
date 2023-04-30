@@ -1,0 +1,73 @@
+# model in BoolNet format
+# the header targets, factors is mandatory to be importable in the R package BoolNet
+
+targets, factors
+AKT,           !ILK&PI3K | ILK
+AXIN2,         !AXIN2&TCF_LEF | AXIN2
+BTrCP,         !Csn
+Bcatenin_memb, !Bcatenin_nuc&Ecadherin
+Bcatenin_nuc,  !Dest_compl&!Bcatenin_memb&!Ecadherin | !Dest_compl&!Bcatenin_memb&Ecadherin&!SUFU
+CD44,          TCF_LEF
+CDC42,         !TGFBR&CHD1L | TGFBR
+CHD1L,         0
+Csl,           NOTCH_ic
+Csn,           NFKB
+DELTA,         RAS
+DSH,           Frizzled
+Dest_compl,    !Dest_compl&AXIN2&Bcatenin_nuc&GSK3B | Dest_compl&GSK3B
+EGF,           0
+EGFR,          EGF
+EGR1,          cfos
+EMT,           !Ecadherin
+ERK,           MEK
+Ecadherin,     Bcatenin_memb&!FOXC2 | Bcatenin_memb&FOXC2&!HEY1 | Bcatenin_memb&FOXC2&HEY1&!SNAI2 | Bcatenin_memb&FOXC2&HEY1&SNAI2&!SNAI1 | Bcatenin_memb&FOXC2&HEY1&SNAI2&SNAI1&!TWIST1 | Bcatenin_memb&FOXC2&HEY1&SNAI2&SNAI1&TWIST1&!ZEB1 | Bcatenin_memb&FOXC2&HEY1&SNAI2&SNAI1&TWIST1&ZEB1&!ZEB2
+FGF,           0
+FGFR,          FGF
+FOXC2,         !SNAI1&!TWIST1&Goosecoid | !SNAI1&TWIST1 | SNAI1
+FUS,           SMO
+Frizzled,      Wnt
+GLI,           !SUFU | SUFU&TCF_LEF
+GSK3B,         !AKT&!Dest_compl&!DSH | !AKT&Dest_compl&!Csn&!DSH | !AKT&Dest_compl&Csn&!DSH&!ERK
+Goosecoid,     0
+HEY1,          !Csl&SMAD | Csl
+HGF,           0
+HIF1A,         Hypoxia
+Hypoxia,       0
+IGF1,          0
+IGF1R,         IGF1
+IKKA,          AKT
+ILK,           SMAD
+Jagged,        !SMAD&TCF_LEF | SMAD
+LIV1,          STAT
+LOXL23,        HIF1A
+MEK,           !RAF&!RKIP | RAF
+NFKB,          IKKA
+NOTCH,         !DELTA&Jagged | DELTA
+NOTCH_ic,      NOTCH
+PAK1,          CDC42
+PDGF,          0
+PDGFR,         PDGF
+PI3K,          RAS
+Patched,       !SHH
+RAF,           RAS
+RAS,           !GSK3B | GSK3B&!SOS_GRB2&!SRC&TCF_LEF | GSK3B&!SOS_GRB2&SRC | GSK3B&SOS_GRB2
+RKIP,          !ERK | ERK&!SNAI1
+SHH,           !GLI&SMAD | GLI
+SMAD,          !ERK&TGFBR&!ZEB1&!ZEB2 | !ERK&TGFBR&ZEB1 | ERK&!ZEB1&!ZEB2 | ERK&ZEB1
+SMO,           !Patched
+SNAI1,         !BTrCP | BTrCP&!Csl&!EGR1&!GLI&!GSK3B | BTrCP&!Csl&!EGR1&!GLI&GSK3B&!LIV1&!LOXL23&!PAK1&!SMAD&Goosecoid | BTrCP&!Csl&!EGR1&!GLI&GSK3B&!LIV1&!LOXL23&!PAK1&SMAD | BTrCP&!Csl&!EGR1&!GLI&GSK3B&!LIV1&!LOXL23&PAK1 | BTrCP&!Csl&!EGR1&!GLI&GSK3B&!LIV1&LOXL23 | BTrCP&!Csl&!EGR1&!GLI&GSK3B&LIV1 | BTrCP&!Csl&!EGR1&GLI | BTrCP&!Csl&EGR1 | BTrCP&Csl
+SNAI2,         !Bcatenin_nuc&!ERK&!SNAI2&TWIST1 | !Bcatenin_nuc&!ERK&SNAI2 | !Bcatenin_nuc&ERK | Bcatenin_nuc
+SOS_GRB2,      !cMet&!EGFR&!ERK&!FGFR&!IGF1R&!PDGFR&TGFBR | !cMet&!EGFR&!ERK&!FGFR&!IGF1R&PDGFR | !cMet&!EGFR&!ERK&!FGFR&IGF1R | !cMet&!EGFR&!ERK&FGFR | !cMet&EGFR&!ERK | cMet&!ERK
+SRC,           !cMet&!EGFR&!FGFR&!IGF1R&PDGFR | !cMet&!EGFR&!FGFR&IGF1R | !cMet&!EGFR&FGFR | !cMet&EGFR | cMet
+STAT,          SRC
+SUFU,          !FUS
+TCF_LEF,       Bcatenin_nuc
+TGFB,          !GLI&!SNAI1&!TWIST1&Goosecoid | !GLI&!SNAI1&TWIST1 | !GLI&SNAI1 | GLI
+TGFBR,         TGFB
+TWIST1,        !HIF1A&!NFKB&!SNAI1&!TCF_LEF&Goosecoid | !HIF1A&!NFKB&!SNAI1&TCF_LEF | !HIF1A&!NFKB&SNAI1 | !HIF1A&NFKB | HIF1A
+Wnt,           GLI
+ZEB1,          !HIF1A&!miR200&!SNAI1&Goosecoid | !HIF1A&!miR200&SNAI1 | HIF1A&!miR200
+ZEB2,          !HIF1A&!miR200&!SNAI1&Goosecoid | !HIF1A&!miR200&SNAI1 | HIF1A&!miR200
+cMet,          !CD44&HGF | CD44
+cfos,          ERK
+miR200,        !SNAI1&!ZEB1&!ZEB2

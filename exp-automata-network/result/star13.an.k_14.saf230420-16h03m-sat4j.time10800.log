@@ -1,0 +1,71 @@
+#BEGIN: [Tue Apr 25 17:43:51 2023]
+#HOST: mini07.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-sat4j
+#CSP: benchmark/automata-network/star/star13.an
+#K: 14
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 14 benchmark/automata-network/star/star13.an
+Using Sat4j SAT Solver
+
+A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12,A13
+k: 1, #Var: 39, #Clause: 234
+UNSAT
+k: 2, #Var: 234, #Clause: 2227
+UNSAT
+k: 3, #Var: 429, #Clause: 5518
+UNSAT
+k: 4, #Var: 689, #Clause: 10291
+UNSAT
+k: 5, #Var: 1014, #Clause: 16546
+UNSAT
+k: 6, #Var: 1404, #Clause: 24283
+UNSAT
+k: 7, #Var: 1859, #Clause: 33502
+UNSAT
+k: 8, #Var: 2379, #Clause: 44203
+UNSAT
+k: 9, #Var: 2964, #Clause: 56386
+UNSAT
+k: 10, #Var: 3614, #Clause: 70051
+UNSAT
+k: 11, #Var: 4329, #Clause: 85198
+UNSAT
+k: 12, #Var: 5109, #Clause: 101827
+UNSAT
+k: 13, #Var: 5954, #Clause: 119938
+UNSAT
+k: 14, #Var: 6864, #Clause: 139531
+#1
+0000000000000 0000000000001 0000000000010 0000000000100 0000000001000 0000000010000 0000000100000 0000001000000 0000010000000 0000100000000 0001000000000 0010000000000 0100000000000 1000000000000
+	Command being timed: "/Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 14 benchmark/automata-network/star/star13.an"
+	User time (seconds): 8.00
+	System time (seconds): 0.43
+	Percent of CPU this job got: 161%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3790127104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 251257
+	Voluntary context switches: 10
+	Involuntary context switches: 4297
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 20
+	Socket messages received: 0
+	Signals delivered: 5
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 8.43 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNSAT
+#FIN: FIN
+#CPU: 8.43
+#MAXMEM: 0
+c 
+#END: [Tue Apr 25 17:43:56 2023]

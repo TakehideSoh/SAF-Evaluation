@@ -1,0 +1,152 @@
+#BEGIN: [Fri Oct 28 11:36:59 2022]
+#HOST: mini17.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: anSolverAsp221027
+#CSP: benchmark/automata-network/star_asp/star03.lp
+#K: 6
+#COMMAND: /Users/soh/app/finding_attractors/incremental-finding.sh benchmark/automata-network/star_asp/star03.lp 6
+benchmark/automata-network/star_asp/star03.lp 1
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star03.lp 
+ %----- The size of the attractor = 1 
+
+clingo version 5.4.0
+Reading from ...from_paper2017/scripts/fixed-points.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.030s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.002s
+benchmark/automata-network/star_asp/star03.lp 2
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star03.lp 
+ %----- The size of the attractor = 2 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star03.lp --const n=2 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.041s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.033s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star03.lp 3
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star03.lp 
+ %----- The size of the attractor = 3 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star03.lp --const n=3 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.041s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.034s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star03.lp 4
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star03.lp 
+ %----- The size of the attractor = 4 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star03.lp --const n=4 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.043s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.037s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star03.lp 5
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star03.lp 
+ %----- The size of the attractor = 5 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star03.lp --const n=5 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 0.049s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.044s
+[ Calling Python ]
+[ Solving ready ]
+*** Found: 0; skipped: 0
+benchmark/automata-network/star_asp/star03.lp 6
+-e %----- The attractor computed for benchmark/automata-network/star_asp/star03.lp 
+ %----- The size of the attractor = 6 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/star_asp/star03.lp --const n=6 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+Answer: 1
+active(level("A1",1),4) active(level("A2",1),6) active(level("A3",1),2) active(level("A1",0),1) active(level("A1",0),2) active(level("A1",0),3) active(level("A1",0),5) active(level("A1",0),6) active(level("A2",0),1) active(level("A2",0),2) active(level("A2",0),3) active(level("A2",0),4) active(level("A2",0),5) active(level("A3",0),1) active(level("A3",0),3) active(level("A3",0),4) active(level("A3",0),5) active(level("A3",0),6) active(level("A3",0),0) active(level("A2",1),0) active(level("A1",0),0) numberStates(4)
+SATISFIABLE
+
+Models       : 1
+Calls        : 1
+Time         : 0.058s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.053s
+[ Calling Python ]
+[ Solving ready ]
+*** New model found! (currently 1 solutions found)
+{(1, 0, 0), (0, 0, 0), (0, 0, 1), (0, 1, 0)}
+*** Found: 1; skipped: 0
+s SATISFIABLE
+	Command being timed: "/Users/soh/app/finding_attractors/incremental-finding.sh benchmark/automata-network/star_asp/star03.lp 6"
+	User time (seconds): 0.21
+	System time (seconds): 0.05
+	Percent of CPU this job got: 72%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 42795008
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17460
+	Voluntary context switches: 188
+	Involuntary context switches: 241
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 295
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.26 MEM 0 MAXMEM 0 STALE 1
+#RESULT: SAT
+#FIN: FIN
+#CPU: 0.26
+#MAXMEM: 0
+c 
+#END: [Fri Oct 28 11:37:00 2022]

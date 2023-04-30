@@ -1,0 +1,57 @@
+#BEGIN: [Tue Apr 25 17:43:50 2023]
+#HOST: mini05.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: saf230420-16h03m-sat4j
+#CSP: benchmark/automata-network/abdallah17amb/tcrsig40.an
+#K: 1
+#COMMAND: /Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 1 benchmark/automata-network/abdallah17amb/tcrsig40.an
+Using Sat4j SAT Solver
+
+CD45,CD8,TCRlig,TCRbind,PAGCsk,LCK,Fyn,cCbl,TCRphos,Rlk,ZAP70,LAT,Gads,Itk,IP3,Ca,Calcin,NFAT,CRE,AP1,NFkB,CREB,Rsk,ERK,Fos,Jun,MEK,Raf,Ras,Grb2Sos,Slp76,PLCg_b,PLCg_a,DAG,PKCth,RasGRP1,IkB,IKK,JNK,SEK
+k: 1, #Var: 135, #Clause: 435
+#1
+0011000000000000000000000000000000001000
+#2
+0111000000000000000000000000000000001000
+#3
+0000100000000000000000000000000000001000
+#4
+0100100000000000000000000000000000001000
+#5
+1011001010000000000000000000000000001000
+#6
+1000100000000000000000000000000000001000
+#7
+1100100000000000000000000000000000001000
+	Command being timed: "/Users/soh/app/util/wrap.sh java -Xms16g -Xmx16g -jar /Users/soh/app/saf230420-16h03m/saf.jar -k 1 benchmark/automata-network/abdallah17amb/tcrsig40.an"
+	User time (seconds): 1.73
+	System time (seconds): 0.11
+	Percent of CPU this job got: 191%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 665239552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 44768
+	Voluntary context switches: 9
+	Involuntary context switches: 2522
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 17
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 1.84 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 1.84
+#MAXMEM: 0
+c 
+#END: [Tue Apr 25 17:43:51 2023]

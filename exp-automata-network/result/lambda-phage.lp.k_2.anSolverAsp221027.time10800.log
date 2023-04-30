@@ -1,0 +1,78 @@
+#BEGIN: [Fri Oct 28 10:24:56 2022]
+#HOST: mini06.local
+#TIMELIMIT: 10800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: anSolverAsp221027
+#CSP: benchmark/automata-network/abdallah17amb_asp/lambda-phage.lp
+#K: 2
+#COMMAND: /Users/soh/app/finding_attractors/incremental-finding.sh benchmark/automata-network/abdallah17amb_asp/lambda-phage.lp 2
+benchmark/automata-network/abdallah17amb_asp/lambda-phage.lp 1
+-e %----- The attractor computed for benchmark/automata-network/abdallah17amb_asp/lambda-phage.lp 
+ %----- The size of the attractor = 1 
+
+clingo version 5.4.0
+Reading from ...from_paper2017/scripts/fixed-points.lp ...
+Solving...
+Answer: 1
+fix("CI",2) fix("Cro",0) fix("CII",0) fix("N",0)
+SATISFIABLE
+
+Models       : 1
+Calls        : 1
+Time         : 0.010s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.005s
+benchmark/automata-network/abdallah17amb_asp/lambda-phage.lp 2
+-e %----- The attractor computed for benchmark/automata-network/abdallah17amb_asp/lambda-phage.lp 
+ %----- The size of the attractor = 2 
+-e   %----- The attractor computed with Asynchronous Dynamics 
+
+-e CMD: clingo /Users/soh/app/finding_attractors/01_original_from_paper2017/scripts/asynch.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-preF.lp /Users/soh/app/finding_attractors/02_attractors-new/with-cycle/attractors-postF.lp benchmark/automata-network/abdallah17amb_asp/lambda-phage.lp --const n=2 0
+
+clingo version 5.4.0
+Reading from ...ginal_from_paper2017/scripts/asynch.lp ...
+Solving...
+Answer: 1
+active(level("CI",0),1) active(level("CI",0),2) active(level("Cro",2),2) active(level("Cro",3),1) active(level("CII",0),1) active(level("CII",0),2) active(level("N",0),1) active(level("N",0),2) active(level("N",0),0) active(level("CII",0),0) active(level("Cro",2),0) active(level("CI",0),0) numberStates(2)
+SATISFIABLE
+
+Models       : 1
+Calls        : 1
+Time         : 0.056s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.050s
+[ Calling Python ]
+[ Solving ready ]
+*** New model found! (currently 1 solutions found)
+{(0, 0, 2, 0), (0, 0, 3, 0)}
+*** Found: 1; skipped: 0
+s SATISFIABLE
+	Command being timed: "/Users/soh/app/finding_attractors/incremental-finding.sh benchmark/automata-network/abdallah17amb_asp/lambda-phage.lp 2"
+	User time (seconds): 0.06
+	System time (seconds): 0.01
+	Percent of CPU this job got: 76%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 40763392
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5376
+	Voluntary context switches: 56
+	Involuntary context switches: 109
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 98
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.07 MEM 0 MAXMEM 0 STALE 1
+#RESULT: SAT
+#FIN: FIN
+#CPU: 0.07
+#MAXMEM: 0
+c 
+#END: [Fri Oct 28 10:24:56 2022]

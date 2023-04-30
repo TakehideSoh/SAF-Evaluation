@@ -1,0 +1,105 @@
+# model in BoolNet format
+# the header targets, factors is mandatory to be importable in the R package BoolNet
+
+targets, factors
+Dummy,          !ccblp2&vav1&slp76&zap70&itk&plcgb
+abl,            !fyn&lckp1 | fyn
+akap79,         unknown_input2
+ap1,            jun&fos
+bad,            !pkb
+bcat,           !gsk3
+bcl10,          unknown_input2
+bclxl,          !bad
+ca,             ip3
+cabin1,         !camk4
+calcin,         cam&!calpr1&!akap79&!cabin1
+calpr1,         unknown_input2
+cam,            ca
+camk2,          cam
+camk4,          cam
+card11,         unknown_input
+card11a,        bcl10&malt1&card11
+cblb,           !cd28
+ccblp1,         ccblr&zap70
+ccblp2,         ccblr&fyn
+ccblr,          unknown_input
+cd28,           cd28_input
+cd28_input,     cd28_input
+cd4,            cd4
+cd45,           unknown_input
+cdc42,          unknown_input2
+cre,            creb
+creb,           rsk
+csk,            pag
+cyc1,           !gsk3
+dag,            plcga&!dgk
+dgk,            tcrb
+erk,            mek
+fkhr,           !pkb
+fos,            erk
+fyn,            !cd45&tcrb&lckr | cd45&!tcrb&lckp1 | cd45&tcrb&!lckr&lckp1 | cd45&tcrb&lckr
+gab2,           !grb2&lat&zap70&gads | grb2&lat&zap70
+gadd45,         unknown_input
+gads,           lat
+gap,            unknown_input3
+grb2,           lat
+gsk3,           !pkb
+hpk1,           lat
+ikb,            !ikkab
+ikkab,          camk2&ikkg
+ikkg,           pkcth&card11a
+ip3,            plcga
+itk,            pip3&slp76&zap70
+jnk,            !mkk4&mekk1 | mkk4
+jun,            jnk
+lat,            zap70
+lckp1,          cd4&cd45&!csk&lckr&!shp1
+lckp2,          tcrb&lckr
+lckr,           lckr_input
+lckr_input,     lckr_input
+malt1,          unknown_input
+mek,            raf
+mekk1,          !cdc42&!hpk1&rac1p2 | !cdc42&hpk1 | cdc42
+mkk4,           !mlk3&mekk1 | mlk3
+mlk3,           !rac1p1&hpk1 | rac1p1
+nfat,           calcin
+nfkb,           !ikb
+p21c,           !pkb
+p27k,           !pkb
+p38,            zap70&!gadd45
+p70s,           pdk1
+pag,            !tcrb&fyn
+pdk1,           pip3
+pi3k,           !cblb&!xx&lckp2 | !cblb&xx
+pip3,           !ship1&pi3k&!pten
+pkb,            pdk1
+pkcth,          pdk1&vav1&dag
+plcga,          !ccblp2&vav1&slp76&zap70&itk&plcgb
+plcgb,          lat
+pten,           unknown_input2
+rac1p1,         rac1r&vav1
+rac1p2,         rac1r&vav3
+rac1r,          unknown_input
+raf,            ras
+ras,            rasgrp&sos&!gap
+rasgrp,         dag
+rlk,            lckp1
+rsk,            erk
+sh3bp2,         lat&zap70
+ship1,          unknown_input2
+shp1,           !erk&lckp1
+shp2,           gab2
+slp76,          zap70&!gab2&gads
+sos,            grb2
+sre,            !cdc42&rac1p2 | cdc42
+tcrb,           tcrlig&!ccblp1
+tcrlig,         tcrlig_input
+tcrlig_input,   tcrlig_input
+tcrp,           tcrb&!fyn&lckp1 | tcrb&fyn
+unknown_input,  unknown_input
+unknown_input2, unknown_input2
+unknown_input3, unknown_input3
+vav1,           !sh3bp2&xx | sh3bp2&!xx&zap70 | sh3bp2&xx
+vav3,           sh3bp2
+xx,             cd28
+zap70,          tcrp&abl&!ccblp1

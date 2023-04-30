@@ -1,0 +1,48 @@
+#BEGIN: [Fri Apr  7 14:50:26 2023]
+#HOST: mini09.local
+#TIMELIMIT: 2400
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: cabean201
+#CSP: benchmark/boolean-network/pystablemotif-real/2171_T_Cell_Receptor_Signaling.booleannet.bnet
+#K: 1800
+#COMMAND: /Users/soh/app/CABEAN-release-2.0.1/BinaryFile/MacOS/cabean benchmark/boolean-network/pystablemotif-real/2171_T_Cell_Receptor_Signaling.booleannet.bnet
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: /Users/soh/app/CABEAN-release-2.0.1/BinaryFile/MacOS/cabean benchmark/boolean-network/pystablemotif-real/2171_T_Cell_Receptor_Signaling.booleannet.bnet
+Convert the model format: benchmark/boolean-network/pystablemotif-real/2171_T_Cell_Receptor_Signaling.booleannet.bnet -> benchmark/boolean-network/pystablemotif-real/2171_T_Cell_Receptor_Signalingbooleannet.ispl
+Command terminated by signal 11
+	Command being timed: "/Users/soh/app/CABEAN-release-2.0.1/BinaryFile/MacOS/cabean benchmark/boolean-network/pystablemotif-real/2171_T_Cell_Receptor_Signaling.booleannet.bnet"
+	User time (seconds): 20.77
+	System time (seconds): 0.03
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 254394368
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17157
+	Voluntary context switches: 32
+	Involuntary context switches: 1428
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 65
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 20.8 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 20.8
+#MAXMEM: 0
+c 
+#END: [Fri Apr  7 14:50:47 2023]
